@@ -7,7 +7,9 @@ type Props = {
 };
 
 export default async function PostPage({ params }: Props) {
+  console.log('Paramigo', await params);
   const postData = await getPostData(params.slug);
+  console.log('PostData', postData);
 
   return (
     <article>
