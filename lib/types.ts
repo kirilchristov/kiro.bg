@@ -1,16 +1,11 @@
 export type PostData = {
-  id: string;
+  categories: string[];
+  date: string;
+  language: 'BG' | 'EN';
   slug: string;
   title: string;
-  date: string;
-  category: string;
-  categories: string[];
-  language: 'BG' | 'EN';
   published: boolean;
   summary: string;
-};
-
-export type Post = {
-  data: PostData;
+  id: string;
   content: string;
 };

@@ -1,12 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { PostData } from './types';
 
 const postsDir = 'posts';
 
 const postsDirectory = path.join(process.cwd(), postsDir);
 
-export function getSortedPostsData() {
+export function getSortedPostsData(): PostData[] {
   const fileNames = fs.readdirSync(postsDirectory);
 
   return fileNames
@@ -21,15 +22,15 @@ export function getSortedPostsData() {
         id,
         title: matterResult.data.title,
         date: matterResult.data.date,
-        category: matterResult.data.category,
         slug: matterResult.data.slug,
         categories: matterResult.data.categories,
         language: matterResult.data.language,
         published: matterResult.data.published,
         summary: matterResult.data.summary,
+        content: matterResult.content,
       };
     })
-    .sort((a, b) => (a.date < b.date ? 1 : -1)); // Sort by date
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
 // export function getAllPostSlugs() {
