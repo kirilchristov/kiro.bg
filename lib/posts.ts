@@ -59,9 +59,6 @@ export async function getPostData(slug: string) {
     );
     const { data } = matter(fileContents);
 
-    const all = matter(fileContents);
-    console.log('all', all);
-
     const oldSlug = data.slug.replace('/?p=', '');
     const newSlug = data.id;
 
