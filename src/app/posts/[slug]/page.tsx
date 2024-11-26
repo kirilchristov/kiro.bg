@@ -7,13 +7,15 @@ type Props = {
 };
 
 export default async function PostPage({ params }: Props) {
+  console.log('Paramigo', await params);
   const postData = await getPostData(params.slug);
+  console.log('PostData', postData);
 
   return (
     <article>
       <h1>{postData.title}</h1>
       <p>{postData.date}</p>
-      <p>Category: {postData.categories}</p>
+      {/* <p>Category: {postData.categories}</p> */}
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </article>
   );
