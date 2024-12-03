@@ -1,6 +1,13 @@
 {
   "name": "kiro.bg2024",
   "version": "0.1.0",
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "bracketSpacing": false
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,8 +20,7 @@
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
-    "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark": "^15.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -22,6 +28,8 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "typescript": "^5"
   },
   "type": "module"
