@@ -1,9 +1,12 @@
-import type { NextConfig } from 'next';
+import type {NextConfig} from 'next';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
 const nextConfig: NextConfig = {
+  images: {
+    domains: ['raw.githubusercontent.com'],
+  },
   async redirects() {
     const postsDirectory = path.join(process.cwd(), 'posts');
     const fileNames = fs.readdirSync(postsDirectory);
@@ -11,7 +14,8 @@ const nextConfig: NextConfig = {
     return fileNames.map((fileName) => {
       const fullPath = path.join(postsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
-      const { data } = matter(fileContents);
+      const {data} = matter(fileContents);
+
       const queryValue = data.slug.replace('/?p=', '');
 
       return {
