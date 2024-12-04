@@ -19,6 +19,6 @@ Invaders Must Die - казват и Prodigy на същата дата стот�
 
 ![](http://3.bp.blogspot.com/_x3M_abAXB6Y/SY0ulPd_CwI/AAAAAAAAEq8/Wx2QoXMVgdE/s320/magnumpr_TOKYOP4CreditPaulDugdale.jpg)
 
-<div className="youtube_video"><iframe src="https://www.youtube.com/v/xMVTKOoy1uk&hl=en&fs=1" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=xMVTKOoy1uk)
 
 А това, което гледате е The Omen

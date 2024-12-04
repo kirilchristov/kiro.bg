@@ -76,4 +76,4 @@ id: 2013-11-25-litsata-na-protestirashtite-v-ukrayna
 
   
 
-<div className="youtube_video"><iframe src="https://www.youtube.com/embed/YaVmlbpDchg" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=YaVmlbpDchg)

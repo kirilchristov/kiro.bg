@@ -11,4 +11,4 @@ id: 2012-02-22-marzelivi-dni-na-ko-samui
 
 Ко Самуи (Koh Samui), пичове, бих казал, че е доста тъп остров и за да си намериш кяо забавление трябва наистина да търсиш много. Иначе по-добре директно в Слънчев Бряг за тези, които си падат по евтини жени и селски дискотечки. Представям ви част от движенията ни по острова там. Истината обаче е на Koh Phangan. За него, тия дни. Леко и да се пазите. Приятно гледане!
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/QqdR_8z3Gas?rel=0" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=QqdR_8z3Gas)

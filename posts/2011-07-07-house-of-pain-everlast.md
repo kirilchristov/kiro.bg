@@ -12,4 +12,4 @@ id: 2011-07-07-house-of-pain-everlast
 
 Бих казал, че съм по-доволен от частта на Everlast, отдавна искам да го видя.
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/19sgfErPlkw" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=19sgfErPlkw)

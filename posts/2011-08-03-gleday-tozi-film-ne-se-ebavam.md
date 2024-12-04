@@ -14,4 +14,4 @@ id: 2011-08-03-gleday-tozi-film-ne-se-ebavam
 
  New Kids Turbo!!! Това е филмът, койо ме държа в смях през цялото си времетраене, включително и по време на финалните надписи. Наречи ме простак, но го гледай. Холандска класика. Призовавам те. Смазващо брутален е. Чуваш ли, homo?
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/qUdyD8-WFBs" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=qUdyD8-WFBs)

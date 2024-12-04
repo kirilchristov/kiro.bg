@@ -17,4 +17,4 @@ id: 2011-05-16-nosht-na-muzeite-2011-i-razbira-se-kiro-e-prostak
 
  Второто са едни яйчица, направени от японец. Искам да ми подарят такива. Тва е като шоколадово яйце ама с по-скъпа играчка. И не се яде. Снимал съм го на видео, защото е доста психо и картинките се сменят.
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/liIRyMUySeQ?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=liIRyMUySeQ)

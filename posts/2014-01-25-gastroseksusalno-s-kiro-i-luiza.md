@@ -11,4 +11,4 @@ summary: ''
 id: 2014-01-25-gastroseksusalno-s-kiro-i-luiza
 ---
 
-<div className="youtube_video"><iframe src="https://www.youtube.com/embed/ICeWtybgWqQ" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=ICeWtybgWqQ)

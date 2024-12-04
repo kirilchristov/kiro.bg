@@ -16,6 +16,6 @@ id: 2008-12-12-blek-metalat-stava-feshan
 
 Here comes the messenger...
 
-<div className="youtube_video"><iframe width="560" height="315" src="https://www.youtube.com/embed/5GW1W72xHMs?si=rarwNAyudcKWFtnO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=5GW1W72xHMs)
 
 Black crow on a tombstone

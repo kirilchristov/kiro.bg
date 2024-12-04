@@ -12,4 +12,4 @@ id: 2011-02-28-sisters-of-radomir-unmasked
 
 Миньорите метъли от Систърс Ъф Радъмир ни изпратиха видео, където са без грим... сега пък са сложили бинтове през устите си.
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/YhrKCwhxxPQ?rel=0" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=YhrKCwhxxPQ)

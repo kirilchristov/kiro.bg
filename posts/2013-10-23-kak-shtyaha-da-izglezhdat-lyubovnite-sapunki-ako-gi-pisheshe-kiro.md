@@ -16,7 +16,7 @@ id: 2013-10-23-kak-shtyaha-da-izglezhdat-lyubovnite-sapunki-ako-gi-pisheshe-kiro
 
  О, да. Каква драма. Каква напечена ситуация. Киро разказа история "Пощенска кутия за приказки", в която сподели една от нелепите си истории. Всички прилики и разлики с истински лица и събития са къде случайни, къде не. Ако не ви се гледа, може да четете текста, по долу.
 
-<div className="youtube_video"><iframe src="https://www.youtube.com/embed/Wk4Prz73-es" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=Wk4Prz73-es)
 
 ## Оригинален текст:
 

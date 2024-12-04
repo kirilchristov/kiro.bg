@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { PostData } from './types';
+import {PostData} from './types';
 
 const postsDir = 'posts';
 
@@ -58,7 +58,7 @@ export async function getPostData(slug: string) {
       path.join(postsDirectory, fileName),
       'utf8'
     );
-    const { data } = matter(fileContents);
+    const {data} = matter(fileContents);
 
     const oldSlug = data.slug.replace('/?p=', '');
     const newSlug = data.id;
@@ -72,7 +72,7 @@ export async function getPostData(slug: string) {
 
   const fullPath = path.join(postsDirectory, matchedFile);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
-  const { data, content } = matter(fileContents);
+  const {data, content} = matter(fileContents);
 
   return {
     slug,

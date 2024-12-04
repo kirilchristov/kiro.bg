@@ -15,4 +15,4 @@ id: 2009-03-14-the-she-creatures
 
 **The She Creatures**
 
-<div className="youtube_video"><iframe src="https://www.youtube.com/v/uFXn2rTa2QQ&color1=0xb1b1b1&color2=0xcfcfcf&feature=player_embedded&fs=1" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=uFXn2rTa2QQ)
