@@ -17,14 +17,14 @@ export default async function PostPage({params}: Props) {
 
   const content = await markdownToHtml(postData.contentHtml || '');
 
-  console.log('content', content);
+  // console.log('content', content);
 
   return (
     <article>
       <h1>{postData.title}</h1>
       <p>{postData.date}</p>
       {/* <p>Category: {postData.categories}</p> */}
-      <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
+      <div dangerouslySetInnerHTML={{__html: content}} />
     </article>
   );
 }

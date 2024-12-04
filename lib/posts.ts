@@ -54,16 +54,16 @@ export async function getPostData(slug: string) {
   const fileNames = fs.readdirSync(postsDirectory);
 
   const matchedFile = fileNames.find((fileName) => {
-    const fileContents = fs.readFileSync(
-      path.join(postsDirectory, fileName),
-      'utf8'
-    );
+    const fullPath = path.join(postsDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
     const {data} = matter(fileContents);
 
-    const oldSlug = data.slug.replace('/?p=', '');
-    const newSlug = data.id;
+    // Extract slugs
+    const oldSlug = data.slug ? data.slug.replace('/?p=', '') : null;
+    const newSlug = data.id || null;
 
-    return slug === oldSlug || slug === newSlug;
+    // Match against either oldSlug or newSlug
+    return slug === oldSlug || slug === newSlug || slug === data.slug;
   });
 
   if (!matchedFile) {
