@@ -58,11 +58,8 @@ export async function getPostData(slug: string) {
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const {data} = matter(fileContents);
 
-    // Extract slugs
     const oldSlug = data.slug ? data.slug.replace('/?p=', '') : null;
     const newSlug = data.id || null;
-
-    // Match against either oldSlug or newSlug
     return slug === oldSlug || slug === newSlug || slug === data.slug;
   });
 
