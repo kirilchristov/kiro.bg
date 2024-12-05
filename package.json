@@ -17,7 +17,9 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
+    "html-react-parser": "^5.1.19",
     "next": "15.0.3",
+    "node-html-parser": "^6.1.13",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "rehype-parse": "^9.0.1",

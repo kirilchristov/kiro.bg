@@ -10,13 +10,17 @@ import {visit} from 'unist-util-visit';
 function remarkAdjustElements() {
   return (tree: any) => {
     visit(tree, 'paragraph', (node, index, parent) => {
-      const specialNodes = node.children.filter((child: any) =>
-        ['image', 'link', 'inlineCode'].includes(child.type)
-      );
+      const newChildren = node.children.flatMap((child: any) => {
+        if (['image', 'link', 'inlineCode'].includes(child.type)) {
+          return [child];
+        }
+        return child;
+      });
 
-      if (specialNodes.length > 0) {
-        parent.children.splice(index, 1, ...specialNodes);
-      }
+      parent.children.splice(index, 1, {
+        ...node,
+        children: newChildren,
+      });
     });
   };
 }
