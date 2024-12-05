@@ -7,20 +7,35 @@ import {visit} from 'unist-util-visit';
  * Plugin to make certian parts like images, code blocks, and links block-level elements.
  */
 
-function remarkAdjustElements() {
+// function remarkAdjustElements() {
+//   return (tree: any) => {
+//     visit(tree, 'paragraph', (node, index, parent) => {
+//       const newChildren = node.children.flatMap((child: any) => {
+//         if (['image', 'link', 'inlineCode'].includes(child.type)) {
+//           return [child];
+//         }
+//         return child;
+//       });
+
+//       parent.children.splice(index, 1, {
+//         ...node,
+//         children: newChildren,
+//       });
+//     });
+//   };
+// }
+
+export function remarkAdjustElements() {
   return (tree: any) => {
     visit(tree, 'paragraph', (node, index, parent) => {
-      const newChildren = node.children.flatMap((child: any) => {
-        if (['image', 'link', 'inlineCode'].includes(child.type)) {
-          return [child];
-        }
-        return child;
-      });
+      // Check if paragraph contains only an image
+      const isOnlyImage =
+        node.children.length === 1 && node.children[0].type === 'image';
 
-      parent.children.splice(index, 1, {
-        ...node,
-        children: newChildren,
-      });
+      if (isOnlyImage) {
+        // Replace the paragraph with the image directly
+        parent.children.splice(index, 1, node.children[0]);
+      }
     });
   };
 }

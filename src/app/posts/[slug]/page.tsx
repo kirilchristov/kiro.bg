@@ -20,7 +20,7 @@ export default async function PostPage({params}: Props) {
 
   const htmlContent = await markdownToHtml(postData.contentHtml || '');
 
-  // console.log('htmlContent', htmlContent);
+  console.log('htmlContent', htmlContent);
   const content = parseHtmlToReact(htmlContent);
 
   // console.log('content', content);

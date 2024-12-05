@@ -34,7 +34,6 @@ export function getSortedPostsData(): PostData[] {
 }
 
 export async function getPostData(slug: string) {
-  console.log('in heree');
   const fileNames = fs.readdirSync(postsDirectory);
   const matchedFile = fileNames.find((fileName) => {
     const fullPath = path.join(postsDirectory, fileName);
