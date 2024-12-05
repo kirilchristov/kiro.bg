@@ -33,34 +33,28 @@ export function getSortedPostsData(): PostData[] {
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-// export function getAllPostSlugs() {
-//   const fileNames = fs.readdirSync(postsDirectory);
-
-//   return fileNames.map((fileName) => {
-//     const fullPath = path.join(postsDirectory, fileName);
-//     const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-//     const matterResult = matter(fileContents);
-
-//     return {
-//       params: {
-//         slug: matterResult.data.slug, // Use slug from frontmatter
-//       },
-//     };
-//   });
-// }
-
 export async function getPostData(slug: string) {
+  console.log('in heree');
   const fileNames = fs.readdirSync(postsDirectory);
-
   const matchedFile = fileNames.find((fileName) => {
     const fullPath = path.join(postsDirectory, fileName);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const {data} = matter(fileContents);
 
-    const oldSlug = data.slug ? data.slug.replace('/?p=', '') : null;
-    const newSlug = data.id || null;
-    return slug === oldSlug || slug === newSlug || slug === data.slug;
+    // Normalize slug comparisons
+    const oldSlug =
+      data.slug && data.slug.includes('/?p=')
+        ? data.slug.replace('/?p=', '')
+        : data.slug;
+    const newSlug = data.slug;
+
+    // Match against multiple possible slug formats
+    return (
+      slug === oldSlug ||
+      slug === newSlug ||
+      slug === data.slug ||
+      slug === data.id
+    );
   });
 
   if (!matchedFile) {
