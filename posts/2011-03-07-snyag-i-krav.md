@@ -15,7 +15,7 @@ id: 2011-03-07-snyag-i-krav
 
  
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/2GPVK-vqs8E?rel=0" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=2GPVK-vqs8E)
 
 
 П.с. И да знаеш. Никога няма да бъдеш истинско "про". Затова пази себе си и другите.

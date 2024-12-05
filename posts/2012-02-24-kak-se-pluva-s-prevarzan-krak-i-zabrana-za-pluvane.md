@@ -12,4 +12,4 @@ id: 2012-02-24-kak-se-pluva-s-prevarzan-krak-i-zabrana-za-pluvane
 
 Ето така:
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/Ds2WzadS9wY" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=Ds2WzadS9wY)

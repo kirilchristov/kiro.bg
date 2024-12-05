@@ -11,4 +11,4 @@ id: 2011-04-18-sabota-kisses-through-a-glass
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/04/IMG_0796.jpg)
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/xAcke7zxJYk?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=xAcke7zxJYk)

@@ -13,4 +13,4 @@ id: 2012-02-06-titanik-v-15-sekundi
 
 Това е версията на Киро и Тео за Титаник. Филмът е 15 секунди и ви предупреждавам за наличието на продуктово позициониране.
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/qEA4zKHTB6w?rel=0" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=qEA4zKHTB6w)

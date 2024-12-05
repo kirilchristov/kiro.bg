@@ -12,4 +12,4 @@ id: 2011-11-05-piyani-hora-na-popa
 
 Да си къркан, но наточен и гаджето ти (също наточена) да се опитва да те събуди, докато спиш на трамвайните релси повръщайки. Публикувам единствено с идеята, че хората май бяха чужденци и не им се виждат лицата. Мен ме беше срам да снимам, но добрия ми приятел Методи го свърши вместо мен. (Кирил и Методий, сещаш се, нали?)
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/ddOIGfFnYXo?rel=0" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=ddOIGfFnYXo)

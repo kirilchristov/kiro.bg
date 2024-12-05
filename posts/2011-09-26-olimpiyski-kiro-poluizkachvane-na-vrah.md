@@ -32,4 +32,4 @@ id: 2011-09-26-olimpiyski-kiro-poluizkachvane-na-vrah
 
  Това е и самият връх Митикас, на който аз не се качих, защото ме е страх от високо. За сметка на това спах 2 часа на по-ниския връх, докато другите се върнат. Те тва е. Олимпийски дух. Важно е участието, то е ясно, че представянето е зле.
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/f42zBcbRrC8?rel=0" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=f42zBcbRrC8)

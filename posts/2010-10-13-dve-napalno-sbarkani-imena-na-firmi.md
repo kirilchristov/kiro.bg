@@ -20,4 +20,4 @@ UPDATE: Никола Барбов ми прати снимка. Мерси.
 
 Втората е реклама на Риск Инженеринг, които кой знае защо комбинират името си което съдържа думата "риск", със слоган започващ с "надежност" и "безопасност". За стилистиката и изпълнението не искам да говоря.
 
-<div className="youtube_video"><iframe width="560" height="315" src="https://www.youtube.com/embed/06ypE3YTnto?si=D_bpQAMKSB_5YUAV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=06ypE3YTnto)

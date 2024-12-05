@@ -20,7 +20,7 @@ id: 2008-11-05-elektronni-zombita-gleday-i-svalyay-dokato-e-vreme
 
 Аll the cash
 
-<div className="youtube_video"><iframe src="https://www.youtube.com/v/MUa4YvknWuM&hl=en&fs=1&rel=0&color1=0x5d1719&color2=0xcd311b&border=1" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=MUa4YvknWuM)
 
 От тук (ама побързай), можеш да си свалиш легално последния им хелоуински микс, който не включва тракове от албума, но бива :)
 
@@ -30,7 +30,7 @@ id: 2008-11-05-elektronni-zombita-gleday-i-svalyay-dokato-e-vreme
 
 They Live :
 
-<div className="youtube_video"><iframe src="https://www.youtube.com/v/-nVplcJTtY0&hl=en&fs=1&rel=0&color1=0x5d1719&color2=0xcd311b&border=1" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=-nVplcJTtY0)
 
 Между другото, това не е първия хит на момчетата, може би ги помниш и с това
 

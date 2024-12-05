@@ -28,7 +28,7 @@ id: 2017-05-05-hrana-za-kosmonavti-i-zashto-dzhon-atanasov-e-sred-neuspelite-gen
 
 **А ето защо нарича неуспелите предприемачи “Джон Атанасовци”:**
 
-<div class="youtube_video"><iframe src="https://www.youtube.com/embed/n1W1BZ9v3LQ" frameborder="0" allowfullscreen=""></iframe></div>
+[youtube](https://www.youtube.com/watch?v=n1W1BZ9v3LQ)
 
 **Цитати от други:**
 

@@ -30,4 +30,4 @@ id: 2014-05-25-glasuvane-v-kvlozenets-ili-izboren-turizam
 
 ![IMG_1530](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/05/IMG_1530.jpg)
 
-<div className="youtube_video"><iframe src="https://www.youtube.com/embed/zYQnRosUYMI" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=zYQnRosUYMI)

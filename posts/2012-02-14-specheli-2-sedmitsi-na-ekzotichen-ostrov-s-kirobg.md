@@ -14,7 +14,7 @@ id: 2012-02-14-specheli-2-sedmitsi-na-ekzotichen-ostrov-s-kirobg
 
 Да, точно така. Предлагам 2 седмици безплатно легло в моята къща на Koh Phangan. Уловката: Няма, просто трябва да дойдеш на собствени разноски и да харчиш собствени пари, но получаваш най-добрия гид в региона. И единственият знаещ български. Виж видеото за повече инфо: 
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/qcOpsp2HXmg?rel=0" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=qcOpsp2HXmg)
 
 
 Грабвай кредитната карта, взимай отпуск (напусни), изиграй февруари. (Съжалявам за звука, но камерата е в кейс за подводно снимане и изолира звуци)

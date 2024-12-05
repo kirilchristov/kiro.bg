@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import {getSortedPostsData} from '../../../lib/posts';
 import {PostData} from '../../../lib/types';
+import DateFormatter from '../components/DateFormatter/DateFormatter';
 
 export default function Home() {
   const allPostsData: PostData[] = getSortedPostsData();
@@ -12,9 +13,11 @@ export default function Home() {
         {allPostsData.map(({id, title, date, slug}) => (
           <li key={id}>
             <Link href={`/${slug}`}>
-              <h2>{title}</h2> My slug is: {slug}
+              <h2>{title}</h2>
             </Link>
-            <p>{date}</p>
+            <div>
+              <DateFormatter dateString={date} />
+            </div>
           </li>
         ))}
       </ul>

@@ -19,7 +19,7 @@ id: 2008-11-29-ivan-i-andrey---parvata-im-pesen-gleday
 
 В клипа им, участват и хора като Драго Чая, Кембълът. Няма всъщност какво да обяснявам, ето и самото видео.
 
-<div className="vimeo_video"><div style="padding:75.4% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/2370789?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ivan i Andrei - Stancia"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
+[vimeo](https://vimeo.com/2370789)<script src="https://player.vimeo.com/api/player.js"></script>
 
 [Ivan i Andrei - Stancia](http://vimeo.com/2370789) from [Kiril Christov](http://vimeo.com/user911927) on [Vimeo](http://vimeo.com).
 

@@ -12,4 +12,4 @@ id: 2013-05-21-naroden-bauns
 
 Значи, моят приятел Тео видял на черно парти момиче в народна носия и я накарал да му направи един баунс. Резултатът е тук, а ми е интересно какво е и вашето мнение.
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/-xyNWDnC8EI" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=-xyNWDnC8EI)

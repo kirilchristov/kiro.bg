@@ -21,7 +21,7 @@ id: 2008-11-07-nay-dobriya-klip-za-2008-a-pri-tova-praven-bez-pari
 
 Гледай, задължително.
 
-<div className="youtube_video"><iframe  src="https://www.youtube.com/embed/AMvjEnYQQdE?si=YEZaQH83oxTiMsk-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=AMvjEnYQQdE)
 
 П.с. Толкова се изкефих на парчето, че направо отърчах в ebay, където срещу 7 паунда закупих диска на бандата (със все доставката).
 

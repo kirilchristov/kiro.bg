@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { PostData } from './types';
+import {PostData} from './types';
 
 const postsDir = 'posts';
 
@@ -33,37 +33,27 @@ export function getSortedPostsData(): PostData[] {
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-// export function getAllPostSlugs() {
-//   const fileNames = fs.readdirSync(postsDirectory);
-
-//   return fileNames.map((fileName) => {
-//     const fullPath = path.join(postsDirectory, fileName);
-//     const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-//     const matterResult = matter(fileContents);
-
-//     return {
-//       params: {
-//         slug: matterResult.data.slug, // Use slug from frontmatter
-//       },
-//     };
-//   });
-// }
-
 export async function getPostData(slug: string) {
   const fileNames = fs.readdirSync(postsDirectory);
-
   const matchedFile = fileNames.find((fileName) => {
-    const fileContents = fs.readFileSync(
-      path.join(postsDirectory, fileName),
-      'utf8'
+    const fullPath = path.join(postsDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const {data} = matter(fileContents);
+
+    // Normalize slug comparisons
+    const oldSlug =
+      data.slug && data.slug.includes('/?p=')
+        ? data.slug.replace('/?p=', '')
+        : data.slug;
+    const newSlug = data.slug;
+
+    // Match against multiple possible slug formats
+    return (
+      slug === oldSlug ||
+      slug === newSlug ||
+      slug === data.slug ||
+      slug === data.id
     );
-    const { data } = matter(fileContents);
-
-    const oldSlug = data.slug.replace('/?p=', '');
-    const newSlug = data.id;
-
-    return slug === oldSlug || slug === newSlug;
   });
 
   if (!matchedFile) {
@@ -72,7 +62,7 @@ export async function getPostData(slug: string) {
 
   const fullPath = path.join(postsDirectory, matchedFile);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
-  const { data, content } = matter(fileContents);
+  const {data, content} = matter(fileContents);
 
   return {
     slug,

@@ -13,4 +13,4 @@ id: 2011-05-29-byala-mechka-v-ofisa
 
 Малоумно е, но пък мечката е яка
 
-<div className="youtube_video"><iframe src="http://www.youtube.com/embed/Ps1dSTo2lsU?rel=0" frameborder="0" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=Ps1dSTo2lsU)

@@ -27,13 +27,13 @@ id: 2008-11-12-eleganten-byal-hip-hop-v-kostyum---roddy-bailey
 
 All Over Again
 
-<div className="vimeo_video"><iframe width="560" height="315" src="https://www.youtube.com/embed/1jyhkR4GzFI?si=qpa3kHR6Z6Z5Pv9x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+[youtube](https://www.youtube.com/watch?v=1jyhkR4GzFI)
 
 [Roddy Bailey - All Over Again](http://vimeo.com/2145707) from [Rod Bailey](http://vimeo.com/user554044) on [Vimeo](http://vimeo.com).
 
 Edge Of Town
 
-<div className="vimeo_video"><iframe src="https://vimeo.com/moogaloop.swf?clip_id=1214736&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=00adef&fullscreen=1" frameborder="0" allowfullscreen></iframe></div>
+[vimeo](https://vimeo.com/1214736)
 
 [Roddy Bailey aka mcenroe - Edge Of Town](https://vimeo.com/1214736) from [Rod Bailey](https://vimeo.com/user554044) on [Vimeo](https://vimeo.com).
 
