@@ -1,6 +1,7 @@
 import parseHtmlToReact from '@/app/utulities/parseHtmlToReact';
 import markdownToHtml from '../../../../lib/markdownToHtml';
 import {getPostData} from '../../../../lib/posts';
+import DateFormatter from '@/app/components/DateFormatter/DateFormatter';
 
 type Props = {
   params: Promise<{
@@ -28,7 +29,7 @@ export default async function PostPage({params}: Props) {
   return (
     <article>
       <h1>{postData.title}</h1>
-      <p>{postData.date}</p>
+      <DateFormatter dateString={postData.date} />
       <div>{content}</div>
     </article>
   );
