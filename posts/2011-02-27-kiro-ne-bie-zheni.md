@@ -8,6 +8,8 @@ title: Киро не бие жени
 published: true
 summary: ''
 id: 2011-02-27-kiro-ne-bie-zheni
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/02/DSC00253-e1298824174296.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/02/DSC00253-e1298824174296.jpg)

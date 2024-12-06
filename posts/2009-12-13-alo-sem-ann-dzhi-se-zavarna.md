@@ -9,6 +9,8 @@ title: 'Ало, СЕМ! Анн Джи се завърна'
 published: true
 summary: ''
 id: 2009-12-13-alo-sem-ann-dzhi-se-zavarna
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/12/CD-COVER-TEXT-s_2.jpg
 ---
 
 ![Анн Джи](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/12/CD-COVER-TEXT-s_2.jpg)

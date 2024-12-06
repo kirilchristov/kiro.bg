@@ -9,6 +9,8 @@ title: 'Премиера: ВИГ Гларусите, българските N SY
 published: true
 summary: ''
 id: 2013-09-29-premiera-vig-glarusite-balgarskite-n-sync
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/09/1077652_10201520336191757_69354686_o.jpg
 ---
 
 ![Гларусите танцуват сами](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/09/1077652_10201520336191757_69354686_o.jpg)

@@ -8,6 +8,8 @@ title: Жив Photoshop
 published: true
 summary: ''
 id: 2008-12-02-zhiv-photoshop
+postImage: >-
+  http://4.bp.blogspot.com/_x3M_abAXB6Y/STT87dK8yyI/AAAAAAAADUc/AfpjMnslSGk/s320/3044859097_cdffb7b2d8_b.jpg
 ---
 
 Adobe решиха да отпразнуват появата на CS4, по скоро до колкото знам, фенове са направили това.

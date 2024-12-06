@@ -9,6 +9,8 @@ title: Стъклен Дом – „добър“ пример за продук
 published: true
 summary: ''
 id: 2010-12-16-staklen-dom-dobar-primer-za-produktovo-pozitsionirane-angry-review
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/12/nikotinel1.jpg
 ---
 
 Ще повърна. Не знам, защо продуцентите на Стъклен дом си мислят, че щом човек гледа техния сериал, трябва да е задължително прост (макар да не съм сигурен още, нормално ли е аз да гледам сериали). Все едно гледаме час и половина рекламен блок от един клип. 

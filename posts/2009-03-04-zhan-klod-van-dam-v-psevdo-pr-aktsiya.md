@@ -8,6 +8,8 @@ title: Жан Клод Ван Дам в псевдо ПР акция
 published: true
 summary: ''
 id: 2009-03-04-zhan-klod-van-dam-v-psevdo-pr-aktsiya
+postImage: >-
+  http://2.bp.blogspot.com/_x3M_abAXB6Y/Sa42gLhNXvI/AAAAAAAAEus/Fm5-1muopls/s320/DSC00597.JPG
 ---
 
 Няма нужда да ви представям човека, който прави ПР от всяко свое нощно излизане. Наско Лазаров е абсолютният властващ в блатото на БГ ПР-а.

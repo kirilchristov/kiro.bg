@@ -8,4 +8,5 @@ export type PostData = {
   summary: string;
   id: string;
   content: string;
+  postImage?: string;
 };

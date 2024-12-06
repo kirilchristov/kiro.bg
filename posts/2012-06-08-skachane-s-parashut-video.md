@@ -9,6 +9,8 @@ title: Скачане с парашут (видео)
 published: true
 summary: ''
 id: 2012-06-08-skachane-s-parashut-video
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/06/IMG_5688.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/06/IMG_5688.jpg)

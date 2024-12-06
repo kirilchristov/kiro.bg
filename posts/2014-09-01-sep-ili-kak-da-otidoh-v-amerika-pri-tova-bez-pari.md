@@ -8,6 +8,8 @@ title: 'SEP или как да отидох в Америка, при това �
 published: true
 summary: ''
 id: 2014-09-01-sep-ili-kak-da-otidoh-v-amerika-pri-tova-bez-pari
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/09/tumblr_na9c2lKHUr1qfedy2o4_1280.jpg
 ---
 
 ![tumblr_na9c2lKHUr1qfedy2o4_1280](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/09/tumblr_na9c2lKHUr1qfedy2o4_1280.jpg)

@@ -8,6 +8,8 @@ title: Избрахме си рапър депутат
 published: true
 summary: ''
 id: 2009-07-07-izbrahme-si-rapar-deputat
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/07/Maniaka-Pic.jpg
 ---
 
 Навремето това го наричаха тъп рап, и клиповете им се пускаха в класацията за нелепи неща. Днес Маниака е депутат от квотата на ГЕРБ. 

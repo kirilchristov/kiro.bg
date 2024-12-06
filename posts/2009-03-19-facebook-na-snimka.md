@@ -8,6 +8,8 @@ title: Facebook на снимка
 published: true
 summary: ''
 id: 2009-03-19-facebook-na-snimka
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/00035958.jpg
 ---
 
 Ето какво всъщност представлява Facebook 

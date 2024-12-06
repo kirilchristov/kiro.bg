@@ -10,6 +10,8 @@ title: 'Как щяха да изглеждат любовните сапунк�
 published: true
 summary: ''
 id: 2013-10-23-kak-shtyaha-da-izglezhdat-lyubovnite-sapunki-ako-gi-pisheshe-kiro
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/10/1273838_535694116506650_1785131395_o.jpg
 ---
 
 ![Киро на Пощенска кутия за приказки](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/10/1273838_535694116506650_1785131395_o.jpg)

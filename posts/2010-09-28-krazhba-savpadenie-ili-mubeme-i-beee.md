@@ -9,6 +9,8 @@ title: 'Кражба, съвпадение или... МуБеМе и Beee'
 published: true
 summary: ''
 id: 2010-09-28-krazhba-savpadenie-ili-mubeme-i-beee
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/09/33546_478808170738_612420738_6760289_1351792_n.jpg
 ---
 
 Преди няколко дни във Facebook се завъртя един колаж, от който се вижда очевидна прилика между български и испански млечен продукт. Става дума за българските МуБеМе и испанските Beee.

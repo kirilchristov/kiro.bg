@@ -8,6 +8,8 @@ title: Къде разцъкват милиардерите?
 published: true
 summary: ''
 id: 2013-03-26-kade-raztsakvat-miliarderite
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/03/bilioner.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/03/bilioner.jpg)

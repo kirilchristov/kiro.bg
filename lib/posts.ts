@@ -28,6 +28,9 @@ export function getSortedPostsData(): PostData[] {
         published: matterResult.data.published,
         summary: matterResult.data.summary,
         content: matterResult.content,
+        postImage: matterResult.data.postImage
+          ? matterResult.data.postImage
+          : '',
       };
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1));

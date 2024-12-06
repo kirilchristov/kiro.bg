@@ -8,6 +8,8 @@ title: Половинка
 published: true
 summary: ''
 id: 2011-05-31-polovinka
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/05/IMG_0996.jpg
 ---
 
 Снимах телефона на една приятелка. Тя е измислила тази картинка. Ай лайк. :) 

@@ -8,6 +8,8 @@ title: Монитор пуска новините по два пъти на бр
 published: true
 summary: ''
 id: 2013-02-05-monitor-puska-novinite-po-dva-pati-na-broy
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/02/20130205-160210.jpg
 ---
 
 Колегите от Монитор, без да искат са пуснали една и същ материал на две места във вестника. Интересното е и, че текстът е различен. От дата 1 февруари.

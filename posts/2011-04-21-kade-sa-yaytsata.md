@@ -9,6 +9,8 @@ title: Къде са яйцата?
 published: true
 summary: ''
 id: 2011-04-21-kade-sa-yaytsata
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/04/IMG_0825.jpg
 ---
 
 Днес TBWA ни пратиха яйчица за Великден. Тъкмо да посегна с крадлива ръка и да хапна едно... изненада! 

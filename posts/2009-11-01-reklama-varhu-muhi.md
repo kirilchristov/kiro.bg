@@ -8,6 +8,8 @@ title: Реклама върху мухи
 published: true
 summary: ''
 id: 2009-11-01-reklama-varhu-muhi
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/muhi.jpg
 ---
 
 ![muhi](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/muhi.jpg)

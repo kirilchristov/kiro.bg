@@ -7,6 +7,8 @@ title: Малко софийски снимки
 published: true
 summary: ''
 id: 2011-09-17-malko-sofiyski-snimki
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/09/IMG_1376.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/09/IMG_1376.jpg)

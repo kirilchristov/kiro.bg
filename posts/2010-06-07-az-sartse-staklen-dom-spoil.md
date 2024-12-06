@@ -8,6 +8,8 @@ title: Аз (сърце) Стъклен Дом + Spoil
 published: true
 summary: ''
 id: 2010-06-07-az-sartse-staklen-dom-spoil
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/06/Styklen-Dom.jpg
 ---
 
 Аз гледам сериали. Официално най-накрая може да се каже, че гледам сапунка при това българска. Следя всеки епизод и днес много се зарадвах на любовта между Хари и Алекс, които се играят от малкия Бахаров и Луиза - мокър сън за половината от 7-те милиона българи. 

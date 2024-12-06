@@ -7,6 +7,8 @@ title: Golf сатанист
 published: true
 summary: ''
 id: 2009-12-04-golf-satanist
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/12/IMG_0063.JPG
 ---
 
 Обърнати кръстове, обърнати емблеми. Голф настъпва, скоро в Перник изгарят всички еретични коли на клада и нахлуват насам палейки, колейки бесейки. В колите се разнася Малина, Теодора и сръбско.

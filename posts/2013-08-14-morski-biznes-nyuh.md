@@ -8,6 +8,8 @@ title: Морски бизнес нюх
 published: true
 summary: ''
 id: 2013-08-14-morski-biznes-nyuh
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/08/zora.jpg
 ---
 
 По морето се вихрят. Особено в Обзор и Созопол, макара да вярвам, че и на Сънито не остават по-назад. Да оставим настрани шрифта на Загорка за изписването на собственото име, това сме го виждали, но присъствието на SPARM ме разби. 

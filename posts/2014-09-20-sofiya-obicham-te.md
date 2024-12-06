@@ -8,6 +8,8 @@ title: 'София, обичам те!'
 published: true
 summary: ''
 id: 2014-09-20-sofiya-obicham-te
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/09/IMG_0619.jpg
 ---
 
 ![IMG_0619](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/09/IMG_0619.jpg)

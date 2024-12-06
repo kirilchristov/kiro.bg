@@ -7,6 +7,8 @@ title: Събота... kisses through a glass
 published: true
 summary: ''
 id: 2011-04-18-sabota-kisses-through-a-glass
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/04/IMG_0796.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/04/IMG_0796.jpg)

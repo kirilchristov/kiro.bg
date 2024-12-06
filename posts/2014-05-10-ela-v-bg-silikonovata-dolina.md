@@ -8,6 +8,8 @@ title: Ела в БГ силиконовата долина
 published: true
 summary: ''
 id: 2014-05-10-ela-v-bg-silikonovata-dolina
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/05/Splash.png
 ---
 
 ![Splash](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/05/Splash.png)

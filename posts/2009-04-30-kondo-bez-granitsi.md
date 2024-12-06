@@ -8,6 +8,8 @@ title: Кондьо без граници
 published: true
 summary: ''
 id: 2009-04-30-kondo-bez-granitsi
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/04/kondio-311-1.jpg
 ---
 
 ![kondio-311-1](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/04/kondio-311-1.jpg)

@@ -8,6 +8,8 @@ title: The Raveonettes in Sofia - report
 published: true
 summary: ''
 id: 2015-01-29-the-raveonettes-in-sofia---report
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2015/01/IMG_1206.jpg
 ---
 
 ![The Raveonettes in Sofia](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2015/01/IMG_1206.jpg)

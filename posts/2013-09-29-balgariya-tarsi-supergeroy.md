@@ -8,6 +8,8 @@ title: България търси супергерой
 published: true
 summary: ''
 id: 2013-09-29-balgariya-tarsi-supergeroy
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/09/Screen-Shot-2013-09-29-at-11.18.40-PM.png
 ---
 
 ![Jobs.bg Супергерой](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/09/Screen-Shot-2013-09-29-at-11.18.40-PM.png)

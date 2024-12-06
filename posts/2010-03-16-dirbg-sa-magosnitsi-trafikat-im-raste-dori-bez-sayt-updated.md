@@ -8,6 +8,8 @@ title: Dir.bg са магьосници. Трафикът им расте дор
 published: true
 summary: ''
 id: 2010-03-16-dirbg-sa-magosnitsi-trafikat-im-raste-dori-bez-sayt-updated
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/03/Screen-shot-2010-03-16-at-5.56.04-PM.png
 ---
 
 (Чети най-долу за ъпдейта) Абсолютно да. От както им заляха сървърите с вода Dir.bg не функционират. Странно как в Неделя (когато официално нищо не им работи) бележат зверски ръст според Алекса.

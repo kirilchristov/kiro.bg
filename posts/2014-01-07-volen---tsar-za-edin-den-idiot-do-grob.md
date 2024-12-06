@@ -8,6 +8,8 @@ title: 'Волен - цар за един ден, идиот до гроб!'
 published: true
 summary: ''
 id: 2014-01-07-volen---tsar-za-edin-den-idiot-do-grob
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/01/King-For-A-Day-Fool-For-A-Lifetime-cover.png
 ---
 
 ![King-For-A-Day-Fool-For-A-Lifetime-cover](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/01/King-For-A-Day-Fool-For-A-Lifetime-cover.png)

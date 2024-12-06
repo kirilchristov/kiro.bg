@@ -8,6 +8,8 @@ title: Човекът се среща с легендата
 published: true
 summary: ''
 id: 2010-04-09-chovekat-se-sreshta-s-legendata
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/04/23514_1403700539381_1438398499_31058770_6043848_n.jpg
 ---
 
 08 Април. Концерт на The Exploited и краводерският талант Бичето. Киро не издържа и се метна в скута на легендата. 

@@ -8,6 +8,8 @@ title: Български дупки
 published: true
 summary: ''
 id: 2009-08-05-balgarski-dupki
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/08/Picture-1.png
 ---
 
 Днес видях това 

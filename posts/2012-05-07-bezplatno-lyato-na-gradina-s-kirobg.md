@@ -8,6 +8,8 @@ title: Безплатно лято на Градина с Kiro.bg
 published: true
 summary: ''
 id: 2012-05-07-bezplatno-lyato-na-gradina-s-kirobg
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/05/graina921.jpeg
 ---
 
 ![Снимка: Камен Зафиров](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/05/graina921.jpeg)

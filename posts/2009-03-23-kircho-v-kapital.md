@@ -9,6 +9,8 @@ title: Кирчо в Капитал
 published: true
 summary: ''
 id: 2009-03-23-kircho-v-kapital
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/zx640_577680jpg.jpeg
 ---
 
 Стартирам новата си рубрика "Авточетки", където ще слагам добри (или не чак до там ) неща за себе си. Тъй като си нямам личен ПР, ще трябва сам за се заема с тази задача.

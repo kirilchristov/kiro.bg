@@ -7,6 +7,8 @@ title: 'Четиво: ''Ни вест от Гурб''. Бързо, смешно 
 published: true
 summary: ''
 id: 2012-11-26-chetivo-ni-vest-ot-gurb-barzo-smeshno-i-mnogo-dobro
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/11/photo1.jpg
 ---
 
 От няколко седмици се каня да почна тази малка рубрика "Четене". Това не е нито голямото четене, нито малкото четене, просто искам да слагам малки откъси от книги, които са ми направили впечатление и си мисля, че още някой може да открие нещо за себе си.

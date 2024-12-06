@@ -8,6 +8,8 @@ title: 'Купи си Ford, стани дебел'
 published: true
 summary: ''
 id: 2011-05-28-kupi-si-ford-stani-debel
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/05/IMG_1009-e1306598135155.jpg
 ---
 
 Интересна кампания провеждат Форд в момента. С мото като "Stop Walking", аз разбирам: 

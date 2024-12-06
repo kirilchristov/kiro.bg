@@ -8,6 +8,8 @@ title: Храна за космонавти и защо Джон Атанасо�
 published: true
 summary: ''
 id: 2017-05-05-hrana-za-kosmonavti-i-zashto-dzhon-atanasov-e-sred-neuspelite-genii
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2017/05/IMG_1352.jpg
 ---
 
 Няколко цитата от конференцията Collision в Ню Орлиънс - Май 2017.

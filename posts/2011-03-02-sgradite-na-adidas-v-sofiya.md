@@ -7,6 +7,8 @@ title: Сградите на Adidas в София
 published: true
 summary: ''
 id: 2011-03-02-sgradite-na-adidas-v-sofiya
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/03/adidas.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/03/adidas.jpg)

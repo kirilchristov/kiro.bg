@@ -8,6 +8,8 @@ title: 'Сесил, лъжи и водка (Оргазъм в бутилка)'
 published: true
 summary: ''
 id: 2009-12-15-sesil-lazhi-i-vodka-orgazam-v-butilka
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/12/Sesil_Vodka_Orgasm_Bottle_Small.jpg
 ---
 
 ![Sesil_Vodka_Orgasm_Bottle_Small](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/12/Sesil_Vodka_Orgasm_Bottle_Small.jpg)

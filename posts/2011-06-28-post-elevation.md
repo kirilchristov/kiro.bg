@@ -7,6 +7,8 @@ title: Post Elevation
 published: true
 summary: ''
 id: 2011-06-28-post-elevation
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/06/IMG_1133.jpg
 ---
 
 На мен фестът ми хареса. Признавам си Heineken ме поканиха в Loop палатката, където изпих несметно количество бира. Това беше единственият фестивал, който ми се струва се доближава до европейските си колеги. Не мисля, че организаторите имат вина. Стискам им палци да имат добра застраховка. 

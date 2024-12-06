@@ -7,6 +7,8 @@ title: Солунски софийщини
 published: true
 summary: ''
 id: 2009-04-13-solunski-sofiyshtini
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/04/more.jpg
 ---
 
 Приличат ли си двата града. Вероятно сте ходили в Солун и точно поради тази причина няма да ви пълня главата с глупости. Само ще споделя няколко импресии от града. 

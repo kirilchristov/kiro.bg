@@ -8,6 +8,8 @@ title: Всичко се прецака Bob Sinclar
 published: true
 summary: ''
 id: 2009-12-07-vsichko-se-pretsaka-bob-sinclar
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/12/andrea_azis_01.jpg
 ---
 
 Андреа ще е част от следващия албум на Bob Sinclar. Толкова не ми се вярваше, че сутринта писах на неговия лейбъл аз потвърждение. Те ми отговориха това, на въпроса, дали Андреа ще е част от парче на Шаги и Боби:

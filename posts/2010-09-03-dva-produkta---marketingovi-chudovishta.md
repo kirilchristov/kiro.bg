@@ -8,6 +8,8 @@ title: Два продукта - маркетингови чудовища
 published: true
 summary: ''
 id: 2010-09-03-dva-produkta---marketingovi-chudovishta
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/09/zlatno-dupe.jpg
 ---
 
 Кой ги измисли, как му хрумна, за кой го таргетира. Има ли смисъл да се занимавам с маркетинг при положение, че всички го правят? Ето два примера от скоро. Първия е за тоалетна хартия "Златно дупе". Мой колега е направил тази снима някъде в района на Хасково. 

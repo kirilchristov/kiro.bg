@@ -8,6 +8,8 @@ title: Latinicata rulira
 published: true
 summary: ''
 id: 2015-11-26-latinicata-rulira
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2015/11/Sofi-UstataDancho-Bozhkov.jpg
 ---
 
 Правиш участие в Берлин и решаваш да пуснеш плакат на nemski. Няма да си простя, че ще изпусна диджей Ферари.   Снимка: Крадена от профила във фб на Данчо Божков

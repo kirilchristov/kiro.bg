@@ -8,6 +8,8 @@ title: Плеймейт казино
 published: true
 summary: ''
 id: 2011-05-30-pleymeyt-kazino
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/05/IMG_1025.jpg
 ---
 
 Ако се чудите къде да срещнете русата Златка, може да се пробвате на Ботевградско шосе. Поне така гласи рекламата 

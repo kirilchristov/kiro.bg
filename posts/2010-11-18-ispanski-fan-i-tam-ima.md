@@ -8,6 +8,8 @@ title: Испански фън. И там има
 published: true
 summary: ''
 id: 2010-11-18-ispanski-fan-i-tam-ima
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/11/CIMG6426.jpg
 ---
 
 Една колежка (Венета, мерси) ми предостави снимки от личния си апарат, които на мен ми се сториха интересни и реших да споделя с вас. Както се сещате, това са снимки то типа "Без коментар". 

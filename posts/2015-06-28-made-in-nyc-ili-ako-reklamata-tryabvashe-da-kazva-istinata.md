@@ -8,6 +8,8 @@ title: Made in NYC или ако рекламата трябваше да каз
 published: true
 summary: ''
 id: 2015-06-28-made-in-nyc-ili-ako-reklamata-tryabvashe-da-kazva-istinata
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2015/06/5508b744abc2b.jpg
 ---
 
 През март забелязах много яка кампания на сайта за недвижими имоти streeteasy. Не се среща често, някой който да ти казва истината в оите и да превръща недостатъците в предимства. Ню Йорк е известен с това, че виталните пространства са лукс, ако наподобяват размера на люлинска гарсониера.

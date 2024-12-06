@@ -8,6 +8,8 @@ title: Безработен
 published: true
 summary: ''
 id: 2012-06-28-bezraboten
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/06/IMG_1427.jpg
 ---
 
 ![Киро с Men's Health в ръка](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/06/IMG_1427.jpg)

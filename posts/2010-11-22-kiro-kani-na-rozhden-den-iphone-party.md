@@ -8,6 +8,8 @@ title: Киро кани на рожден ден (iPhone party)
 published: true
 summary: ''
 id: 2010-11-22-kiro-kani-na-rozhden-den-iphone-party
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/11/images.jpg
 ---
 
 Здравейте приятели, на 18-и имах рожден ден, който смятам да отпразнувам в петък 26 ноември. 

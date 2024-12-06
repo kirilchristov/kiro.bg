@@ -8,6 +8,8 @@ title: 'Мерси за живота, беше чудесен. Ще се вър�
 published: true
 summary: ''
 id: 2012-01-03-mersi-za-zhivota-beshe-chudesen-shte-se-varna-pak
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/01/IMG_0283.jpg
 ---
 
 ![Киро в най-важното си интервю](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/01/IMG_0283.jpg)

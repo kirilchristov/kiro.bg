@@ -7,6 +7,8 @@ title: Малко кич
 published: true
 summary: ''
 id: 2011-06-02-malko-kich
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/06/IMG_0939.jpg
 ---
 
 Яд ме е, че не можах да снимам огледалното Ауди, с което бяхме един до друг по едно време в задръстването. Все пак можете в отражението да видите мръсната ми Тойота. Толкова мръсна, че чак се засрамих и я измих.

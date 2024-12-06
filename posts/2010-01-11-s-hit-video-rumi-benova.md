@@ -8,6 +8,8 @@ title: 'S-hit video: Руми Бенова'
 published: true
 summary: ''
 id: 2010-01-11-s-hit-video-rumi-benova
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/01/rumi.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/01/rumi.jpg)

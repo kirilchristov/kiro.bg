@@ -8,6 +8,8 @@ title: 'Любовта трае три години, влюбването едн
 published: true
 summary: ''
 id: 2009-03-23-lyubovta-trae-tri-godini-vlyubvaneto-edna-sedmitsa
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/love_kills___get_a_gun_by_blacklotusjpg.jpeg
 ---
 
 _(Не чети това, ако си мислиш, че ме познаваш)_ Ако Бегбеде твърдеше в началото на една своя книга, че любовта трае само три години, а после ни подведе и я удължи с неопределен период от време, то аз съм сигурен в твърденията си.

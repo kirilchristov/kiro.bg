@@ -8,6 +8,8 @@ title: 'Mtel, какво имате предвид под ''неограниче
 published: true
 summary: ''
 id: 2011-01-03-mtel-kakvo-imate-predvid-pod-neogranichen
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/01/mtel.jpg
 ---
 
 Днес се опитах да проверя какви са ми условията за ползване на телефона и се натъкнах на това в сайта на мтел (графа бизнес клиенти, цени за iphone 4):

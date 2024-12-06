@@ -8,6 +8,8 @@ title: Колумбиеца и зелената енергия (при това 
 published: true
 summary: ''
 id: 2012-09-13-kolumbietsa-i-zelenata-energiya-pri-tova-ne-ot-konop
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/09/kolumbieca-2012.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/09/kolumbieca-2012.jpg)

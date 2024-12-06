@@ -8,6 +8,8 @@ title: 'Белград – партита, пиянства, разврат'
 published: true
 summary: ''
 id: 2008-11-25-belgrad-partita-piyanstva-razvrat
+postImage: >-
+  http://2.bp.blogspot.com/_x3M_abAXB6Y/SSxbEl4hHFI/AAAAAAAADSw/HTF4rLptmwU/s320/IMG_0127.JPG
 ---
 
 Верно, малко ви подвеждам с това заглавие. Де да беше чак така, разбирам, ама то е както си го направиш.

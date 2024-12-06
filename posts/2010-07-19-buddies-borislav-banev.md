@@ -8,6 +8,8 @@ title: 'Buddies: Борислав Банев'
 published: true
 summary: ''
 id: 2010-07-19-buddies-borislav-banev
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/07/34347_409773522767_775142767_4413684_1792593_n.jpg
 ---
 
 В новата ми рубирка: Buddies (сигурно ще и сменя името някой ден, като измисля нещо по-умно) искам да кажа няколко добри думи за хората около мен, защото не можем всеки ден да сме хейтъри. Започвам с Боби.

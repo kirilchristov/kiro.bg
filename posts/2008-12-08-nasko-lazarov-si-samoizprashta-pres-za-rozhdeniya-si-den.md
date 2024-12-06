@@ -8,6 +8,8 @@ title: Наско Лазаров си самоизпраща прес за ро�
 published: true
 summary: ''
 id: 2008-12-08-nasko-lazarov-si-samoizprashta-pres-za-rozhdeniya-si-den
+postImage: >-
+  http://4.bp.blogspot.com/_x3M_abAXB6Y/ST1GcSaT_sI/AAAAAAAADU0/RZ-SM2VFM2U/s320/nl+1.jpg
 ---
 
 "Звездата" Наско Лазаров си самоизпрати прес за рождения ден. OMG!!!

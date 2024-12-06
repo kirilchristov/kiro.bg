@@ -8,6 +8,8 @@ title: Сесил - кралицата на ПР-а!
 published: true
 summary: ''
 id: 2009-02-22-sesil---kralitsata-na-pr-a
+postImage: >-
+  http://1.bp.blogspot.com/_x3M_abAXB6Y/SaFtyowD4aI/AAAAAAAAEuc/V-MzagnedPk/s320/SESIL_MIGLENA_RETRO_BAR_CAMINO_19.02.2009+G.-COOL_2.jpg
 ---
 
 No Comment. Burn After Reading.

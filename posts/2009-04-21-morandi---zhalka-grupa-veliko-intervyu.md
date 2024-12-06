@@ -9,6 +9,8 @@ title: 'Morandi - жалка група, велико интервю'
 published: true
 summary: ''
 id: 2009-04-21-morandi---zhalka-grupa-veliko-intervyu
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/04/picture-1.png
 ---
 
 Дарина, една страшна мацка е главния герой с това интервю с румънските "звезди" - Morandi.

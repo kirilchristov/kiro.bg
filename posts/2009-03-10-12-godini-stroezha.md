@@ -8,6 +8,8 @@ title: 12 години Строежа
 published: true
 summary: ''
 id: 2009-03-10-12-godini-stroezha
+postImage: >-
+  http://2.bp.blogspot.com/_x3M_abAXB6Y/SbbzKGpR3iI/AAAAAAAAEu8/rgjfNUit9nE/s320/IMG_0119.JPG
 ---
 
 ![](http://2.bp.blogspot.com/_x3M_abAXB6Y/SbbzKGpR3iI/AAAAAAAAEu8/rgjfNUit9nE/s320/IMG_0119.JPG)

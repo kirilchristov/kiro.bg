@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
       '2.bp.blogspot.com',
       '3.bp.blogspot.com',
       '4.bp.blogspot.com',
+      'media.gettyimages.com',
+      'antwrp.gsfc.nasa.gov',
+      'avtora.com',
     ],
   },
   async redirects() {

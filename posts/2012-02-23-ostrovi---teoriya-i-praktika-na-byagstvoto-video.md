@@ -8,6 +8,8 @@ title: Острови - Теория и практика на бягството
 published: true
 summary: ''
 id: 2012-02-23-ostrovi---teoriya-i-praktika-na-byagstvoto-video
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/02/IMG_0669.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/02/IMG_0669.jpg)

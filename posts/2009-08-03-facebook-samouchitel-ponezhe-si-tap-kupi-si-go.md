@@ -8,6 +8,8 @@ title: 'Facebook самоучител. Понеже си тъп, купи си �
 published: true
 summary: ''
 id: 2009-08-03-facebook-samouchitel-ponezhe-si-tap-kupi-si-go
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/08/IMG_0591-copy.jpg
 ---
 
 Този фейсбук действа странно на пенсионерите. Ето на пазара се появи и книга - 111 правила във Facebook на небеизвестния Максим Бехар. 

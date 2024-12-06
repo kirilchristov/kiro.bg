@@ -8,6 +8,8 @@ title: Малкия Шамар атакува - Big Sha feat. Lil Sha
 published: true
 summary: ''
 id: 2010-02-26-malkiya-shamar-atakuva---big-sha-feat-lil-sha
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/02/Screen-shot-2010-02-26-at-5.08.06-PM.png
 ---
 
 ![Big Sha, Lil Sha](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/02/Screen-shot-2010-02-26-at-5.08.06-PM.png)

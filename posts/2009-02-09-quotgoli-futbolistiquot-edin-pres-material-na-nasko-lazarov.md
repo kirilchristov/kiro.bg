@@ -8,6 +8,8 @@ title: '&quot;Голи футболисти&quot; един прес матери
 published: true
 summary: ''
 id: 2009-02-09-quotgoli-futbolistiquot-edin-pres-material-na-nasko-lazarov
+postImage: >-
+  http://2.bp.blogspot.com/_x3M_abAXB6Y/SZALfAsv68I/AAAAAAAAErk/m6AThrlhFGk/s320/Picture+1.png
 ---
 
 ![](http://2.bp.blogspot.com/_x3M_abAXB6Y/SZALfAsv68I/AAAAAAAAErk/m6AThrlhFGk/s320/Picture+1.png)

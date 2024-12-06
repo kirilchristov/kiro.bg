@@ -8,6 +8,8 @@ title: Приятелски побой
 published: true
 summary: ''
 id: 2011-04-01-priyatelski-poboy
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/04/KDZ01.jpg
 ---
 
 Така е... Пиеме и се биеме. 

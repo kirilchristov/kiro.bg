@@ -8,6 +8,8 @@ title: Събота вечер
 published: true
 summary: ''
 id: 2011-05-01-sabota-vecher
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/05/20110501-123052.jpg
 ---
 
 Събота вечер. Докато сме млади.

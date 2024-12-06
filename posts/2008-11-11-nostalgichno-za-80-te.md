@@ -8,6 +8,8 @@ title: Носталгично за 80-те
 published: true
 summary: ''
 id: 2008-11-11-nostalgichno-za-80-te
+postImage: >-
+  http://1.bp.blogspot.com/_x3M_abAXB6Y/SRlNZdyQi0I/AAAAAAAADLQ/S2KnyRTxcwI/s320/pauls-rs-4360.jpg
 ---
 
 Напоследък носталгията много продава, чудя се как само да я осребрим. Както се вика, жалко, че не можем да продаваме връщане във времето.

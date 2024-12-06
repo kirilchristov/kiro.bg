@@ -8,6 +8,8 @@ title: Куче на късмета
 published: true
 summary: ''
 id: 2013-05-17-kuche-na-kasmeta
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/05/kuche-na-kysmeta.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/05/kuche-na-kysmeta.jpg)

@@ -8,6 +8,8 @@ title: МВР - кратко и ясно
 published: true
 summary: ''
 id: 2015-02-04-mvr---kratko-i-yasno
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2015/02/image.jpg
 ---
 
 Всички вицове за мутри, едно време бяха вицове за ченгета. Ама някак си то както сам си го направиш. Снимка без думи. 

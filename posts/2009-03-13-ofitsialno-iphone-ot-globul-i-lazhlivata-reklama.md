@@ -8,6 +8,8 @@ title: Официално iPhone от Глобул и лъжливата рек�
 published: true
 summary: ''
 id: 2009-03-13-ofitsialno-iphone-ot-globul-i-lazhlivata-reklama
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/iphone.jpg
 ---
 
 ![iphone](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/iphone.jpg)

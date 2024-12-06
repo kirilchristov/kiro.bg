@@ -8,6 +8,8 @@ title: Преслава и леЗбийките
 published: true
 summary: ''
 id: 2009-02-21-preslava-i-lezbiykite
+postImage: >-
+  http://1.bp.blogspot.com/_x3M_abAXB6Y/SZ_nSgsV2wI/AAAAAAAAEuU/_DIJZx000YQ/s320/HPIM0905.jpg
 ---
 
 Серията с ПР-а никога няма да умре. Историите, на които ние се смеем обаче, често се появяват в медиите. Ясно е, що за хора се намират и там.

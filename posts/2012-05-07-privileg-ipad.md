@@ -8,6 +8,8 @@ title: Privileg = iPad?
 published: true
 summary: ''
 id: 2012-05-07-privileg-ipad
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/05/photo-1.jpg
 ---
 
 Ето този таблет рекламиран от Privileg. Става дума за Andorid базиран таблет, като на рекламата и дилетант може да види, че става дума за опреационната система на iOS на iPad, освен ако Android нямат така понаправена версия, която прилича на iOS. Какво е вашето мнение?

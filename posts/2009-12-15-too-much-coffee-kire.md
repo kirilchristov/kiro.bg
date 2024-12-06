@@ -9,6 +9,8 @@ title: 'Too much coffee, Kire'
 published: true
 summary: ''
 id: 2009-12-15-too-much-coffee-kire
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/12/cafei.jpg
 ---
 
 ![cafei](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/12/cafei.jpg)

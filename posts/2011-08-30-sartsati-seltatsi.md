@@ -8,6 +8,8 @@ title: Сърцати селтаци
 published: true
 summary: ''
 id: 2011-08-30-sartsati-seltatsi
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/gazarski.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/gazarski.jpg)
