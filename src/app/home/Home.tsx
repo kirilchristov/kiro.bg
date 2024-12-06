@@ -6,6 +6,8 @@ import Pagination from '../components/Pagination/Pagination';
 import {PostData} from '../../../lib/types';
 import {useRouter, useSearchParams} from 'next/navigation';
 import DateFormatter from '../components/DateFormatter/DateFormatter';
+import ImageContent from '../components/Image/ImageContent';
+import ListPostItem from '../components/ListPostItem/ListPostItem';
 
 export default function Home() {
   const router = useRouter();
@@ -47,16 +49,22 @@ export default function Home() {
           router.push(`/?page=${page}`);
         }}
       />
-      <ul>
-        {posts.map(({id, title, date, slug}) => (
-          <li key={id}>
-            <Link href={`/${slug}`}>
-              <h2>{title}</h2>
-            </Link>
-            <DateFormatter dateString={date} />
-          </li>
-        ))}
-      </ul>
+      <div>
+        <ul style={{listStyle: 'none', padding: 0}}>
+          {!posts.length && <h1>Чекай малко...</h1>}
+          {posts.map(({id, title, date, slug, postImage}) => (
+            <li key={id}>
+              <ListPostItem
+                id={id}
+                title={title}
+                date={date}
+                slug={slug}
+                postImage={postImage}
+              />
+            </li>
+          ))}
+        </ul>
+      </div>
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
