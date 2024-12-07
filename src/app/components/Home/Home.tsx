@@ -25,8 +25,6 @@ export default function Home() {
         const response = await fetch(`/api/posts?page=${currentPage}`);
         const data = await response.json();
 
-        console.log('the sweet data', data);
-
         if (response.ok) {
           setPosts(data.posts);
           setTotalPages(data.totalPages);
