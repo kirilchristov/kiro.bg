@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import {PostData} from './types';
+import markdownToHtml from '../utulities/markdownToHtml';
+import parseHtmlToReact from '../utulities/parseHtmlToReact';
 
 const postsDir = 'posts';
 const postsDirectory = path.join(process.cwd(), postsDir);
@@ -74,12 +76,14 @@ export async function getPostData(slug: string): Promise<PostData> {
   const fullPath = path.join(postsDirectory, matchedFile);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const {data, content} = matter(fileContents);
+  const htmlContent = await markdownToHtml(content || '');
+
 
   return {
     slug,
     title: data.title,
     date: data.date,
-    content: content,
+    content: htmlContent,
     categories: data.categories || [],
     language: data.language || '',
     published: data.published || false,

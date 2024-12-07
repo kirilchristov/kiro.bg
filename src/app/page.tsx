@@ -1,4 +1,4 @@
-import Home from './home/Home';
+import Home from './components/Home/Home';
 
 // Metadata function
 export const generateMetadata = async () => {

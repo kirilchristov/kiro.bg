@@ -1,5 +1,5 @@
 import {NextResponse} from 'next/server';
-import {getPaginatedPostsData} from '../../../../lib/posts';
+import {getPaginatedPostsData} from '../../lib/api';
 
 export async function GET(request: Request) {
   const {searchParams} = new URL(request.url);

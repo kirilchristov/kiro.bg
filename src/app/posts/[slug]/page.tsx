@@ -1,6 +1,5 @@
 import parseHtmlToReact from '@/app/utulities/parseHtmlToReact';
-import markdownToHtml from '../../utulities/markdownToHtml';
-import {getPostData} from '../../../../lib/posts';
+import {getPostData} from '../../lib/api';
 import DateFormatter from '@/app/components/DateFormatter/DateFormatter';
 
 type Props = {
@@ -17,13 +16,13 @@ export default async function PostPage({params}: Props) {
     return <div>Post not found</div>;
   }
 
-  const htmlContent = await markdownToHtml(postData.content || '');
-  const content = parseHtmlToReact(htmlContent);
+  const reactContent = parseHtmlToReact(postData.content)
+
   return (
     <article>
       <h1>{postData.title}</h1>
       <DateFormatter dateString={postData.date} />
-      <div>{content}</div>
+      <div>{reactContent}</div>
     </article>
   );
 }
