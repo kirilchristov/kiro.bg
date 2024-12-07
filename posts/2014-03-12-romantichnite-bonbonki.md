@@ -8,6 +8,8 @@ title: Романтичните бонбонки
 published: true
 summary: ''
 id: 2014-03-12-romantichnite-bonbonki
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/03/lukankovi-bonbonki.jpg
 ---
 
 Имаш повод и искаш нещо специално? Искаш да зарадваш любим човек? Да покажеш чувства пред приятелката си? Топлота към майка ти? Нещо за конгреса на БСП? За теб имаме Луканкови бонбонки - Бонбонките приготвени с любов (от убити прасета). 

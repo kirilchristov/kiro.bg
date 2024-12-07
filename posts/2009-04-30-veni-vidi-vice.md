@@ -8,6 +8,8 @@ title: Veni Vidi VICE
 published: true
 summary: ''
 id: 2009-04-30-veni-vidi-vice
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/04/img_0320.jpg
 ---
 
 ![img_0320](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/04/img_0320.jpg)

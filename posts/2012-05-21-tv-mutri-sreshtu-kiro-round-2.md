@@ -8,6 +8,8 @@ title: TV мутри срещу Киро. Round 2*.
 published: true
 summary: ''
 id: 2012-05-21-tv-mutri-sreshtu-kiro-round-2
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/05/stani_milioner_iulian_konstantinov.jpeg
 ---
 
 ![Юлиан Константинов Снимка: NOVA TV](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/05/stani_milioner_iulian_konstantinov.jpeg)

@@ -9,6 +9,8 @@ title: Истинска IT рекламна кампания (тип viral)
 published: true
 summary: ''
 id: 2008-11-12-istinska-it-reklamna-kampaniya-tip-viral
+postImage: >-
+  http://4.bp.blogspot.com/_x3M_abAXB6Y/SRqmcfC-RcI/AAAAAAAADMs/Uu3ISTwap9M/s320/znak.jpg
 ---
 
 Преди известно време на знак в Щатите се появява следния надпис:

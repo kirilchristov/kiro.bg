@@ -8,6 +8,8 @@ title: Две напълно сбъркани имена на фирми
 published: true
 summary: ''
 id: 2010-10-13-dve-napalno-sbarkani-imena-na-firmi
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/10/Престижлес-ООД.png
 ---
 
 Просто не мога да не споделя две неща, които намирам за връх в България. Първата е фирмата Престижлес (Prestigeless) - очевидно става дума за фрима без престиж. Видях фирмената табелка в Шумен, но не можах да я снимам, за това вадя това, което намерих в нета.

@@ -11,6 +11,8 @@ published: true
 summary: ''
 id: >-
   2016-06-15-5-neshta-koito-ne-znaesh-za-teo-chepilov-i-s-kakvo-po-dyavolite-e-tolkova-spetsialen
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2016/06/DSC06991.jpg
 ---
 
 ![DSC06991](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2016/06/DSC06991.jpg)

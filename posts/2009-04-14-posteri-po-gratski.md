@@ -7,6 +7,8 @@ title: Постери по гръцки
 published: true
 summary: ''
 id: 2009-04-14-posteri-po-gratski
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/04/img_0225.jpg
 ---
 
 Докато се мотках из топлите страни (на 280 км от София) щракнах няколко интерсни за мен постера по улиците. Не че нямаме яки но и гърчетата си ги бива.

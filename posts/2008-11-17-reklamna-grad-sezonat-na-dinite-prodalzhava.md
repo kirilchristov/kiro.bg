@@ -9,6 +9,8 @@ title: Рекламна гръд – Сезонът на дините продъ
 published: true
 summary: ''
 id: 2008-11-17-reklamna-grad-sezonat-na-dinite-prodalzhava
+postImage: >-
+  http://4.bp.blogspot.com/_x3M_abAXB6Y/SSF_4URPVDI/AAAAAAAADQc/XSruhRCPk5A/s320/dini.jpg
 ---
 
 За нас сезонът на дините започна с рекламите на мастика с участието на привлекателни фолк звезди. Ето ги и тях:

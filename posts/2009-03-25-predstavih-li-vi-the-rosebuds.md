@@ -9,6 +9,8 @@ title: Представих ли ви The Rosebuds?
 published: true
 summary: ''
 id: 2009-03-25-predstavih-li-vi-the-rosebuds
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/l_c6c5fd286daec447a57fa9bdb6850fcbjpg.jpeg
 ---
 
 Мисля, че биха ви изкефили - някои от вас. Приятна банда, на която имам 2 албума, но май ще търся още.

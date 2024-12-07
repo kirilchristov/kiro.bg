@@ -8,6 +8,8 @@ title: Устата в Агресия
 published: true
 summary: ''
 id: 2009-03-19-ustata-v-agresiya
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/agresia-ustata_010.jpg
 ---
 
 ![agresia-ustata_010](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/agresia-ustata_010.jpg)

@@ -8,6 +8,8 @@ title: Багер се катери по кула
 published: true
 summary: ''
 id: 2008-12-22-bager-se-kateri-po-kula
+postImage: >-
+  http://1.bp.blogspot.com/_x3M_abAXB6Y/SU7lVlVO9tI/AAAAAAAADV8/4zn8bvLRN3U/s320/digger2zm9.jpg
 ---
 
 Принципно това го гледах в редица английски блогове и се чудех дали е истина, макар да изглежда мега невероятно.

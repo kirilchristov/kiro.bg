@@ -8,6 +8,8 @@ title: 'Смешно ли ти е, японче?'
 published: true
 summary: ''
 id: 2010-10-26-smeshno-li-ti-e-yaponche
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/10/eecece.jpg
 ---
 
 Браузвайки открих нов сайт: [japanisweird.com](http://japanisweird.com). Забавен е... крада 2-3 картинки от там, за да добиете представа какво ви чака там. Me like. 

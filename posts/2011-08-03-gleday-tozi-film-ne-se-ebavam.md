@@ -8,6 +8,8 @@ title: Гледай този филм! Не се ебавам.
 published: true
 summary: ''
 id: 2011-08-03-gleday-tozi-film-ne-se-ebavam
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/newkids_kleiner.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/newkids_kleiner.jpg)

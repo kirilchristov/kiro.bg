@@ -8,6 +8,7 @@ title: 'Най-накрая нещо, в което вярвам. Предста
 published: true
 summary: ''
 id: 2014-12-03-nay-nakraya-neshto-v-koeto-vyarvam-predstavyam-ti-cityzenbg
+postImage: 'https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/12/6.png'
 ---
 
 ![6](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/12/6.png)

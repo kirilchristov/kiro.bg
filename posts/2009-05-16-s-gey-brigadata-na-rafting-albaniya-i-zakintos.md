@@ -9,6 +9,8 @@ title: 'С Гей бригадата на рафтинг, Албания и За
 published: true
 summary: ''
 id: 2009-05-16-s-gey-brigadata-na-rafting-albaniya-i-zakintos
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/05/400_greece.jpg
 ---
 
 През 10-те дни от почивката направихме лек трип с група амигоси в 95% мъжка аудитория.

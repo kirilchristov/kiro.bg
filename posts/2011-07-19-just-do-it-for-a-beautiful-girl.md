@@ -8,6 +8,8 @@ title: Just do it for a beautiful girl
 published: true
 summary: ''
 id: 2011-07-19-just-do-it-for-a-beautiful-girl
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/07/276755_254497191230455_6051182_n.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/07/276755_254497191230455_6051182_n.jpg)

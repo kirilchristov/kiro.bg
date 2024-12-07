@@ -12,7 +12,13 @@ const nextConfig: NextConfig = {
       '2.bp.blogspot.com',
       '3.bp.blogspot.com',
       '4.bp.blogspot.com',
+      'media.gettyimages.com',
+      'antwrp.gsfc.nasa.gov',
+      'avtora.com',
     ],
+  },
+  experimental: {
+    optimizePackageImports: ['@chakra-ui/react'],
   },
   async redirects() {
     const postsDirectory = path.join(process.cwd(), 'posts');

@@ -8,6 +8,8 @@ title: Netinfo и порнобизнеса
 published: true
 summary: ''
 id: 2009-08-05-netinfo-i-pornobiznesa
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/08/Picture-3.png
 ---
 
 Добре де, може и да нямат нищо общо, но все пак Нетинфо решиха да сложат всичките си проекти с "V" под една шапка. Става дума за Vbox7, Vgames и Vmusic. Новата шапка се казва : VIVIT 

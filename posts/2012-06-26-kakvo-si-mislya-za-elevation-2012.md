@@ -8,6 +8,8 @@ title: Какво си мисля за Elevation 2012?
 published: true
 summary: ''
 id: 2012-06-26-kakvo-si-mislya-za-elevation-2012
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/06/IMG_1406.jpg
 ---
 
 ![Elevation 2012](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/06/IMG_1406.jpg)

@@ -9,6 +9,8 @@ title: Надрусан чичка с интернет проблеми
 published: true
 summary: ''
 id: 2009-11-17-nadrusan-chichka-s-internet-problemi
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/13378-Vivacom_trio-bigger.jpg
 ---
 
 ![13378-Vivacom_trio-bigger](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/13378-Vivacom_trio-bigger.jpg)

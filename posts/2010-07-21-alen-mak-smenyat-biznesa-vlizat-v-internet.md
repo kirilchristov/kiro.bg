@@ -9,6 +9,8 @@ title: Ален Мак сменят бизнеса... влизат в интер
 published: true
 summary: ''
 id: 2010-07-21-alen-mak-smenyat-biznesa-vlizat-v-internet
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/07/alenmak.jpg
 ---
 
 От известно време забелязвам, че опаковките на новите козметични продукти на Ален Мак имат ново лого. Въобще като цяло изглежда идеята е да се налага бранда alenmak.bg, което само по себе си е безумие, най-малкото, че сайтът ти трябва да промотира продукта, а не обратното. 

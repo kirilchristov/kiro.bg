@@ -8,6 +8,8 @@ title: Офлайн реклама с нулев бюджет
 published: true
 summary: ''
 id: 2013-09-30-oflayn-reklama-s-nulev-byudzhet
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/09/IMG_0738.jpg
 ---
 
 ![Офлайн реклама с нулев бюджет](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/09/IMG_0738.jpg)

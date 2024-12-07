@@ -8,6 +8,8 @@ title: Разлика м-у контейнер и конвейер
 published: true
 summary: ''
 id: 2011-10-10-razlika-m-u-konteyner-i-konveyer
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/10/carpenter.jpg
 ---
 
 Някой май е имал предвид "конвейер", но е написал "контейнер" 

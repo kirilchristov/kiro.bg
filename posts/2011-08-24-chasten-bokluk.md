@@ -7,6 +7,8 @@ title: Частен боклук
 published: true
 summary: ''
 id: 2011-08-24-chasten-bokluk
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/IMG_1282.jpg
 ---
 
 ![Кофа за боклук с катинар | Снимка:kiro.bg](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/IMG_1282.jpg)

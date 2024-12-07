@@ -8,6 +8,8 @@ title: Промяна в статуса
 published: true
 summary: ''
 id: 2009-05-30-promyana-v-statusa
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/05/p5060255.jpg
 ---
 
 Започва да се усеща все по-генерално. Идва неочаквано и чак когато те блъсне и си по гръб се усещаш. Силата му е над възможностите за възприятие. 

@@ -8,6 +8,8 @@ title: Управляват ли наркотиците твоя живот?
 published: true
 summary: ''
 id: 2009-06-22-upravlyavat-li-narkotitsite-tvoya-zhivot
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/06/Picture-1.png
 ---
 
 Днес бях привлечен от странен банер: "Управляват ли наркотиците твоя живот?". 

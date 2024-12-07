@@ -8,6 +8,8 @@ title: Директорския jobs.bg
 published: true
 summary: ''
 id: 2014-01-20-direktorskiya-jobsbg
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/01/pavel-stanchev-didie-shtosel-dimitr-radev.jpg
 ---
 
 ![pavel stanchev didie shtosel dimitr radev](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/01/pavel-stanchev-didie-shtosel-dimitr-radev.jpg)

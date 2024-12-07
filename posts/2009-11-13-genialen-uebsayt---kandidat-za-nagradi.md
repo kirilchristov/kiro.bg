@@ -8,6 +8,8 @@ title: Гениален уебсайт - кандидат за награди
 published: true
 summary: ''
 id: 2009-11-13-genialen-uebsayt---kandidat-za-nagradi
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/crossworldbg.jpg
 ---
 
 След сутрешния спам, денят е по-красив. Тази сутрин получих покана, за може би най-неадекватният сайт, който съм посещавал някога. Става дума за [crossworldbg.com](http://www.crossworldbg.com), който ако ме питате сайт за какво е не мога да ви отговоря. 

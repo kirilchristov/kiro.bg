@@ -7,6 +7,8 @@ title: Сняг и кръв
 published: true
 summary: ''
 id: 2011-03-07-snyag-i-krav
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/03/IMG_0469.jpg
 ---
 
 Ето, какво става, ако не внимаваш, докато феркаш по пистата и не внимаваш. Обикновено се удряш в нещо гадно, дръвче например. Гледката е гадна, но нека да ви е за назидание. 

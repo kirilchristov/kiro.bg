@@ -8,6 +8,8 @@ title: Манхатън за 25 цента
 published: true
 summary: ''
 id: 2015-04-16-manhatan-za-25-tsenta
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2015/04/25-cents.jpg
 ---
 
 ![Manhattan view 25 cents](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2015/04/25-cents.jpg)

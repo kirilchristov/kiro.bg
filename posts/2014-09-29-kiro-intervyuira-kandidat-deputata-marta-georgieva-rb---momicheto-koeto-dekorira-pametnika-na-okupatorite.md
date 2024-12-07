@@ -11,6 +11,8 @@ published: true
 summary: ''
 id: >-
   2014-09-29-kiro-intervyuira-kandidat-deputata-marta-georgieva-rb---momicheto-koeto-dekorira-pametnika-na-okupatorite
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/09/km-copy_Snapseed.jpg
 ---
 
 ![Kiro s Marta Georgieva](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/09/km-copy_Snapseed.jpg)

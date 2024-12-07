@@ -8,6 +8,8 @@ title: Nero Burned Down
 published: true
 summary: ''
 id: 2009-02-18-nero-burned-down
+postImage: >-
+  http://3.bp.blogspot.com/_x3M_abAXB6Y/SZvDWZ5MVnI/AAAAAAAAEtU/Vw4aUEqGDPI/s320/IMG_0079.JPG
 ---
 
 Заведението Неро гръмна. Не мога да не скрия задоволството си от факта, че киселяците с малките пишки и лъскавите коли няма да се вясват извеестно време в квартала. Всъщност съдейки по предишни подобни случаи, най-вероятно това заведение е тотално чао-чао.

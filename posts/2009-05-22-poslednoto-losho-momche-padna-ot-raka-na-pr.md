@@ -8,6 +8,8 @@ title: 'Последното лошо момче, падна от ръка на 
 published: true
 summary: ''
 id: 2009-05-22-poslednoto-losho-momche-padna-ot-raka-na-pr
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/05/vasilvanko-1.jpg
 ---
 
 Последното лошо момче на БГ рапа - единственият пич лежал в затвора - Ванко 1, е на път да затрие възраждането на кариерата си след подобни постъпки. Имаше ли смисъл от подобен PR и според вас ефектът поожителен или отрицателен е? 

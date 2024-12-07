@@ -8,6 +8,8 @@ title: Как се чувства една тиква след Хелоуин
 published: true
 summary: ''
 id: 2008-11-05-kak-se-chuvstva-edna-tikva-sled-helouin
+postImage: >-
+  http://3.bp.blogspot.com/_x3M_abAXB6Y/SRExiwNAlQI/AAAAAAAADKA/PCPXKOMBCkQ/s320/00034797.jpg
 ---
 
 ![](http://3.bp.blogspot.com/_x3M_abAXB6Y/SRExiwNAlQI/AAAAAAAADKA/PCPXKOMBCkQ/s320/00034797.jpg)

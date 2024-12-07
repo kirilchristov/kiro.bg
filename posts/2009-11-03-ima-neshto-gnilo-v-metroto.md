@@ -8,6 +8,8 @@ title: Има нещо гнило в метрото
 published: true
 summary: ''
 id: 2009-11-03-ima-neshto-gnilo-v-metroto
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/IMG_0205.JPG
 ---
 
 Тази сутрин ми се стори, че има нещо гнило в метрото. Не знам какво е, но съм сигурен. Първото е стая номер 24. Намира се на спирката в посока Младост на стадион Васил Левски, съвсем в дъното на коридора, където не ходи никой.

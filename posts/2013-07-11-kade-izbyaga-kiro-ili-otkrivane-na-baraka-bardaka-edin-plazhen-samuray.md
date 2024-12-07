@@ -9,6 +9,8 @@ published: true
 summary: ''
 id: >-
   2013-07-11-kade-izbyaga-kiro-ili-otkrivane-na-baraka-bardaka-edin-plazhen-samuray
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/07/beach-house-1.jpg
 ---
 
 Никакви вести от Киро, нали? Този соушъл медия монстър, който ни тровеше живота ежечасно във фейсбук беше неутрализаран от самия себе си. Easy, той не се завръща, защото никъде по-специално не е бил. Идвам с добра новина така да се каже. 

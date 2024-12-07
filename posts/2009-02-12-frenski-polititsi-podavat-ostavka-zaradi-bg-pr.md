@@ -8,6 +8,8 @@ title: Френски политици подават оставка зарад�
 published: true
 summary: ''
 id: 2009-02-12-frenski-polititsi-podavat-ostavka-zaradi-bg-pr
+postImage: >-
+  http://2.bp.blogspot.com/_x3M_abAXB6Y/SZPYGFu0THI/AAAAAAAAErs/IgFYDb08oEg/s320/SESIL_NINA_FRANK_FRANK_DOCTOR_POLITICIAN_POD_LIPITE_31.01.2009+G_1.JPG
 ---
 
 "Известната ПР-ка" Сесил, позната ни от този пост [тук](http://kiro.bg/2008/12/blog-post_18.html), ни информира за нощните забавления на 2-ма френски политици.

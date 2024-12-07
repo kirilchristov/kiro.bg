@@ -11,6 +11,8 @@ title: Киро - Преди и сега (PC/MAC)
 published: true
 summary: ''
 id: 2009-11-05-kiro---predi-i-sega-pcmac
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/IMG_0815.jpg
 ---
 
 Това е Киро. Обичащо компютрите дете. ПРЕДИ - PC era 

@@ -8,6 +8,8 @@ title: Миленита - 90% Слънце
 published: true
 summary: ''
 id: 2011-06-17-milenita---90-slantse
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/06/photo1.jpg
 ---
 
 Много рядко пиша за рубриката [buddies](http://kiro.bg/?category_name=buddies). Това е защото трябва да кажа добри думи за някой, а аз съм си критикар по принцип. Днешният (или по-скоро тазгодишният) участник в нея е Миленита или Милена.

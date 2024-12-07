@@ -8,6 +8,8 @@ title: 'Една книга, която не трябва да четете'
 published: true
 summary: ''
 id: 2010-02-22-edna-kniga-koyato-ne-tryabva-da-chetete
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/02/Photo-on-2010-02-23-at-00.26-3.jpg
 ---
 
 Не, не се опитвам да ви привлека вниманието към тази книга. Просто се опитвам наистина да ви предупредя. Става дума за "11 неизменни закона на интернет брендинга" от Ал Рийс и Лаура Рийс.

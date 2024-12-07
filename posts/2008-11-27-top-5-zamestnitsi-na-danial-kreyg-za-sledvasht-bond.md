@@ -8,6 +8,8 @@ title: 'Топ 5: Заместници на Даниъл Крейг за сле�
 published: true
 summary: ''
 id: 2008-11-27-top-5-zamestnitsi-na-danial-kreyg-za-sledvasht-bond
+postImage: >-
+  http://4.bp.blogspot.com/_x3M_abAXB6Y/SS61OcSKpEI/AAAAAAAADTg/mqeOBPkDRpI/s320/top-5-daniel-craig-replacements_5.jpg
 ---
 
 Мислихме, че сме само ние, но се оказва, че и други са стигнали до същото заключение.

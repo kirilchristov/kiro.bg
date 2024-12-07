@@ -7,6 +7,8 @@ title: The real BIG beer
 published: true
 summary: ''
 id: 2009-11-02-the-real-big-beer
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/IMG_0181.jpg
 ---
 
 Обичам бира. От както лекарите ми забраниха да близвам кехлибарената напитка или анасоновите и сестри си падам главно по бири. Не мога да разбера защо само италианците трябва да бъдат привилегировани. Техните разфасовки са по 660 ml !!! Ето го и доказателството. _(Клик за full)_

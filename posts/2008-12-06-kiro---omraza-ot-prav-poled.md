@@ -8,6 +8,8 @@ title: Киро - омраза от пръв полед
 published: true
 summary: ''
 id: 2008-12-06-kiro---omraza-ot-prav-poled
+postImage: >-
+  http://4.bp.blogspot.com/_x3M_abAXB6Y/STpvrA3rG5I/AAAAAAAADUk/rC0pm30CxNE/s320/kikiii-poster.jpg
 ---
 
 Сигурно голяма част от вас, вече са забелязали този странен феномен.

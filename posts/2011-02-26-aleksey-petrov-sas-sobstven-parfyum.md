@@ -7,6 +7,8 @@ title: Алексей Петров със собствен парфюм
 published: true
 summary: ''
 id: 2011-02-26-aleksey-petrov-sas-sobstven-parfyum
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/02/20110226-125029.jpg
 ---
 
 Тракторът дали не влиза и в други бизнеси освен вестниците?

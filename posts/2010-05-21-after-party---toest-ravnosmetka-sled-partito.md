@@ -8,6 +8,7 @@ title: 'After Party - Тоест, равносметка след партито
 published: true
 summary: ''
 id: 2010-05-21-after-party---toest-ravnosmetka-sled-partito
+postImage: 'https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/05/2.jpg'
 ---
 
 14 май, петък. Мисля че стана яко. Това бе второто ни самодейно NASTY GIRLS парти в Radio Cafe. Ето ви няколко снимки, за бегла представа. 

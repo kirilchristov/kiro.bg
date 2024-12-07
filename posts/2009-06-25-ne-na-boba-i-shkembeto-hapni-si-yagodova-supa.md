@@ -8,6 +8,8 @@ title: Не на боба и шкембето! Хапни си ягодова с
 published: true
 summary: ''
 id: 2009-06-25-ne-na-boba-i-shkembeto-hapni-si-yagodova-supa
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/06/rossi_0318-copy.jpg
 ---
 
 Ясно е, че не можем да свържем яките мацки с боб и свинско в нашите изтърбушени от секс мисли, мъжки мозъци. Ето Роси Иванова например не ядяла нищо друго освен супа от ягоди. Прилагам и прес релийз по случая. 

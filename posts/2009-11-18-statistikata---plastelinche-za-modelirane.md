@@ -8,6 +8,8 @@ title: Статистиката - пластелинче за моделиран
 published: true
 summary: ''
 id: 2009-11-18-statistikata---plastelinche-za-modelirane
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/Screen-shot-2009-11-18-at-5.44.48-PM.png
 ---
 
 Знаем - у нас всички са най-добри. Във всичко. Особено в нета. Изваждат се графики и таблици и ги развяваме като знамена пред останалите орди и интернет племена. Един много дразнещ пример с Netinfo, които обявиха Sportni.bg за най-популярния спортен сайт в България.

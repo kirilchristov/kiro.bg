@@ -8,6 +8,8 @@ title: Наръчник на градското момче на село
 published: true
 summary: ''
 id: 2014-04-23-narachnik-na-gradskoto-momche-na-selo
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/04/1-teo.jpg
 ---
 
 ![1 teo](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/04/1-teo.jpg)

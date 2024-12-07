@@ -8,6 +8,8 @@ title: Електронни зомбита. Гледай и сваляй док�
 published: true
 summary: ''
 id: 2008-11-05-elektronni-zombita-gleday-i-svalyay-dokato-e-vreme
+postImage: >-
+  http://4.bp.blogspot.com/_x3M_abAXB6Y/SRE0P_Z1_XI/AAAAAAAADKI/e1L4vgMqQTM/s320/magnumpr_EVILCOVER.jpg
 ---
 
 Става дума за Evil Nine, които са двама изтрещели другари от Брайтън. Те правят същото както правят Daft Punk с роботите, само че тук са зомбита.

@@ -8,6 +8,8 @@ title: Олимпийски Киро (полуизкачване на връх)
 published: true
 summary: ''
 id: 2011-09-26-olimpiyski-kiro-poluizkachvane-na-vrah
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/09/IMG_1445.jpg
 ---
 
 Тези почивни дни реших да изкача Олимп с приятели. Беше доста фън, стана на две фази с една нощувка на хижа. На хижата спахме по земята, че нямаше места, но подозирам е по-комфортно от леглата. 

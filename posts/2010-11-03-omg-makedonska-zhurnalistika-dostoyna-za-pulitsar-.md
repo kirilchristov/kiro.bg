@@ -8,6 +8,8 @@ title: 'OMG! Македонска журналистика, достойна з�
 published: true
 summary: ''
 id: 2010-11-03-omg-makedonska-zhurnalistika-dostoyna-za-pulitsar-
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/11/Dnevnikmk.png
 ---
 
 Скрийншот от македонския вестник Дневник, чийто журналисти не са виждали географски карти.

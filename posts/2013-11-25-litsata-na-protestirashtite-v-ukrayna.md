@@ -8,6 +8,8 @@ title: Лицата на протестиращите в Украйна
 published: true
 summary: ''
 id: 2013-11-25-litsata-na-protestirashtite-v-ukrayna
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/11/IMAG0516.jpeg
 ---
 
 Това са хората, които искат бъдеще в ЕС. Да са в крачка със света. Това са т.нар. украински платени провокатори. #OСТАВКА 

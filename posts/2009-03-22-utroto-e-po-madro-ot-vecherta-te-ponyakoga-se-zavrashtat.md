@@ -8,6 +8,8 @@ title: Утрото е по-мъдро от вечерта... Те поняко�
 published: true
 summary: ''
 id: 2009-03-22-utroto-e-po-madro-ot-vecherta-te-ponyakoga-se-zavrashtat
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/the_morning_after.png
 ---
 
 ![the_morning_after](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/the_morning_after.png)

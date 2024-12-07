@@ -7,6 +7,8 @@ title: Яж камъни!
 published: true
 summary: ''
 id: 2009-11-05-yazh-kamani
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/IMG_0214.JPG
 ---
 
 Поканата за партито на Rolling Stone ми хареса :) Камъни, ама не съвсем. Викам си тия верно ли ми пращат камъни? Толкова са автентични.

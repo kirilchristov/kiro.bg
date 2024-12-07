@@ -8,6 +8,8 @@ title: Употрбата на тютюн причинява... скорпион
 published: true
 summary: ''
 id: 2014-04-07-upotrbata-na-tyutyun-prichinyava-skorpion
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/04/20140407-153919.jpg
 ---
 
 ![20140407-153919.jpg](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/04/20140407-153919.jpg)

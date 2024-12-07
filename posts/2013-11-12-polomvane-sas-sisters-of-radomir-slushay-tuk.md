@@ -8,6 +8,8 @@ title: Поломване със Sisters Of Radomir (слушай тук)
 published: true
 summary: ''
 id: 2013-11-12-polomvane-sas-sisters-of-radomir-slushay-tuk
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/11/Sisters-Live-mixtape.png
 ---
 
 ![Sisters-Live-mixtape](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/11/Sisters-Live-mixtape.png)

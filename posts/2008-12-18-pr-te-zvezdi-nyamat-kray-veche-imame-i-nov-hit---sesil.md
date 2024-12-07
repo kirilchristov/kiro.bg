@@ -8,6 +8,8 @@ title: ПР-те звезди нямат край. Вече имаме и нов
 published: true
 summary: ''
 id: 2008-12-18-pr-te-zvezdi-nyamat-kray-veche-imame-i-nov-hit---sesil
+postImage: >-
+  http://4.bp.blogspot.com/_x3M_abAXB6Y/SUpSWVbCn8I/AAAAAAAADV0/j8rSiqHTOQw/s320/SESIL_IN_BIG_BROTHER-4_13.11.2008+G..jpg
 ---
 
 Тамън да ти доскучее от липсата на Наско Лазаров, герой на една отминала ПР епоха, на небослкона изгрява нова звезда.

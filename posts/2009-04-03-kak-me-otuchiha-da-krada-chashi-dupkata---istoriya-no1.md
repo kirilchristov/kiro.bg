@@ -7,6 +7,8 @@ title: Как ме отучиха да крада чаши (Дупката - и�
 published: true
 summary: ''
 id: 2009-04-03-kak-me-otuchiha-da-krada-chashi-dupkata---istoriya-no1
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/04/rum.jpg
 ---
 
 ![rum](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/04/rum.jpg)

@@ -9,6 +9,8 @@ title: 3 март - Музикален празник
 published: true
 summary: ''
 id: 2009-02-07-3-mart---muzikalen-praznik
+postImage: >-
+  http://2.bp.blogspot.com/_x3M_abAXB6Y/SY0ueB-eThI/AAAAAAAAEq0/X1pqvjXl4JA/s320/magnumpr_att80290.jpg
 ---
 
 В България сме отпразнували отхвърлянето на завоевателите на 3 март.

@@ -9,6 +9,8 @@ title: 'Зомби електронно реге и дрога. О, да! Кир
 published: true
 summary: ''
 id: 2009-06-17-zombi-elektronno-rege-i-droga-o-da-kiro-likes-that
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/06/major-lazerjpg.jpeg
 ---
 
 Това го намерих днес в mp3.bg. Велико е, знаете аз си падам по зомбита, но зомби електронно реге виждам за първи път.

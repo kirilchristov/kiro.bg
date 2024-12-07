@@ -7,6 +7,8 @@ title: Прегрял iPhone
 published: true
 summary: ''
 id: 2011-07-22-pregryal-iphone
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/07/IMG_1115.png
 ---
 
 Термометър ли си има незнам, но веднъж го заварих така: 

@@ -9,6 +9,8 @@ title: Основни минуси на карта VISA Classic от Пощен�
 published: true
 summary: ''
 id: 2008-12-17-osnovni-minusi-na-karta-visa-classic-ot-poshtenska-banka
+postImage: >-
+  http://3.bp.blogspot.com/_x3M_abAXB6Y/SUi_XZBbUoI/AAAAAAAADVM/i7tXy5ykZtk/s320/kr-visa.jpg
 ---
 
 В настоящия пост, смятм да изброя всички минуси на кредитната карта VISA CLASSIC. Т.е. ако сте се подлъгали по телевизионната реклама, да ви редупредя преди да се ядосате.

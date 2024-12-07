@@ -9,6 +9,8 @@ title: 18+ Бизнес съвети на мръсен език
 published: true
 summary: ''
 id: 2014-06-26-18-biznes-saveti-na-mrasen-ezik
+postImage: >-
+  https://media.gettyimages.com/id/110873505/vector/constipation.jpg?s=1024x1024&w=gi&k=20&c=NXwHb15O3iGZcMDLQ6b8xDJm-QeZZWgvoC-Y2uLNAd4=
 ---
 
 ![](https://media.gettyimages.com/id/110873505/vector/constipation.jpg?s=1024x1024&w=gi&k=20&c=NXwHb15O3iGZcMDLQ6b8xDJm-QeZZWgvoC-Y2uLNAd4=)

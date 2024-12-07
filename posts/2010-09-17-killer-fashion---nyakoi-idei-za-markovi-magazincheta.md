@@ -9,6 +9,8 @@ title: Killer fashion - някои идеи за 'маркови' магазин
 published: true
 summary: ''
 id: 2010-09-17-killer-fashion---nyakoi-idei-za-markovi-magazincheta
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/09/Picture-098.jpg
 ---
 
 Защо ли не си отворя магазин за дрехи. Вярно продавам стока от Илиянци, но пък етикетите си вършат работата. Разбира се трябва ми мега-ултра име, което крещи. Ето и предложенията за днес, първото е в Шумен, второто от Варна, макар географското положение да няма особено значение, когато говорим за България:

@@ -8,6 +8,8 @@ title: Петра ползва Мариус Куркински за парава
 published: true
 summary: ''
 id: 2009-07-10-petra-polzva-marius-kurkinski-za-paravan
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/07/press.JPG
 ---
 
 Сигурно вече сте прочели тъпотията, че Мариус Куркински е режисирал новото видео на Петра. Тъпотия, защото човек като Мариус едва ли би го направил... и се оказа, че не е. Въпреки това певачката разпрати следния прес до медиите:

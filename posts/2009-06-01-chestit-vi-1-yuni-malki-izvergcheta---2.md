@@ -8,6 +8,8 @@ title: 'Честит ви 1 юни, малки извергчета - 2'
 published: true
 summary: ''
 id: 2009-06-01-chestit-vi-1-yuni-malki-izvergcheta---2
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/06/00033971jpg.jpeg
 ---
 
 Пак е първи юни е време да поздравим децата. Можем да им обърнем внимание, от веселата страна на нещата. 

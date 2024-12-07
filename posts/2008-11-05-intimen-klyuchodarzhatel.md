@@ -8,6 +8,8 @@ title: Интимен ключодържател
 published: true
 summary: ''
 id: 2008-11-05-intimen-klyuchodarzhatel
+postImage: >-
+  http://3.bp.blogspot.com/_x3M_abAXB6Y/SRGvRlm9jxI/AAAAAAAADKw/uyH3oLee0Ak/s320/IMG_637s13+copy_188_16.jpg
 ---
 
 Ето какво получих днес по ICQ, като показване на последните тенденции в БГ бизнеса с подаръци.

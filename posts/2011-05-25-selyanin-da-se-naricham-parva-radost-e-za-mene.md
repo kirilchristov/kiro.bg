@@ -8,6 +8,7 @@ title: 'Селянин да се наричам, първа радост е за
 published: true
 summary: ''
 id: 2011-05-25-selyanin-da-se-naricham-parva-radost-e-za-mene
+postImage: 'https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/05/1.jpg'
 ---
 
 Без коментар: 

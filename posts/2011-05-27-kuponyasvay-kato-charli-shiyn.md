@@ -8,6 +8,8 @@ title: Купонясвай като Чарли Шийн
 published: true
 summary: ''
 id: 2011-05-27-kuponyasvay-kato-charli-shiyn
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/05/Screen-shot-2011-05-27-at-7.22.46-AM.png
 ---
 
 Родните сайтове за групово пазаруване сериозно се конкурират. Вече са налице холивудски тактики за привличане на клиенти. Смажи се в Само не виждам, къде е офертата за белото.

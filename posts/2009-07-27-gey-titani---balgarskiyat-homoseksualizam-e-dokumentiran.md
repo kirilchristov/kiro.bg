@@ -8,6 +8,8 @@ title: Гей титани - българският хомосексуализъ
 published: true
 summary: ''
 id: 2009-07-27-gey-titani---balgarskiyat-homoseksualizam-e-dokumentiran
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/07/Petroff1.JPG
 ---
 
 Винаги съм очаквал Евгени Минчев или Сергей Станишев да напишат първата българска история на гей културата, но няма никой друг като Ицо Петроф. Ицо Петроф е Ицо Петроф.

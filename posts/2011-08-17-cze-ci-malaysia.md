@@ -7,6 +7,8 @@ title: 'Cze Ci, Malaysia'
 published: true
 summary: ''
 id: 2011-08-17-cze-ci-malaysia
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/IMG_1348.jpg
 ---
 
 "Гости" е нещо като нова рубрика в блога. Това са всички хора, които са ми на гости и идват от чужбина. В тази рубрика слагам нещо кратко за тях. Като кратка импресия на това, от това с което са ми направили впечатление. 

@@ -7,6 +7,8 @@ title: 'Оптици, не месари. Разби''ш ли?'
 published: true
 summary: ''
 id: 2011-10-12-optitsi-ne-mesari-razbish-li
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/10/photo.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/10/photo.jpg)

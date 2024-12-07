@@ -8,6 +8,8 @@ title: 'S-hit Video: Лорадо - новата вълна на БГ естра
 published: true
 summary: ''
 id: 2010-01-10-s-hit-video-lorado---novata-valna-na-bg-estradata
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/01/lorado.jpg
 ---
 
 S-hit Video (идва от Super Hit Video) е една стара рубрика, която мисля е време да съживим днес. Още докато поработвах в ММ преди доста години си събирахме с колегите най-доброто от съвременнта БГ музика в класация за най-"як" клип. 

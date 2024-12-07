@@ -9,6 +9,8 @@ title: Последните 2 години от моя живот
 published: true
 summary: ''
 id: 2014-01-06-poslednite-2-godini-ot-moya-zhivot
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/01/image.jpg
 ---
 
 ![image](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/01/image.jpg)

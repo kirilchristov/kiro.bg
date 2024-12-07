@@ -8,6 +8,8 @@ title: Как не успях да стана клиент на Глобул
 published: true
 summary: ''
 id: 2014-02-19-kak-ne-uspyah-da-stana-klient-na-globul
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/02/Screen-Shot-2014-02-19-at-5.19.36-PM.png
 ---
 
 ![Screen Shot 2014-02-19 at 5.19.36 PM](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/02/Screen-Shot-2014-02-19-at-5.19.36-PM.png)

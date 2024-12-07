@@ -7,6 +7,8 @@ title: Мръсните тайни на новите собственици на
 published: true
 summary: ''
 id: 2009-03-31-mrasnite-tayni-na-novite-sobstvenitsi-na-tsska
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/img_0164.jpg
 ---
 
 Те не са чак такива тайни, но все пак аз без да искам да се заяждам с феновете на червените... искам да попитам защо фирмените цветове на Титан са сини. 

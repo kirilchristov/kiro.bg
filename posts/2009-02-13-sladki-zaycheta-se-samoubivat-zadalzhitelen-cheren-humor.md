@@ -8,6 +8,8 @@ title: Сладки зайчета се самоубиват. Задължите
 published: true
 summary: ''
 id: 2009-02-13-sladki-zaycheta-se-samoubivat-zadalzhitelen-cheren-humor
+postImage: >-
+  http://1.bp.blogspot.com/_x3M_abAXB6Y/SZVobw_eJVI/AAAAAAAAEtM/E4R_o_TeSj0/s320/1011_63_226_2007.jpg
 ---
 
 Вчера бях на гости на един френд, който ми показа умопомрачителен календар със самоубиващи се зайчовци. Въпреки че съм фен на малките животинки не мога да кажа, че това не ми е смешно.

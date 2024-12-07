@@ -11,6 +11,8 @@ published: true
 summary: ''
 id: >-
   2010-10-05-triumfalna-arka-se-izdiga-nad-tsarigradsko-shose---sofiya-2012-po-primera-na-skopie-2014
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/10/arca_most.jpg
 ---
 
 Наскоро един проект ми направи впечатление и веднага се свързах с организаторите му. Става дума за София 2012 (ще сложа линк в края на статията), чиято идея е:

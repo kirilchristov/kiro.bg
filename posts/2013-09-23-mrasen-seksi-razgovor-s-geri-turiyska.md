@@ -7,6 +7,8 @@ title: Мръсен секси разговор с Гери Турийска
 published: true
 summary: ''
 id: 2013-09-23-mrasen-seksi-razgovor-s-geri-turiyska
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/09/941487_542402655802167_1730710035_n.jpg
 ---
 
 ![Гери Турийска в Мръсни Думи](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/09/941487_542402655802167_1730710035_n.jpg)

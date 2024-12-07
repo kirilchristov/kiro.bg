@@ -8,6 +8,8 @@ title: ' Гонят ме вируси по skype. Или...?'
 published: true
 summary: ''
 id: 2009-11-17--gonyat-me-virusi-po-skype-ili
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/skype.png
 ---
 
 Днес за хиляден път получих съобщение от този сорт: 

@@ -8,6 +8,8 @@ title: Албания - Hater's Review
 published: true
 summary: ''
 id: 2009-09-10-albaniya---haters-review
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/09/2009_05_05Balkan-trip_0650.jpg
 ---
 
 ![2009_05_05Balkan-trip_0650](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/09/2009_05_05Balkan-trip_0650.jpg)

@@ -8,6 +8,8 @@ title: Един (рожден) ден от живота на Киро
 published: true
 summary: ''
 id: 2008-11-19-edin-rozhden-den-ot-zhivota-na-kiro
+postImage: >-
+  http://3.bp.blogspot.com/_x3M_abAXB6Y/SSR69yCRzXI/AAAAAAAADRU/aEYAwrUlnII/s320/IMG_0095.JPG
 ---
 
 Винаги съм се чувствал зле на 19 ноември.

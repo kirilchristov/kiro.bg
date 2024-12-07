@@ -9,6 +9,8 @@ published: true
 summary: ''
 id: >-
   2014-02-03-oferta-na-uho-izmislyame-istoriya-i-otivame-na-parti-v-berlin-for-free
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/02/Screen-Shot-2014-02-03-at-12.03.00-PM.png
 ---
 
 ![Screen Shot 2014-02-03 at 12.03.00 PM](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/02/Screen-Shot-2014-02-03-at-12.03.00-PM.png)

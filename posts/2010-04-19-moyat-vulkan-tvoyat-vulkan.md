@@ -8,6 +8,7 @@ title: 'Моят вулкан, твоят вулкан'
 published: true
 summary: ''
 id: 2010-04-19-moyat-vulkan-tvoyat-vulkan
+postImage: 'http://antwrp.gsfc.nasa.gov/apod/image/0606/volcanoplume_iss_big.jpg'
 ---
 
 ![Вулкан](http://antwrp.gsfc.nasa.gov/apod/image/0606/volcanoplume_iss_big.jpg)

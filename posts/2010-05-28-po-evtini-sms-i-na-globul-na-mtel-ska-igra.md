@@ -8,6 +8,8 @@ title: По-евтини sms-и на Глобул на Mтел-ска игра
 published: true
 summary: ''
 id: 2010-05-28-po-evtini-sms-i-na-globul-na-mtel-ska-igra
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/05/сцр1.png
 ---
 
 "Изпрати SMS на номер 1880 и влез в приказката на M-Тел" те приканват Мтел, Труд и 24 часа за новата им игра. С малък текст на сайта става ясно, че цената на sms-a е 0,30 лв с ДДС за абонати на Mtel и Vivacom и 0,29 лв с ДДС за абонатите на Глобул.

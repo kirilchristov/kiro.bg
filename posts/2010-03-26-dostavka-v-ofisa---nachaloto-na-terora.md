@@ -7,6 +7,8 @@ title: Доставка в офиса - началото на терора
 published: true
 summary: ''
 id: 2010-03-26-dostavka-v-ofisa---nachaloto-na-terora
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/03/photo.jpg
 ---
 
 Ето, днес дойде големия кашон, колкото половин човек.

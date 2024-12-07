@@ -8,6 +8,8 @@ title: 'Честит рожден ден, мили цици!'
 published: true
 summary: ''
 id: 2009-06-29-chestit-rozhden-den-mili-tsitsi
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/06/IMG_8695.JPG
 ---
 
 Никога не се бях сещал, че циците може да си имат свой собствен, различен от другите части на тялото рожден ден. При водещата от Планета -

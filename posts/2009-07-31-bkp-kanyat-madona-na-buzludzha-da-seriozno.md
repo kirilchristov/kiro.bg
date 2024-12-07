@@ -9,6 +9,8 @@ title: 'БКП канят Мадона на Бузлуджа. Да, сериоз
 published: true
 summary: ''
 id: 2009-07-31-bkp-kanyat-madona-na-buzludzha-da-seriozno
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/07/Madonna_RedLip_White-copy.jpg
 ---
 
 Лято е. Няма новини, но идиоти винаги има. Ето с какво ни радват днес news.bg:

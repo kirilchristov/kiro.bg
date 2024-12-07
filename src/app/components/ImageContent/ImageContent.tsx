@@ -18,6 +18,9 @@ const ImageContent = ({src, alt}: {src: string; alt: string}) => {
         width={1600}
         height={0}
         style={{objectFit: 'fill', maxWidth: '100%', height: 'auto'}}
+        loading="lazy" 
+        placeholder="blur" 
+        blurDataURL="/images/placeholder.png" 
       />
     </div>
   );

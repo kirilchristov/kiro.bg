@@ -8,6 +8,8 @@ title: Топ 10 на БГ Шоубизнеса за 2008-а
 published: true
 summary: ''
 id: 2009-01-04-top-10-na-bg-shoubiznesa-za-2008-a
+postImage: >-
+  https://avtora.com/uploads/images/content/news/2008/12_december/24/s1_s1_519x396.jpg
 ---
 
 _(материалът е писан за avtora.com)_

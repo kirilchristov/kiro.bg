@@ -9,6 +9,8 @@ published: true
 summary: ''
 id: >-
   2009-06-29-balgarski-estraden-papesh-se-opitva-da-yahne-maykal-dzheksan-po-radiotangracom
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/06/photo_verybig_246846.jpg
 ---
 
 Материал в radiotangra.com:

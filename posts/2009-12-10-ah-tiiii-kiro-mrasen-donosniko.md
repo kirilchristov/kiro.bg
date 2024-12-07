@@ -7,6 +7,8 @@ title: 'Ах, тииии, Киро! Мръсен доноснико!'
 published: true
 summary: ''
 id: 2009-12-10-ah-tiiii-kiro-mrasen-donosniko
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/12/IMG_0072.JPG
 ---
 
 Да, признавам си. Аз съм доносник. Днес пуснах донос срещу магазин Фамилия. Мразя магазини Фамилия. Принуден съм да им търпя кварталния монопол, наглите продавачки, които изискват 1 стотинка, но не връщат 1 стотинка.

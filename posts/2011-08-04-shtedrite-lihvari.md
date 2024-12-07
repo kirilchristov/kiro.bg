@@ -7,6 +7,8 @@ title: Щедрите лихвари
 published: true
 summary: ''
 id: 2011-08-04-shtedrite-lihvari
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/IMG_1303.jpg
 ---
 
 ![Заложна къща "Щедрите" Снимка: Киро](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/IMG_1303.jpg)

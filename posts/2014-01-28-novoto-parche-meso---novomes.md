@@ -8,6 +8,8 @@ title: Новото парче месо - Новомес
 published: true
 summary: ''
 id: 2014-01-28-novoto-parche-meso---novomes
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/01/1606448_10202974923676451_1179632306_o.jpg
 ---
 
 ![1606448_10202974923676451_1179632306_o](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2014/01/1606448_10202974923676451_1179632306_o.jpg)

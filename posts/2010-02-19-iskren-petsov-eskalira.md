@@ -9,6 +9,8 @@ title: Искрен Пецов ескалира!
 published: true
 summary: ''
 id: 2010-02-19-iskren-petsov-eskalira
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/02/Screen-shot-2010-02-19-at-10.30.42-AM.png
 ---
 
 iСКРЕН а.к.а. Искрен Пецов е позакъснял с около десетилетие, както в музикално отношение, така и евентуално във всяко едно друго. Невинаги iнещо-си е куул както iphone, ipod и др (примерно ipad). Ако мога да го сравня с операционна система, Искрен Пецов е ...so Win98 ! И то пиратска бъгава версия.

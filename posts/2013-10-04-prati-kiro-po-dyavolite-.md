@@ -8,6 +8,8 @@ title: 'Прати Киро по дяволите! '
 published: true
 summary: ''
 id: 2013-10-04-prati-kiro-po-dyavolite-
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/10/1000722_10201520335951751_1934710763_n.jpg
 ---
 
 ![Киро да се маха](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2013/10/1000722_10201520335951751_1934710763_n.jpg)

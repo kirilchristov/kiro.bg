@@ -8,6 +8,8 @@ title: В легло със Станишев...
 published: true
 summary: ''
 id: 2009-07-02-v-leglo-sas-stanishev
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/07/stanishev-i-drug-gay.jpg
 ---
 
 Ако другаря Станишев беше порноактьор, то аз го виждам в такава ситуация... 

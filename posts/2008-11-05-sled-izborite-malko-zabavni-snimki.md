@@ -8,6 +8,8 @@ title: След изборите... Малко забавни снимки
 published: true
 summary: ''
 id: 2008-11-05-sled-izborite-malko-zabavni-snimki
+postImage: >-
+  http://2.bp.blogspot.com/_x3M_abAXB6Y/SRFJH81TRyI/AAAAAAAADKY/evV7rNJHFb4/s320/macein.jpg
 ---
 
 След изборите...

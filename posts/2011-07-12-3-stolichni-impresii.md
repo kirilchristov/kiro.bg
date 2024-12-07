@@ -7,6 +7,8 @@ title: 3 столични импресии
 published: true
 summary: ''
 id: 2011-07-12-3-stolichni-impresii
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/07/IMG_1184.jpg
 ---
 
 ![Джъстин Бийбър и Лейди Гага](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/07/IMG_1184.jpg)

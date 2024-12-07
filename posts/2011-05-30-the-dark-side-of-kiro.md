@@ -8,6 +8,8 @@ title: The Dark Side Of Kiro
 published: true
 summary: ''
 id: 2011-05-30-the-dark-side-of-kiro
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/05/kiro-21.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/05/kiro-21.jpg)

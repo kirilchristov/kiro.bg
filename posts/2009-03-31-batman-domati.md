@@ -7,6 +7,8 @@ title: Батман Домати
 published: true
 summary: ''
 id: 2009-03-31-batman-domati
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/img_0176.jpg
 ---
 
 Такива домати си купихме от Банско, ама са много яки в интерес на истината. 

@@ -8,6 +8,8 @@ title: Смешни метъли (Damn Good)
 published: true
 summary: ''
 id: 2009-11-09-smeshni-metali-damn-good
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/Im-lovin-it..jpg
 ---
 
 Днес, докато разцъквах блога на [Стефчо](http://sissycatafalque.com/blog/) се натъкнах на изключтелно приятен линк за блог посветен на нелепо изглеждащи метъли. Препорчъвам с две ръце.

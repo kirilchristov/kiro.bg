@@ -7,6 +7,8 @@ title: Немското посолство е бежански лагер
 published: true
 summary: ''
 id: 2009-11-05-nemskoto-posolstvo-e-bezhanski-lager
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/11/IMG_0212.JPG
 ---
 
 Два дни минавам покрай немското посолство и забелязвам, че отпред има опънати палатки. Очевидно закъсали немски поданици живеят на палатка на почти минусовите софийски температури.

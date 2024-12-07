@@ -8,6 +8,8 @@ title: FAIL на деня - Novinitepro.bg
 published: true
 summary: ''
 id: 2010-05-12-fail-na-denya---noviniteprobg
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/05/intro-pic-novinite.jpg
 ---
 
 Само погледнете първите 5 заглавия на novinitepro.bg днес:

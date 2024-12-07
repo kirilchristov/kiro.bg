@@ -8,6 +8,8 @@ title: Март свърши. Мартина сега започва.
 published: true
 summary: ''
 id: 2012-04-17-mart-svarshi-martina-sega-zapochva
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/04/leave-the-knife-curtis.png
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/04/leave-the-knife-curtis.png)

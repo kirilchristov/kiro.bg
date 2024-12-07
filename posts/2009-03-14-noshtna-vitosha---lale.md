@@ -8,6 +8,8 @@ title: Нощна Витоша - Лале
 published: true
 summary: ''
 id: 2009-03-14-noshtna-vitosha---lale
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/img_0121.jpg
 ---
 
 Най-мръсната столица в Европа... Но все пак, сещате ли се за друго място, където след работа можете да покарате ски сред прекрасен заснежен пейзаж, като гледате светлините на града под вас? 

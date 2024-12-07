@@ -7,6 +7,8 @@ title: Спечели 2 седмици на екзотичен остров с K
 published: true
 summary: ''
 id: 2012-02-14-specheli-2-sedmitsi-na-ekzotichen-ostrov-s-kirobg
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/02/IMG_0602.jpg
 ---
 
 ![Koh Samui](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2012/02/IMG_0602.jpg)

@@ -7,6 +7,8 @@ title: 'Тунингован Москвич, тип Алеко'
 published: true
 summary: ''
 id: 2011-03-02-tuningovan-moskvich-tip-aleko
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/03/IMG_0410.jpg
 ---
 
 В кв.Лозенец, на Розова Долина, 2011 г. 

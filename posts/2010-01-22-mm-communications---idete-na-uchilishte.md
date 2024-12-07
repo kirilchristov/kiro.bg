@@ -9,6 +9,8 @@ title: M&M communications - Идете на училище
 published: true
 summary: ''
 id: 2010-01-22-mm-communications---idete-na-uchilishte
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2010/01/mm.jpg
 ---
 
 M&M communications - реклама и медиен консулт, според сайта на фирмата. Но, още на първа страница ни посреща изключително неграмотен цитат, който честно казано ме спира всячески да стана техен клиент: 

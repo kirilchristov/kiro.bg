@@ -8,6 +8,8 @@ title: Еделвайс за пиене
 published: true
 summary: ''
 id: 2011-02-20-edelvays-za-piene
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/02/20110220-110240.jpg
 ---
 
 Добрият ми приятел Жорко ми донесе от Австрия кашонче с любимата ми бира "Еделвайс".

@@ -7,6 +7,8 @@ title: Молба за отпуск
 published: true
 summary: ''
 id: 2011-08-11-molba-za-otpusk
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/IMG_1314.jpg
 ---
 
 ![](https://raw.githubusercontent.com/kirilchristov/blog_images/main/2011/08/IMG_1314.jpg)

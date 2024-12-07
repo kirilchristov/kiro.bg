@@ -8,6 +8,8 @@ title: Новата карта на Европа
 published: true
 summary: ''
 id: 2009-03-19-novata-karta-na-evropa
+postImage: >-
+  https://raw.githubusercontent.com/kirilchristov/blog_images/main/2009/03/00035950jpg.jpeg
 ---
 
 Мдааа... Според последите събития би рябвало да изглежда така.
