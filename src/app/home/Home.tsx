@@ -1,13 +1,14 @@
 'use client';
 
 import {useEffect, useState} from 'react';
-import Link from 'next/link';
 import Pagination from '../components/Pagination/Pagination';
 import {PostData} from '../../../lib/types';
 import {useRouter, useSearchParams} from 'next/navigation';
-import DateFormatter from '../components/DateFormatter/DateFormatter';
-import ImageContent from '../components/Image/ImageContent';
 import ListPostItem from '../components/ListPostItem/ListPostItem';
+import {Box} from '@chakra-ui/react/box';
+import {Heading} from '@chakra-ui/react/typography';
+import {Spinner} from '@chakra-ui/react/spinner';
+import {Separator, Stack} from '@chakra-ui/react';
 
 export default function Home() {
   const router = useRouter();
@@ -39,8 +40,10 @@ export default function Home() {
   }, [currentPage]);
 
   return (
-    <div>
-      <h1>Kiro.bg</h1>
+    <>
+      <Heading as="h1" size="2xl" textAlign="center" mb={6}>
+        Kiro.bg
+      </Heading>
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
@@ -49,22 +52,28 @@ export default function Home() {
           router.push(`/?page=${page}`);
         }}
       />
-      <div>
-        <ul style={{listStyle: 'none', padding: 0}}>
-          {!posts.length && <h1>Чекай малко...</h1>}
-          {posts.map(({id, title, date, slug, postImage}) => (
-            <li key={id}>
-              <ListPostItem
-                id={id}
-                title={title}
-                date={date}
-                slug={slug}
-                postImage={postImage}
-              />
-            </li>
-          ))}
-        </ul>
-      </div>
+      <Box mt={6}>
+        {!posts.length ? (
+          <Box display="flex" justifyContent="center" alignItems="center">
+            <Spinner size="xl" />
+          </Box>
+        ) : (
+          <Stack gap={6}>
+            {posts.map(({id, title, date, slug, postImage}) => (
+              <Box key={id}>
+                <ListPostItem
+                  id={id}
+                  title={title}
+                  date={date}
+                  slug={slug}
+                  postImage={postImage}
+                />
+                <Separator />
+              </Box>
+            ))}
+          </Stack>
+        )}
+      </Box>
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
@@ -73,6 +82,6 @@ export default function Home() {
           router.push(`/?page=${page}`);
         }}
       />
-    </div>
+    </>
   );
 }

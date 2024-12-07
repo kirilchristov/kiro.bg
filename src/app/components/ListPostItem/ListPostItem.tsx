@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import DateFormatter from '../DateFormatter/DateFormatter';
-import ImageContent from '../Image/ImageContent';
+import {Image, Text, Heading, Stack, Box} from '@chakra-ui/react';
 
 type ListPostItemProps = {
   id: string;
@@ -11,19 +11,38 @@ type ListPostItemProps = {
 };
 
 export default function ListPostItem({
-  id,
-  slug,
   title,
   date,
+  slug,
   postImage,
 }: ListPostItemProps) {
   return (
-    <>
+    <Box
+      borderWidth="1px"
+      borderRadius="lg"
+      overflow="hidden"
+      p={4}
+      shadow="md"
+    >
       <Link href={`/${slug}`}>
-        {postImage && <ImageContent src={postImage} alt={title} />}
-        <h2>{title}</h2>
+        <Stack>
+          {postImage && (
+            <Image
+              src={postImage}
+              alt={title}
+              borderRadius="lg"
+              objectFit="cover"
+              maxH="auto"
+            />
+          )}
+          <Heading as="h2" size="md">
+            {title}
+          </Heading>
+          <Text fontSize="sm" fontWeight="medium" color="fg">
+            <DateFormatter dateString={date} />
+          </Text>
+        </Stack>
       </Link>
-      <DateFormatter dateString={date} />
-    </>
+    </Box>
   );
 }

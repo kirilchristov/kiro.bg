@@ -17,6 +17,9 @@ const nextConfig: NextConfig = {
       'avtora.com',
     ],
   },
+  experimental: {
+    optimizePackageImports: ['@chakra-ui/react'],
+  },
   async redirects() {
     const postsDirectory = path.join(process.cwd(), 'posts');
     const fileNames = fs.readdirSync(postsDirectory);

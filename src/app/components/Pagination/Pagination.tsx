@@ -1,3 +1,4 @@
+import {Button, Input} from '@chakra-ui/react';
 import {useState} from 'react';
 
 type PaginationProps = {
@@ -37,23 +38,24 @@ export default function Pagination({
 
   return (
     <nav>
-      <button
+      <Button
         onClick={() => handleClick(currentPage - 1)}
         disabled={currentPage === 1}
       >
         Previous
-      </button>
+      </Button>
       <span>
         Page {currentPage} of {totalPages}
       </span>
-      <button
+      <Button
         onClick={() => handleClick(currentPage + 1)}
         disabled={currentPage === totalPages}
       >
         Next
-      </button>
+      </Button>
       <div>
-        <input
+        <Input
+          maxW="sm"
           type="number"
           value={inputPage}
           onChange={handleInputChange}
@@ -66,7 +68,7 @@ export default function Pagination({
           max={totalPages}
           aria-label="Enter page number"
         />
-        <button onClick={handleInputSubmit}>Go</button>
+        <Button onClick={handleInputSubmit}>Go</Button>
       </div>
     </nav>
   );

@@ -1,4 +1,7 @@
 import {ReactNode} from 'react';
+import {Provider} from '@/components/ui/provider';
+import styles from './layout.module.scss';
+import Header from './components/Header/Header';
 
 export const metadata = {
   title: 'Next.js',
@@ -7,8 +10,15 @@ export const metadata = {
 
 export default function RootLayout({children}: {children: ReactNode}) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={styles.appContainer}>
+        <Provider>
+          <>
+            <Header />
+            {children}
+          </>
+        </Provider>
+      </body>
     </html>
   );
 }

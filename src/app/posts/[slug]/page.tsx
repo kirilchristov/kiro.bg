@@ -1,5 +1,5 @@
 import parseHtmlToReact from '@/app/utulities/parseHtmlToReact';
-import markdownToHtml from '../../../../lib/markdownToHtml';
+import markdownToHtml from '../../utulities/markdownToHtml';
 import {getPostData} from '../../../../lib/posts';
 import DateFormatter from '@/app/components/DateFormatter/DateFormatter';
 
@@ -18,12 +18,7 @@ export default async function PostPage({params}: Props) {
   }
 
   const htmlContent = await markdownToHtml(postData.content || '');
-
-  // console.log('htmlContent', htmlContent);
   const content = parseHtmlToReact(htmlContent);
-
-  // console.log('content', content);
-
   return (
     <article>
       <h1>{postData.title}</h1>
