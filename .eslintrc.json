@@ -31,5 +31,13 @@
     "react": {
       "version": "detect"
     }
-  }
+  },
+  "overrides": [
+    {
+      "files": ["src/components/ui/color-mode.tsx"],
+      "rules": {
+        "@typescript-eslint/no-empty-object-type": "off"
+      }
+    }
+  ]
 }

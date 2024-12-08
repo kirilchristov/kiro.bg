@@ -6,7 +6,6 @@ import {PostData} from '../../lib/types';
 import {useRouter, useSearchParams} from 'next/navigation';
 import ListPostItem from '../ListPostItem/ListPostItem';
 import {Box} from '@chakra-ui/react/box';
-import {Heading} from '@chakra-ui/react/typography';
 import {Spinner} from '@chakra-ui/react/spinner';
 import {Separator, Stack} from '@chakra-ui/react';
 
