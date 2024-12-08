@@ -1,6 +1,5 @@
 import {remark} from 'remark';
 import remarkBreaks from 'remark-breaks';
-import html from 'remark-html';
 import {visit} from 'unist-util-visit';
 import remarkGfm from 'remark-gfm';
 import remarkHtml from 'remark-html';

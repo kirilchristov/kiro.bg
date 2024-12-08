@@ -1,5 +1,3 @@
-import {ReactNode} from 'react';
-
 export type PostData = {
   categories: string[];
   date: string;
