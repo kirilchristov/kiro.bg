@@ -6,10 +6,22 @@ import parse, {
 } from 'html-react-parser';
 import VideoContent from '../components/Video/VideoContent';
 import ImageContent from '../components/ImageContent/ImageContent';
-import { Heading, Text } from '@chakra-ui/react';
-import { ElementType } from 'react';
+import {Heading, Text} from '@chakra-ui/react';
+import {ElementType} from 'react';
 
-type ConditionalValue = "sm" | "md" | "lg" | "xl" | "2xl" | "xs" | "3xl" | "4xl" | "5xl" | "6xl" | "7xl" | undefined;
+type ConditionalValue =
+  | 'sm'
+  | 'md'
+  | 'lg'
+  | 'xl'
+  | '2xl'
+  | 'xs'
+  | '3xl'
+  | '4xl'
+  | '5xl'
+  | '6xl'
+  | '7xl'
+  | undefined;
 
 export default function parseHtmlToReact(html: string) {
   const options: HTMLReactParserOptions = {
@@ -49,22 +61,20 @@ export default function parseHtmlToReact(html: string) {
           };
 
           return (
-            <Heading as={name as ElementType} size={sizeMap[name] as ConditionalValue} mb={4}>
+            <Heading
+              as={name as ElementType}
+              size={sizeMap[name] as ConditionalValue}
+              mb={4}
+            >
               {domToReact(children as DOMNode[])}
             </Heading>
           );
         }
 
-
         // Handle paragraphs
         if (name === 'p') {
-          return (
-            <Text mb={4}>
-              {domToReact(children as DOMNode[])}
-            </Text>
-          );
+          return <Text mb={4}>{domToReact(children as DOMNode[])}</Text>;
         }
-
       }
       return undefined;
     },
