@@ -77,7 +77,6 @@ export async function getPostData(slug: string): Promise<PostData> {
   const {data, content} = matter(fileContents);
   const htmlContent = await markdownToHtml(content || '');
 
-
   return {
     slug,
     title: data.title,

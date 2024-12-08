@@ -16,7 +16,7 @@ export default async function PostPage({params}: Props) {
     return <div>Post not found</div>;
   }
 
-  const reactContent = parseHtmlToReact(postData.content)
+  const reactContent = parseHtmlToReact(postData.content);
 
   return (
     <article>
