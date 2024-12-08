@@ -3,7 +3,6 @@ import path from 'path';
 import matter from 'gray-matter';
 import {PostData} from './types';
 import markdownToHtml from '../utulities/markdownToHtml';
-import parseHtmlToReact from '../utulities/parseHtmlToReact';
 
 const postsDir = 'posts';
 const postsDirectory = path.join(process.cwd(), postsDir);

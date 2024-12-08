@@ -1,12 +1,14 @@
-import React from 'react';
+import {Box, Flex, Heading} from '@chakra-ui/react';
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="container">
-        <h1 className="header-title">Kiro.bg - блог на Кирил Христов</h1>
-      </div>
-    </header>
+    <Box p={4} position="sticky" top="0" minH="50px" bg="white" zIndex="sticky">
+      <Flex alignItems="center" justifyContent="space-between">
+        <Heading size="lg">
+          Kiro.bg - екс-блог и настоящ архив от глупости!
+        </Heading>
+      </Flex>
+    </Box>
   );
 };
 

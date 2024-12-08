@@ -1,4 +1,4 @@
-import {Button, Input} from '@chakra-ui/react';
+import {Button, Input, Text} from '@chakra-ui/react';
 import {useState} from 'react';
 
 type PaginationProps = {
@@ -32,44 +32,62 @@ export default function Pagination({
     if (inputPage >= 1 && inputPage <= totalPages) {
       onPageChange(inputPage);
     } else {
-      alert(`Please enter a valid page number between 1 and ${totalPages}`);
+      alert(`Моля въведете номер на страница между 1 и ${totalPages}`);
     }
   };
 
   return (
-    <nav>
-      <Button
-        onClick={() => handleClick(currentPage - 1)}
-        disabled={currentPage === 1}
-      >
-        Previous
-      </Button>
-      <span>
-        Page {currentPage} of {totalPages}
-      </span>
-      <Button
-        onClick={() => handleClick(currentPage + 1)}
-        disabled={currentPage === totalPages}
-      >
-        Next
-      </Button>
-      <div>
-        <Input
-          maxW="sm"
-          type="number"
-          value={inputPage}
-          onChange={handleInputChange}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter') {
-              handleInputSubmit();
-            }
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+      }}
+    >
+      <nav>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: '1rem',
           }}
-          min={1}
-          max={totalPages}
-          aria-label="Enter page number"
-        />
-        <Button onClick={handleInputSubmit}>Go</Button>
-      </div>
-    </nav>
+        >
+          <Button
+            onClick={() => handleClick(currentPage - 1)}
+            disabled={currentPage === 1}
+            variant="ghost"
+          >
+            Назад
+          </Button>
+          <Text textStyle="sm" whiteSpace="nowrap">
+            Страница {currentPage} от {totalPages}
+          </Text>
+          <Button
+            onClick={() => handleClick(currentPage + 1)}
+            disabled={currentPage === totalPages}
+            variant="ghost"
+          >
+            Напред
+          </Button>
+          <Input
+            maxW="sm"
+            type="number"
+            value={inputPage}
+            onChange={handleInputChange}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                handleInputSubmit();
+              }
+            }}
+            min={1}
+            max={totalPages}
+            aria-label="Въведи номер на страница"
+          />
+          <Button onClick={handleInputSubmit} variant="ghost">
+            Давай!
+          </Button>
+        </div>
+      </nav>
+    </div>
   );
 }
