@@ -41,9 +41,6 @@ export default function Home() {
 
   return (
     <>
-      <Heading as="h1" size="2xl" textAlign="center" mb={6}>
-        Kiro.bg
-      </Heading>
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
