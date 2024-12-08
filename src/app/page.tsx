@@ -1,6 +1,6 @@
 import Home from './components/Home/Home';
+import {Suspense} from 'react';
 
-// Metadata function
 export const generateMetadata = async () => {
   return {
     title: 'Kiro.bg - Блог на Кирил Христов',
@@ -31,5 +31,9 @@ export const generateMetadata = async () => {
 };
 
 export default function Page() {
-  return <Home />;
+  return (
+    <Suspense fallback={<div>Зареждам...</div>}>
+      <Home />
+    </Suspense>
+  );
 }
