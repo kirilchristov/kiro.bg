@@ -27,6 +27,12 @@ export default function ListPostItem({
     >
       <Link href={`/${slug}`}>
         <Stack>
+          <Heading as="h2" size="md">
+            {title}
+          </Heading>
+          <Text fontSize="sm" fontWeight="medium" color="fg">
+            <DateFormatter dateString={date} />
+          </Text>
           {postImage && (
             <Box
               position="relative"
@@ -51,12 +57,6 @@ export default function ListPostItem({
               />
             </Box>
           )}
-          <Heading as="h2" size="md">
-            {title}
-          </Heading>
-          <Text fontSize="sm" fontWeight="medium" color="fg">
-            <DateFormatter dateString={date} />
-          </Text>
         </Stack>
       </Link>
     </Box>

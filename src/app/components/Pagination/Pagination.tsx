@@ -57,7 +57,7 @@ export default function Pagination({
             disabled={currentPage === 1}
             variant="ghost"
           >
-            Назад
+            {'<<'}
           </Button>
           <Text textStyle="sm" whiteSpace="nowrap">
             Страница {currentPage} от {totalPages}
@@ -67,7 +67,7 @@ export default function Pagination({
             disabled={currentPage === totalPages}
             variant="ghost"
           >
-            Напред
+            {'>>'}
           </Button>
           <Input
             maxW="sm"
