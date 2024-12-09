@@ -9,7 +9,7 @@ const ImageContent = ({src, alt}: {src: string; alt: string}) => {
         width: '100%',
         maxWidth: '1600px',
         height: 'auto',
-        margin: '0 auto',
+        margin: '2rem auto',
       }}
     >
       <Image

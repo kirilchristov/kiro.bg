@@ -1,6 +1,6 @@
 import parseHtmlToReact from '@/app/utulities/parseHtmlToReact';
 import {getPostData} from '../../lib/api';
-import DateFormatter from '@/app/components/DateFormatter/DateFormatter';
+import SinglePost from '@/app/components/SinglePost/SinglePost';
 
 type Props = {
   params: Promise<{
@@ -19,11 +19,11 @@ export default async function PostPage({params}: Props) {
   const reactContent = parseHtmlToReact(postData.content);
 
   return (
-    <article>
-      <h1>{postData.title}</h1>
-      <DateFormatter dateString={postData.date} />
-      <div>{reactContent}</div>
-    </article>
+    <SinglePost
+      title={postData.title}
+      date={postData.date}
+      content={reactContent}
+    />
   );
 }
 

@@ -28,6 +28,7 @@ export async function getPaginatedPostsData(
         date: matterResult.data.date,
         slug: matterResult.data.slug,
         postImage: matterResult.data.postImage || '',
+        published: matterResult.data.published,
       };
     })
   );

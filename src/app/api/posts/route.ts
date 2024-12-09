@@ -6,6 +6,8 @@ export async function GET(request: Request) {
   const page = parseInt(searchParams.get('page') || '1', 10);
   const POST_PER_PAGE = 10;
 
+  console.log('- - - - - showAll - first attempt', searchParams);
+
   try {
     const {posts, totalPages} = await getPaginatedPostsData(
       page,

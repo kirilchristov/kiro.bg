@@ -12,7 +12,7 @@ import {Separator, Stack} from '@chakra-ui/react';
 export default function Home() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const initialPage = parseInt(searchParams.get('page') || '1', 10);
+  const initialPage = parseInt(searchParams?.get('page') || '1', 10);
 
   const [posts, setPosts] = useState<PostData[]>([]);
   const [currentPage, setCurrentPage] = useState(initialPage);

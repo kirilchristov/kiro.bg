@@ -28,13 +28,6 @@ export default function ListPostItem({
       <Link href={`/${slug}`}>
         <Stack>
           {postImage && (
-            // <Image
-            //   src={postImage}
-            //   alt={title}
-            //   borderRadius="lg"
-            //   objectFit="cover"
-            //   maxH="auto"
-            // />
             <Box
               position="relative"
               width="100%"

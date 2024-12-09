@@ -4,6 +4,7 @@ import styles from './layout.module.scss';
 import Header from './components/Header/Header';
 import Head from 'next/head';
 import {GoogleTagManager} from '@next/third-parties/google';
+import Footer from './components/Footer/Footer';
 
 export const metadata = {
   title: 'Next.js',
@@ -53,6 +54,7 @@ export default function RootLayout({children}: {children: ReactNode}) {
           <>
             <Header />
             {children}
+            <Footer />
           </>
         </Provider>
       </body>
