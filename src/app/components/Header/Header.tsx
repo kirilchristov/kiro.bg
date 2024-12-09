@@ -1,7 +1,16 @@
+'use client';
+
+import {useColorMode} from '@/components/ui/color-mode';
 import {Box, Flex, Heading} from '@chakra-ui/react';
 import Link from 'next/link';
 
 const Header = () => {
+  const {colorMode} = useColorMode();
+
+  const bgColor = colorMode === 'light' ? 'white' : 'gray.800';
+  const mainTextColor = colorMode === 'light' ? 'black' : 'white';
+  const subTextColor = colorMode === 'light' ? 'gray.600' : 'gray.300';
+
   return (
     <Box p={4} position="sticky" top="0" minH="50px" bg="white" zIndex="sticky">
       <Link href="/">
