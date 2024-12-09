@@ -12,15 +12,24 @@ const Header = () => {
   const subTextColor = colorMode === 'light' ? 'gray.600' : 'gray.300';
 
   return (
-    <Box p={4} position="sticky" top="0" minH="50px" bg="white" zIndex="sticky">
+    <Box
+      p={4}
+      position="sticky"
+      top="0"
+      minH="50px"
+      bg={bgColor}
+      zIndex="sticky"
+    >
       <Link href="/">
         <Flex
           flexDirection="column"
           alignItems="center"
           justifyContent="space-between"
         >
-          <Heading size="lg">Kiro.bg</Heading>
-          <Heading size="sm" color="GrayText">
+          <Heading size="lg" color={mainTextColor}>
+            Kiro.bg
+          </Heading>
+          <Heading size="sm" color={subTextColor}>
             Eкс-блог и настоящ архив от глупости!
           </Heading>
         </Flex>
