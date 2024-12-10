@@ -12,9 +12,9 @@ export const generateMetadata = async () => {
       siteName: 'Kiro.bg',
       images: [
         {
-          url: '', //  TODO: Create a default image
-          width: 800,
-          height: 600,
+          url: '/meta_image.png',
+          width: 1200,
+          height: 630,
           alt: 'Kiro Blog Default Image',
         },
       ],
@@ -25,7 +25,7 @@ export const generateMetadata = async () => {
       card: 'summary_large_image',
       title: 'Kiro.bg - Блог на Кирил Христов',
       description: 'Интернет архив от глупости и закачки.',
-      images: [''], // TODO: Create a default image
+      images: ['/meta_image.png'],
     },
   };
 };
