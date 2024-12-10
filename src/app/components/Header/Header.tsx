@@ -9,7 +9,6 @@ const Header = () => {
   const {colorMode} = useColorMode();
 
   const bgColor = colorMode === 'light' ? 'white' : 'gray.800';
-  // const mainTextColor = colorMode === 'light' ? 'black' : 'white';
   const mainTextColor = BLUE_500;
   const subTextColor = colorMode === 'light' ? 'gray.600' : 'gray.300';
 
