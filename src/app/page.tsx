@@ -2,6 +2,7 @@ import Home from './components/Home/Home';
 import {Suspense} from 'react';
 
 export const generateMetadata = async () => {
+  const imageUrl = 'https://www.kiro.bg/meta_image.png';
   return {
     title: 'Kiro.bg - Блог на Кирил Христов',
     description: 'Интернет архив от глупости и закачки.',
@@ -12,7 +13,7 @@ export const generateMetadata = async () => {
       siteName: 'Kiro.bg',
       images: [
         {
-          url: '/meta_image.png',
+          url: imageUrl,
           width: 1200,
           height: 630,
           alt: 'Kiro Blog Default Image',
@@ -25,7 +26,7 @@ export const generateMetadata = async () => {
       card: 'summary_large_image',
       title: 'Kiro.bg - Блог на Кирил Христов',
       description: 'Интернет архив от глупости и закачки.',
-      images: ['/meta_image.png'],
+      images: [imageUrl],
     },
   };
 };
