@@ -14,7 +14,11 @@ export default function Footer() {
       textAlign="center"
     >
       <Text fontSize="sm">
-        © 2007 - {currentYear} Kiro.bg - При кражба, цитирай!
+        © 2007 - {currentYear} Kiro.bg - Ако взимаш, цитирай!
+      </Text>
+      <Text fontSize="2xs">
+        Част от използваните снимкови материали преди 2018 са взимани без права
+        от интернет.
       </Text>
     </Box>
   );
