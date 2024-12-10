@@ -1,3 +1,7 @@
+## This project is still work in progress
+
+A personal blog migrated from Wordpress to Next with markdown files for content.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
