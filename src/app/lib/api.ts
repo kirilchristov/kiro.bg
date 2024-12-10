@@ -34,6 +34,7 @@ export async function getPaginatedPostsData(
   );
 
   const isLocal = process.env.NODE_ENV === 'development';
+  console.log('isLocal', isLocal);
 
   const sortedPosts = allPosts
     .filter((post) => (isLocal ? true : post.published))
