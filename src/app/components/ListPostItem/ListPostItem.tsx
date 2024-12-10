@@ -2,6 +2,7 @@ import Link from 'next/link';
 import DateFormatter from '../DateFormatter/DateFormatter';
 import {Text, Heading, Stack, Box} from '@chakra-ui/react';
 import NextImage from 'next/image';
+import {BLUE_500} from '@/app/utulities/colors';
 
 type ListPostItemProps = {
   id: string;
@@ -27,7 +28,7 @@ export default function ListPostItem({
     >
       <Link href={`/${slug}`}>
         <Stack>
-          <Heading as="h2" size="md">
+          <Heading as="h2" size="md" color={BLUE_500}>
             {title}
           </Heading>
           <Text fontSize="sm" fontWeight="medium" color="fg">

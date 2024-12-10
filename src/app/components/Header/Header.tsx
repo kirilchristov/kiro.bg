@@ -1,5 +1,6 @@
 'use client';
 
+import {BLUE_500} from '@/app/utulities/colors';
 import {useColorMode} from '@/components/ui/color-mode';
 import {Box, Flex, Heading} from '@chakra-ui/react';
 import Link from 'next/link';
@@ -8,7 +9,7 @@ const Header = () => {
   const {colorMode} = useColorMode();
 
   const bgColor = colorMode === 'light' ? 'white' : 'gray.800';
-  const mainTextColor = colorMode === 'light' ? 'black' : 'white';
+  const mainTextColor = BLUE_500;
   const subTextColor = colorMode === 'light' ? 'gray.600' : 'gray.300';
 
   return (
@@ -19,6 +20,8 @@ const Header = () => {
       minH="50px"
       bg={bgColor}
       zIndex="sticky"
+      borderBottom="2px solid"
+      borderColor={BLUE_500}
     >
       <Link href="/">
         <Flex
@@ -27,7 +30,7 @@ const Header = () => {
           justifyContent="space-between"
         >
           <Heading size="lg" color={mainTextColor}>
-            Kiro.bg
+            kiro.bg
           </Heading>
           <Heading size="sm" color={subTextColor}>
             Eкс-блог и настоящ архив от глупости!

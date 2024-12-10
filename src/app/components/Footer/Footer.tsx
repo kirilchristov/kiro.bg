@@ -1,3 +1,4 @@
+import {BLUE_500} from '@/app/utulities/colors';
 import {Box, Text} from '@chakra-ui/react';
 
 export default function Footer() {
@@ -8,12 +9,16 @@ export default function Footer() {
       as="footer"
       w="100%"
       p={4}
-      bg="gray.800"
+      bg={BLUE_500}
       color="white"
       textAlign="center"
     >
       <Text fontSize="sm">
-        © 2007 - {currentYear} Kiro.bg - При кражба, цитирай!
+        © 2007 - {currentYear} Kiro.bg - Ако взимаш, цитирай!
+      </Text>
+      <Text fontSize="2xs">
+        Част от използваните снимкови материали преди 2018 са взимани без права
+        от интернет.
       </Text>
     </Box>
   );
