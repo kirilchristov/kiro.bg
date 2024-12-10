@@ -1,5 +1,6 @@
 'use client';
 
+import {BLUE_500} from '@/app/utulities/colors';
 import {useColorMode} from '@/components/ui/color-mode';
 import {Box, Flex, Heading} from '@chakra-ui/react';
 import Link from 'next/link';
@@ -19,6 +20,8 @@ const Header = () => {
       minH="50px"
       bg={bgColor}
       zIndex="sticky"
+      borderBottom="2px solid"
+      borderColor={BLUE_500}
     >
       <Link href="/">
         <Flex

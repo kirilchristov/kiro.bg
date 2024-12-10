@@ -56,7 +56,7 @@ export default function Home() {
         ) : (
           <Stack gap={6}>
             {posts.map(({id, title, date, slug, postImage}) => (
-              <Box key={id}>
+              <Box key={id} p={2}>
                 <ListPostItem
                   id={id}
                   title={title}

@@ -1,4 +1,4 @@
-import {Button, Input, Text} from '@chakra-ui/react';
+import {Box, Button, Input, Text} from '@chakra-ui/react';
 import {useState} from 'react';
 
 type PaginationProps = {
@@ -12,45 +12,38 @@ export default function Pagination({
   totalPages,
   onPageChange,
 }: PaginationProps) {
-  const [inputPage, setInputPage] = useState(currentPage);
+  const [inputPage, setInputPage] = useState<string>(String(currentPage));
 
   const handleClick = (page: number) => {
     if (page >= 1 && page <= totalPages) {
       onPageChange(page);
-      setInputPage(page);
+      setInputPage(String(page));
     }
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = parseInt(e.target.value, 10);
-    if (!isNaN(value)) {
-      setInputPage(value);
-    }
+    setInputPage(e.target.value); // Directly set the string value
   };
 
   const handleInputSubmit = () => {
-    if (inputPage >= 1 && inputPage <= totalPages) {
-      onPageChange(inputPage);
-    } else {
+    const page = parseInt(inputPage, 10);
+
+    if (!inputPage || isNaN(page) || page < 1 || page > totalPages) {
       alert(`Моля въведете номер на страница между 1 и ${totalPages}`);
+    } else {
+      onPageChange(page);
+      setInputPage(String(page));
     }
   };
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-      }}
-    >
+    <Box display="flex" justifyContent="center" p="16px">
       <nav>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            gap: '1rem',
-          }}
+        <Box
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          gap="1rem"
         >
           <Button
             onClick={() => handleClick(currentPage - 1)}
@@ -70,8 +63,8 @@ export default function Pagination({
             {'>>'}
           </Button>
           <Input
-            maxW="sm"
-            type="number"
+            maxW={16}
+            type="text"
             value={inputPage}
             onChange={handleInputChange}
             onKeyDown={(e) => {
@@ -83,11 +76,15 @@ export default function Pagination({
             max={totalPages}
             aria-label="Въведи номер на страница"
           />
-          <Button onClick={handleInputSubmit} variant="ghost">
+          <Button
+            onClick={handleInputSubmit}
+            variant="ghost"
+            disabled={Number(inputPage) <= 0 || !inputPage}
+          >
             Давай!
           </Button>
-        </div>
+        </Box>
       </nav>
-    </div>
+    </Box>
   );
 }

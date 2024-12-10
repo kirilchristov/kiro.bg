@@ -33,7 +33,11 @@ export async function getPaginatedPostsData(
     })
   );
 
-  const sortedPosts = allPosts.sort((a, b) => (a.date < b.date ? 1 : -1));
+  const isLocal = process.env.NODE_ENV === 'development';
+
+  const sortedPosts = allPosts
+    .filter((post) => (isLocal ? true : post.published))
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
   const startIndex = (page - 1) * postsPerPage;
   const paginatedPosts = sortedPosts.slice(
     startIndex,
