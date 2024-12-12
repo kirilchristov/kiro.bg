@@ -1,3 +1,4 @@
+import {AspectRatio, Box} from '@chakra-ui/react';
 import React from 'react';
 
 type VideoComponentProps = {
@@ -21,13 +22,18 @@ export default function VideoContent({src}: VideoComponentProps) {
   }
 
   return (
-    <div className="video-wrapper">
-      <iframe
-        src={embedUrl}
-        allow="autoplay; fullscreen; picture-in-picture"
-        allowFullScreen
-        title="Embedded video"
-      ></iframe>
-    </div>
+    <Box className="video-wrapper">
+      <AspectRatio ratio={16 / 9}>
+        <iframe
+          src={embedUrl}
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+          title="Embedded video"
+          style={{
+            border: 'none',
+          }}
+        />
+      </AspectRatio>
+    </Box>
   );
 }

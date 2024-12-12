@@ -18,6 +18,7 @@ const Header = () => {
 
   return (
     <Box
+      px={4}
       position="sticky"
       top="0"
       minH="50px"
@@ -33,7 +34,11 @@ const Header = () => {
               kiro.bg
             </Heading>
           </Link>
-          <Heading size="sm" color={subTextColor}>
+          <Heading
+            size="sm"
+            color={subTextColor}
+            display={{base: 'none', sm: 'block'}}
+          >
             Eкс-блог и настоящ архив от глупости!
           </Heading>
         </Flex>

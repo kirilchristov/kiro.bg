@@ -12,19 +12,48 @@ import {fetchPosts} from '@/app/utulities/fetchPosts';
 export default function Home() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const initialPage = parseInt(searchParams?.get('page') || '1', 10);
+
+  const initialPage = searchParams?.get('page') || '1';
   const initialSearchTerm = searchParams?.get('searchTerm') || '';
 
   const {posts, setPosts} = useSearch();
-  const [currentPage, setCurrentPage] = useState(initialPage);
-  const [totalPages, setTotalPages] = useState(1);
+  const [currentPage, setCurrentPage] = useState<string>(initialPage);
+  const [inputPage, setInputPage] = useState<string>(initialPage);
+  const [totalPages, setTotalPages] = useState<string>('1');
+
+  const handlePageChange = (page: string) => {
+    const pageNumber = Number(page);
+
+    if (pageNumber >= 1 && pageNumber <= Number(totalPages)) {
+      setCurrentPage(page);
+      setInputPage(page);
+      router.push(
+        `/?searchTerm=${encodeURIComponent(initialSearchTerm)}&page=${page}`
+      );
+    }
+  };
+
+  const handleInputSubmit = () => {
+    const pageNumber = Number(inputPage);
+
+    if (
+      !inputPage ||
+      isNaN(pageNumber) ||
+      pageNumber < 1 ||
+      pageNumber > Number(totalPages)
+    ) {
+      alert(`Моля въведете номер на страница между 1 и ${totalPages}`);
+    } else {
+      handlePageChange(inputPage);
+    }
+  };
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetchPosts(currentPage, initialSearchTerm);
+      const data = await fetchPosts(Number(currentPage), initialSearchTerm);
 
       setPosts(data.posts);
-      setTotalPages(data.totalPages);
+      setTotalPages(String(data.totalPages));
     };
 
     fetchData();
@@ -35,17 +64,15 @@ export default function Home() {
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
-        onPageChange={(page) => {
-          setCurrentPage(page);
-          router.push(
-            `/?searchTerm=${encodeURIComponent(initialSearchTerm)}&page=${page}`
-          );
-        }}
+        inputPage={inputPage}
+        onPageChange={handlePageChange}
+        onInputChange={setInputPage}
+        onInputSubmit={handleInputSubmit}
       />
 
       <Box mt={6}>
         {!posts.length ? (
-          !totalPages ? (
+          totalPages === '0' ? (
             'Нищо не намирам'
           ) : (
             <Box display="flex" justifyContent="center" alignItems="center">
@@ -72,12 +99,10 @@ export default function Home() {
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
-        onPageChange={(page) => {
-          setCurrentPage(page);
-          router.push(
-            `/?searchTerm=${encodeURIComponent(initialSearchTerm)}&page=${page}`
-          );
-        }}
+        inputPage={inputPage}
+        onPageChange={handlePageChange}
+        onInputChange={setInputPage}
+        onInputSubmit={handleInputSubmit}
       />
     </>
   );
