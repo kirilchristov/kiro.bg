@@ -6,7 +6,7 @@ import parse, {
 } from 'html-react-parser';
 import VideoContent from '../../components/Video/VideoContent';
 import ImageContent from '../../components/ImageContent/ImageContent';
-import {Heading, List, ListItem, ListRoot, Text} from '@chakra-ui/react';
+import {Heading, List, Text} from '@chakra-ui/react';
 import {ElementType} from 'react';
 import {Link as ChakraLink} from '@chakra-ui/react';
 import {BLUE_500} from './colors';

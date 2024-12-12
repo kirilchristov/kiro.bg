@@ -2,6 +2,7 @@ import {Box, Heading, Text} from '@chakra-ui/react';
 import DateFormatter from '../DateFormatter/DateFormatter';
 import {ReactNode} from 'react';
 import {BLUE_500} from '@/app/utulities/colors';
+import styles from './SinglePost.module.scss';
 
 type SinglePostProps = {
   title: string;
@@ -19,7 +20,7 @@ export default function SinglePost({title, date, content}: SinglePostProps) {
         <Text fontSize="sm" fontWeight="medium" color="fg">
           <DateFormatter dateString={date} />
         </Text>
-        <Box>{content}</Box>
+        <Box className={styles.content}>{content}</Box>
       </article>
     </Box>
   );
