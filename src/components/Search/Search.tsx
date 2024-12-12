@@ -5,6 +5,7 @@ import {Box, Input, Stack, IconButton} from '@chakra-ui/react';
 import {BLUE_500} from '@/app/utulities/colors';
 import {LuSearch} from 'react-icons/lu';
 import {useRouter, useSearchParams} from 'next/navigation';
+import {fetchPosts} from '@/app/utulities/fetchPosts';
 
 type SearchPostsProps = {
   onSearchResults: (posts: any[]) => void;
@@ -23,13 +24,10 @@ const SearchPosts = ({onSearchResults}: SearchPostsProps) => {
   }, [searchParams]);
 
   const handleSearch = async () => {
-    if (!searchTerm.trim()) return;
-
     router.push(`/?searchTerm=${encodeURIComponent(searchTerm)}&page=1`);
 
     try {
-      const res = await fetch(`/api/posts?searchTerm=${searchTerm}&page=1`);
-      const data = await res.json();
+      const data = await fetchPosts(1, searchTerm);
       onSearchResults(data.posts);
     } catch (error) {
       console.error('Search failed:', error);

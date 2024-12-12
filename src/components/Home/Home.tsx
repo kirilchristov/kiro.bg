@@ -7,6 +7,7 @@ import {useRouter, useSearchParams} from 'next/navigation';
 import ListPostItem from '../ListPostItem/ListPostItem';
 import {Box, Spinner, Stack} from '@chakra-ui/react';
 import {useSearch} from '../Search/SearchProvider/SearchProvider';
+import {fetchPosts} from '@/app/utulities/fetchPosts';
 
 export default function Home() {
   const router = useRouter();
@@ -19,25 +20,14 @@ export default function Home() {
   const [totalPages, setTotalPages] = useState(1);
 
   useEffect(() => {
-    const fetchPosts = async (page: number, searchTerm: string) => {
-      try {
-        const response = await fetch(
-          `/api/posts?page=${page}&searchTerm=${encodeURIComponent(searchTerm)}`
-        );
-        const data = await response.json();
-        console.log('The data', data);
+    const fetchData = async () => {
+      const data = await fetchPosts(currentPage, initialSearchTerm);
 
-        if (response.ok) {
-          setPosts(data.posts);
-          setTotalPages(data.totalPages);
-        } else {
-          console.error('Failed to fetch posts:', data.error);
-        }
-      } catch (error) {
-        console.error('Error fetching posts:', error);
-      }
+      setPosts(data.posts);
+      setTotalPages(data.totalPages);
     };
-    fetchPosts(currentPage, initialSearchTerm);
+
+    fetchData();
   }, [currentPage, initialSearchTerm, setPosts]);
 
   return (
