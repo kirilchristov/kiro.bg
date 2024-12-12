@@ -13,7 +13,7 @@ export default function SinglePost({title, date, content}: SinglePostProps) {
   return (
     <Box p={4}>
       <article>
-        <Heading as="h1" size="3xl" mb={8} mt={8} color={BLUE_500}>
+        <Heading as="h1" size="3xl" my={8} color={BLUE_500}>
           {title}
         </Heading>
         <Text fontSize="sm" fontWeight="medium" color="fg">

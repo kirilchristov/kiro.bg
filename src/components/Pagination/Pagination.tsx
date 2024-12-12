@@ -4,7 +4,6 @@ import {useState} from 'react';
 type PaginationProps = {
   currentPage: number;
   totalPages: number;
-  // eslint-disable-next-line no-unused-vars
   onPageChange: (page: number) => void;
 };
 
@@ -39,53 +38,51 @@ export default function Pagination({
 
   return (
     <Box display="flex" justifyContent="center" p="16px">
-      <nav>
-        <Box
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-          gap="1rem"
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        gap="1rem"
+      >
+        <Button
+          onClick={() => handleClick(currentPage - 1)}
+          disabled={currentPage === 1}
+          variant="ghost"
         >
-          <Button
-            onClick={() => handleClick(currentPage - 1)}
-            disabled={currentPage === 1}
-            variant="ghost"
-          >
-            {'<<'}
-          </Button>
-          <Text textStyle="sm" whiteSpace="nowrap">
-            Страница {currentPage} от {totalPages}
-          </Text>
-          <Button
-            onClick={() => handleClick(currentPage + 1)}
-            disabled={currentPage === totalPages}
-            variant="ghost"
-          >
-            {'>>'}
-          </Button>
-          <Input
-            maxW={16}
-            type="text"
-            value={inputPage}
-            onChange={handleInputChange}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter') {
-                handleInputSubmit();
-              }
-            }}
-            min={1}
-            max={totalPages}
-            aria-label="Въведи номер на страница"
-          />
-          <Button
-            onClick={handleInputSubmit}
-            variant="ghost"
-            disabled={Number(inputPage) <= 0 || !inputPage}
-          >
-            Давай!
-          </Button>
-        </Box>
-      </nav>
+          {'<<'}
+        </Button>
+        <Text textStyle="sm" whiteSpace="nowrap">
+          Страница {currentPage} от {totalPages}
+        </Text>
+        <Button
+          onClick={() => handleClick(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          variant="ghost"
+        >
+          {'>>'}
+        </Button>
+        <Input
+          maxW={16}
+          type="text"
+          value={inputPage}
+          onChange={handleInputChange}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              handleInputSubmit();
+            }
+          }}
+          min={1}
+          max={totalPages}
+          aria-label="Въведи номер на страница"
+        />
+        <Button
+          onClick={handleInputSubmit}
+          variant="ghost"
+          disabled={Number(inputPage) <= 0 || !inputPage}
+        >
+          Давай!
+        </Button>
+      </Box>
     </Box>
   );
 }
