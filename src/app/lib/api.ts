@@ -9,7 +9,8 @@ const postsDirectory = path.join(process.cwd(), postsDir);
 
 export async function getPaginatedPostsData(
   page: number,
-  postsPerPage: number
+  postsPerPage: number,
+  searchTerm: string = ''
 ) {
   const fileNames = await fs.promises.readdir(postsDirectory);
   const totalPosts = fileNames.length;
@@ -25,6 +26,8 @@ export async function getPaginatedPostsData(
       return {
         id,
         title: matterResult.data.title,
+        summary: matterResult.data.summary,
+        content: matterResult.content,
         date: matterResult.data.date,
         slug: matterResult.data.slug,
         postImage: matterResult.data.postImage || '',
@@ -37,7 +40,14 @@ export async function getPaginatedPostsData(
 
   const sortedPosts = allPosts
     .filter((post) => (isLocal ? true : post.published))
-    .sort((a, b) => (a.date < b.date ? 1 : -1));
+    .sort((a, b) => (a.date < b.date ? 1 : -1))
+    .filter((post) =>
+      [post.title, post.summary, post.content]
+        .join(' ')
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase())
+    );
+
   const startIndex = (page - 1) * postsPerPage;
   const paginatedPosts = sortedPosts.slice(
     startIndex,
@@ -50,7 +60,7 @@ export async function getPaginatedPostsData(
   };
 }
 
-export async function getPostData(slug: string): Promise<PostData> {
+export const getPostData = async (slug: string): Promise<PostData> => {
   const fileNames = fs.readdirSync(postsDirectory);
   const matchedFile = fileNames.find((fileName) => {
     const fullPath = path.join(postsDirectory, fileName);
@@ -94,4 +104,4 @@ export async function getPostData(slug: string): Promise<PostData> {
     id: data.id || '',
     ...data,
   };
-}
+};

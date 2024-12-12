@@ -1,7 +1,7 @@
 import {NextResponse} from 'next/server';
 import type {NextRequest} from 'next/server';
 
-export function middleware(request: NextRequest) {
+export const middleware = (request: NextRequest) => {
   const {pathname} = request.nextUrl;
 
   // Skip paths that already include "/posts/"
@@ -17,7 +17,7 @@ export function middleware(request: NextRequest) {
   // Rewrite the request to include the "/posts/" prefix
   const newPathname = `/posts${pathname}`;
   return NextResponse.redirect(new URL(newPathname, request.url));
-}
+};
 
 export const config = {
   matcher: ['/posts/:path*', '/:slug', '/'],

@@ -8,9 +8,9 @@ import Link from 'next/link';
 const Header = () => {
   const {colorMode} = useColorMode();
 
-  const bgColor = colorMode === 'light' ? 'white' : 'gray.800';
+  const bgColor = colorMode === 'dark' ? 'gray.800' : 'white';
   const mainTextColor = BLUE_500;
-  const subTextColor = colorMode === 'light' ? 'gray.600' : 'gray.300';
+  const subTextColor = colorMode === 'dark' ? 'gray.300' : 'gray.600';
 
   return (
     <Box

@@ -8,6 +8,7 @@ import ListPostItem from '../ListPostItem/ListPostItem';
 import {Box} from '@chakra-ui/react/box';
 import {Spinner} from '@chakra-ui/react/spinner';
 import {Separator, Stack} from '@chakra-ui/react';
+import SearchPosts from '../Search/Search';
 
 export default function Home() {
   const router = useRouter();
@@ -48,11 +49,16 @@ export default function Home() {
           router.push(`/?page=${page}`);
         }}
       />
+      <SearchPosts onSearchResults={setPosts} />
       <Box mt={6}>
         {!posts.length ? (
-          <Box display="flex" justifyContent="center" alignItems="center">
-            <Spinner size="xl" />
-          </Box>
+          totalPages > 1 ? (
+            'Нищо не намирам'
+          ) : (
+            <Box display="flex" justifyContent="center" alignItems="center">
+              <Spinner size="xl" />
+            </Box>
+          )
         ) : (
           <Stack gap={6}>
             {posts.map(({id, title, date, slug, postImage}) => (
