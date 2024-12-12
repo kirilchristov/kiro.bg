@@ -36,7 +36,6 @@ export async function getPaginatedPostsData(
   );
 
   const isLocal = process.env.NODE_ENV === 'development';
-  console.log(' - - - - isLocal', isLocal);
 
   const sortedPosts = allPosts
     .filter((post) => (isLocal ? true : post.published))
@@ -53,8 +52,6 @@ export async function getPaginatedPostsData(
     startIndex,
     startIndex + postsPerPage
   );
-
-  console.log('search results:', searchTerm, paginatedPosts.length);
 
   return {
     posts: paginatedPosts,
