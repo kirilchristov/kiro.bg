@@ -6,9 +6,11 @@ import {BLUE_500} from '@/app/utulities/colors';
 import {LuSearch} from 'react-icons/lu';
 import {useRouter, useSearchParams} from 'next/navigation';
 import {fetchPosts} from '@/app/utulities/fetchPosts';
+import {PostData} from '@/app/lib/types';
 
 type SearchPostsProps = {
-  onSearchResults: (posts: any[]) => void;
+  // eslint-disable-next-line no-unused-vars
+  onSearchResults: (posts: PostData[]) => void;
 };
 
 const SearchPosts = ({onSearchResults}: SearchPostsProps) => {

@@ -13,7 +13,6 @@ export async function getPaginatedPostsData(
   searchTerm: string = ''
 ) {
   const fileNames = await fs.promises.readdir(postsDirectory);
-  const totalPosts = fileNames.length;
 
   const allPosts = await Promise.all(
     fileNames.map(async (fileName) => {

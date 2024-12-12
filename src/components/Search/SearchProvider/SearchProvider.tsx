@@ -5,6 +5,7 @@ import {PostData} from '@/app/lib/types';
 
 type SearchContextType = {
   posts: PostData[];
+  // eslint-disable-next-line no-unused-vars
   setPosts: (posts: PostData[]) => void;
 };
 
