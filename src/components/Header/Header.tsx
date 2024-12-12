@@ -4,17 +4,20 @@ import {BLUE_500} from '@/app/utulities/colors';
 import {useColorMode} from '@/components/ui/color-mode';
 import {Box, Flex, Heading} from '@chakra-ui/react';
 import Link from 'next/link';
+import {useSearch} from '../Search/SearchProvider/SearchProvider';
+import SearchPosts from '../Search/Search';
+import {Suspense} from 'react';
 
 const Header = () => {
   const {colorMode} = useColorMode();
+  const {setPosts} = useSearch();
 
-  const bgColor = colorMode === 'light' ? 'white' : 'gray.800';
+  const bgColor = colorMode === 'dark' ? 'gray.800' : 'white';
   const mainTextColor = BLUE_500;
-  const subTextColor = colorMode === 'light' ? 'gray.600' : 'gray.300';
+  const subTextColor = colorMode === 'dark' ? 'gray.300' : 'gray.600';
 
   return (
     <Box
-      p={4}
       position="sticky"
       top="0"
       minH="50px"
@@ -23,20 +26,23 @@ const Header = () => {
       borderBottom="2px solid"
       borderColor={BLUE_500}
     >
-      <Link href="/">
-        <Flex
-          flexDirection="column"
-          alignItems="center"
-          justifyContent="space-between"
-        >
-          <Heading size="lg" color={mainTextColor}>
-            kiro.bg
-          </Heading>
+      <Flex align="center" justify="space-between">
+        <Flex flexDirection="column">
+          <Link href="/">
+            <Heading size="lg" color={mainTextColor}>
+              kiro.bg
+            </Heading>
+          </Link>
           <Heading size="sm" color={subTextColor}>
             Eкс-блог и настоящ архив от глупости!
           </Heading>
         </Flex>
-      </Link>
+        <Box>
+          <Suspense>
+            <SearchPosts onSearchResults={setPosts} />
+          </Suspense>
+        </Box>
+      </Flex>
     </Box>
   );
 };

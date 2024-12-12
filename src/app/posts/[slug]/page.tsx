@@ -1,6 +1,7 @@
 import parseHtmlToReact from '@/app/utulities/parseHtmlToReact';
 import {getPostData} from '../../lib/api';
-import SinglePost from '@/app/components/SinglePost/SinglePost';
+import SinglePost from '@/components/SinglePost/SinglePost';
+import {postMetadata} from '@/app/utulities/postMetadata';
 
 type Props = {
   params: Promise<{
@@ -38,28 +39,5 @@ export async function generateMetadata({params}: Props) {
     };
   }
 
-  return {
-    title: `Kiro.bg - ${postData.title}`,
-    description: postData.summary || 'Read more about this post.',
-    openGraph: {
-      title: postData.title,
-      description: postData?.summary || 'Read more about this post.',
-      url: `/posts/${postData.slug}`,
-      type: 'article',
-      images: [
-        {
-          url: postData?.postImage,
-          width: 'auto',
-          height: 'auto',
-          alt: postData.title,
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: postData.title,
-      description: postData.summary,
-      images: postData.postImage ? [postData.postImage] : undefined,
-    },
-  };
+  return postMetadata(postData);
 }

@@ -28,7 +28,7 @@ export default function ListPostItem({
     >
       <Link href={`/${slug}`}>
         <Stack>
-          <Heading as="h2" size="md" color={BLUE_500}>
+          <Heading as="h1" size="3xl" color={BLUE_500}>
             {title}
           </Heading>
           <Text fontSize="sm" fontWeight="medium" color="fg">

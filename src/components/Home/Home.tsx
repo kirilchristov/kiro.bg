@@ -2,41 +2,33 @@
 
 import {useEffect, useState} from 'react';
 import Pagination from '../Pagination/Pagination';
-import {PostData} from '../../lib/types';
+import {PostData} from '../../app/lib/types';
 import {useRouter, useSearchParams} from 'next/navigation';
 import ListPostItem from '../ListPostItem/ListPostItem';
-import {Box} from '@chakra-ui/react/box';
-import {Spinner} from '@chakra-ui/react/spinner';
-import {Separator, Stack} from '@chakra-ui/react';
+import {Box, Spinner, Stack} from '@chakra-ui/react';
+import {useSearch} from '../Search/SearchProvider/SearchProvider';
+import {fetchPosts} from '@/app/utulities/fetchPosts';
 
 export default function Home() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const initialPage = parseInt(searchParams?.get('page') || '1', 10);
+  const initialSearchTerm = searchParams?.get('searchTerm') || '';
 
-  const [posts, setPosts] = useState<PostData[]>([]);
+  const {posts, setPosts} = useSearch();
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [totalPages, setTotalPages] = useState(1);
 
   useEffect(() => {
-    const fetchPosts = async () => {
-      try {
-        const response = await fetch(`/api/posts?page=${currentPage}`);
-        const data = await response.json();
+    const fetchData = async () => {
+      const data = await fetchPosts(currentPage, initialSearchTerm);
 
-        if (response.ok) {
-          setPosts(data.posts);
-          setTotalPages(data.totalPages);
-        } else {
-          console.error('Failed to fetch posts:', data.error);
-        }
-      } catch (error) {
-        console.error('Error fetching posts:', error);
-      }
+      setPosts(data.posts);
+      setTotalPages(data.totalPages);
     };
 
-    fetchPosts();
-  }, [currentPage]);
+    fetchData();
+  }, [currentPage, initialSearchTerm, setPosts]);
 
   return (
     <>
@@ -45,17 +37,24 @@ export default function Home() {
         totalPages={totalPages}
         onPageChange={(page) => {
           setCurrentPage(page);
-          router.push(`/?page=${page}`);
+          router.push(
+            `/?searchTerm=${encodeURIComponent(initialSearchTerm)}&page=${page}`
+          );
         }}
       />
+
       <Box mt={6}>
         {!posts.length ? (
-          <Box display="flex" justifyContent="center" alignItems="center">
-            <Spinner size="xl" />
-          </Box>
+          !totalPages ? (
+            'Нищо не намирам'
+          ) : (
+            <Box display="flex" justifyContent="center" alignItems="center">
+              <Spinner size="xl" />
+            </Box>
+          )
         ) : (
           <Stack gap={6}>
-            {posts.map(({id, title, date, slug, postImage}) => (
+            {posts.map(({id, title, date, slug, postImage}: PostData) => (
               <Box key={id} p={2}>
                 <ListPostItem
                   id={id}
@@ -64,18 +63,20 @@ export default function Home() {
                   slug={slug}
                   postImage={postImage}
                 />
-                <Separator />
               </Box>
             ))}
           </Stack>
         )}
       </Box>
+
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
         onPageChange={(page) => {
           setCurrentPage(page);
-          router.push(`/?page=${page}`);
+          router.push(
+            `/?searchTerm=${encodeURIComponent(initialSearchTerm)}&page=${page}`
+          );
         }}
       />
     </>
