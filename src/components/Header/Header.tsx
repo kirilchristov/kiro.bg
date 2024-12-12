@@ -6,6 +6,7 @@ import {Box, Flex, Heading} from '@chakra-ui/react';
 import Link from 'next/link';
 import {useSearch} from '../Search/SearchProvider/SearchProvider';
 import SearchPosts from '../Search/Search';
+import {Suspense} from 'react';
 
 const Header = () => {
   const {colorMode} = useColorMode();
@@ -37,7 +38,9 @@ const Header = () => {
           </Heading>
         </Flex>
         <Box>
-          <SearchPosts onSearchResults={setPosts} />
+          <Suspense>
+            <SearchPosts onSearchResults={setPosts} />
+          </Suspense>
         </Box>
       </Flex>
     </Box>
