@@ -18,6 +18,6 @@ export async function fetchPosts(page: number, searchTerm: string = '') {
     return data;
   } catch (error) {
     console.error('Error fetching posts:', error);
-    return {posts: [], totalPages: 1}; // Default fallback
+    return {posts: [], totalPages: 1};
   }
 }

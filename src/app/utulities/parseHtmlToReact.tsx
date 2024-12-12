@@ -6,7 +6,7 @@ import parse, {
 } from 'html-react-parser';
 import VideoContent from '../../components/Video/VideoContent';
 import ImageContent from '../../components/ImageContent/ImageContent';
-import {Heading, Text} from '@chakra-ui/react';
+import {Heading, List, ListItem, ListRoot, Text} from '@chakra-ui/react';
 import {ElementType} from 'react';
 import {Link as ChakraLink} from '@chakra-ui/react';
 import {BLUE_500} from './colors';
@@ -85,6 +85,20 @@ export default function parseHtmlToReact(html: string) {
         // Handle paragraphs
         if (name === 'p') {
           return <Text mb={4}>{domToReact(children as DOMNode[])}</Text>;
+        }
+
+        // Handle unordered and ordered lists
+        if (name === 'ul' || name === 'ol') {
+          return (
+            <List.Root as={name} pl="4" mb="4">
+              {domToReact(children as DOMNode[])}
+            </List.Root>
+          );
+        }
+
+        // Handle list items
+        if (name === 'li') {
+          return <List.Item>{domToReact(children as DOMNode[])}</List.Item>;
         }
       }
       return undefined;
