@@ -54,9 +54,11 @@ export async function getPaginatedPostsData(
     startIndex + postsPerPage
   );
 
+  console.log('search results:', searchTerm, paginatedPosts.length);
+
   return {
     posts: paginatedPosts,
-    totalPages: Math.ceil(totalPosts / postsPerPage),
+    totalPages: Math.ceil(sortedPosts.length / postsPerPage),
   };
 }
 

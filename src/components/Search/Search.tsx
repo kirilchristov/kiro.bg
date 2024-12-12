@@ -1,15 +1,32 @@
-import {PostData} from '@/app/lib/types';
-import {useState} from 'react';
-import {Box, Input, Button, Stack} from '@chakra-ui/react';
+'use client';
+
+import {useEffect, useState} from 'react';
+import {Box, Input, Stack, IconButton} from '@chakra-ui/react';
+import {BLUE_500} from '@/app/utulities/colors';
+import {LuSearch} from 'react-icons/lu';
+import {useRouter, useSearchParams} from 'next/navigation';
 
 type SearchPostsProps = {
-  onSearchResults: (posts: PostData[]) => void;
+  onSearchResults: (posts: any[]) => void;
 };
 
 const SearchPosts = ({onSearchResults}: SearchPostsProps) => {
   const [searchTerm, setSearchTerm] = useState('');
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const searchTermFromQuery = searchParams?.get('searchTerm') || '';
+    if (!searchTermFromQuery) {
+      setSearchTerm('');
+    }
+  }, [searchParams]);
 
   const handleSearch = async () => {
+    if (!searchTerm.trim()) return;
+
+    router.push(`/?searchTerm=${encodeURIComponent(searchTerm)}&page=1`);
+
     try {
       const res = await fetch(`/api/posts?searchTerm=${searchTerm}&page=1`);
       const data = await res.json();
@@ -35,10 +52,15 @@ const SearchPosts = ({onSearchResults}: SearchPostsProps) => {
           onKeyDown={handleKeyPress}
           size="md"
           variant="outline"
+          focusRingColor={BLUE_500}
         />
-        <Button onClick={handleSearch} colorScheme="blue" variant="solid">
-          Сърч!
-        </Button>
+        <IconButton
+          aria-label="Search database"
+          bg={BLUE_500}
+          onClick={handleSearch}
+        >
+          <LuSearch />
+        </IconButton>
       </Stack>
     </Box>
   );

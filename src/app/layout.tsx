@@ -5,6 +5,7 @@ import Header from '../components/Header/Header';
 import {GoogleTagManager} from '@next/third-parties/google';
 import Footer from '../components/Footer/Footer';
 import {Metadata} from '../components/Metadata/Metadata';
+import {SearchProvider} from '@/components/Search/SearchProvider/SearchProvider';
 
 export const metadata = {
   title: 'Next.js',
@@ -19,9 +20,13 @@ export const RootLayout = ({children}: {children: ReactNode}) => {
       <body className={styles.appContainer}>
         <Provider>
           <>
-            <Header />
-            {children}
-            <Footer />
+            <Provider>
+              <SearchProvider>
+                <Header />
+                {children}
+              </SearchProvider>
+              <Footer />
+            </Provider>
           </>
         </Provider>
       </body>
