@@ -2,7 +2,7 @@
 
 import {useEffect, useState} from 'react';
 import Pagination from '../Pagination/Pagination';
-import {PostData} from '../../lib/types';
+import {PostData} from '../../app/lib/types';
 import {useRouter, useSearchParams} from 'next/navigation';
 import ListPostItem from '../ListPostItem/ListPostItem';
 import {Box} from '@chakra-ui/react/box';

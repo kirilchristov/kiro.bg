@@ -4,8 +4,8 @@ import parse, {
   DOMNode,
   HTMLReactParserOptions,
 } from 'html-react-parser';
-import VideoContent from '../components/Video/VideoContent';
-import ImageContent from '../components/ImageContent/ImageContent';
+import VideoContent from '../../components/Video/VideoContent';
+import ImageContent from '../../components/ImageContent/ImageContent';
 import {Heading, Text} from '@chakra-ui/react';
 import {ElementType} from 'react';
 
