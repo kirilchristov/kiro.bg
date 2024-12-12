@@ -8,6 +8,8 @@ import VideoContent from '../../components/Video/VideoContent';
 import ImageContent from '../../components/ImageContent/ImageContent';
 import {Heading, Text} from '@chakra-ui/react';
 import {ElementType} from 'react';
+import {Link as ChakraLink} from '@chakra-ui/react';
+import {BLUE_500} from './colors';
 
 type ConditionalValue =
   | 'sm'
@@ -44,9 +46,18 @@ export default function parseHtmlToReact(html: string) {
           }
 
           return (
-            <a href={href} target="_blank" rel="noopener noreferrer">
+            <ChakraLink
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              _hover={{
+                color: BLUE_500,
+                textDecoration: 'underline',
+              }}
+              variant="underline"
+            >
               {domToReact(children as DOMNode[])}
-            </a>
+            </ChakraLink>
           );
         }
         // Handle headings
