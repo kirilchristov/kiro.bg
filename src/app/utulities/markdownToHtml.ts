@@ -15,27 +15,19 @@ export function remarkAdjustElements() {
         ['image', 'html', 'break'].includes(child.type)
       );
 
-      const linkChildren = node.children.filter(
-        (child: any) => child.type === 'link'
-      );
-
-      // If paragraph has only non-text children (images, html, breaks)
       if (!hasText && nonTextChildren.length === node.children.length) {
         parent.children.splice(index, 1, ...nonTextChildren);
       }
 
-      // If paragraph contains links
-      if (linkChildren.length > 0) {
-        const textAndOtherChildren = node.children.filter(
-          (child: any) => child.type !== 'link'
-        );
+      const linkChildren = node.children.filter(
+        (child: any) => child.type === 'link'
+      );
 
-        parent.children.splice(
-          index,
-          1,
-          {...node, children: textAndOtherChildren},
-          ...linkChildren
-        );
+      if (linkChildren.length > 0) {
+        parent.children[Number(index)] = {
+          ...node,
+          children: [...node.children],
+        };
       }
     });
   };

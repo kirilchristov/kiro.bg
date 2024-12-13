@@ -67,7 +67,9 @@ export default function Pagination({
         <Button
           onClick={onInputSubmit}
           variant="ghost"
-          disabled={Number(inputPage) <= 0 || !inputPage}
+          disabled={
+            Number(inputPage) <= 0 || !inputPage || Number(totalPages) <= 0
+          }
         >
           Давай!
         </Button>

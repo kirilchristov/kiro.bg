@@ -30,11 +30,13 @@ export default function parseHtmlToReact(html: string) {
     replace: (domNode) => {
       if (domNode instanceof Element) {
         const {name, attribs, children} = domNode;
+        // Image
         if (name === 'img' && attribs) {
           return (
             <ImageContent src={attribs.src} alt={attribs.alt || 'image'} />
           );
         }
+        // Videos and links
         if (name === 'a' && attribs) {
           const href = attribs.href;
           const isYouTube =
@@ -50,6 +52,7 @@ export default function parseHtmlToReact(html: string) {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
+              display="inline-flex"
               _hover={{
                 color: BLUE_500,
                 textDecoration: 'underline',
@@ -84,7 +87,9 @@ export default function parseHtmlToReact(html: string) {
 
         // Handle paragraphs
         if (name === 'p') {
-          return <Text mb={4}>{domToReact(children as DOMNode[])}</Text>;
+          return (
+            <Text mb={4}>{domToReact(children as DOMNode[], options)}</Text>
+          );
         }
 
         // Handle unordered and ordered lists
