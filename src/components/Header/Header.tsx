@@ -7,6 +7,7 @@ import Link from 'next/link';
 import {useSearch} from '../Search/SearchProvider/SearchProvider';
 import SearchPosts from '../Search/Search';
 import {Suspense} from 'react';
+import router from 'next/router';
 
 const Header = () => {
   const {colorMode} = useColorMode();
@@ -29,7 +30,13 @@ const Header = () => {
     >
       <Flex align="center" justify="space-between">
         <Flex flexDirection="column">
-          <Link href="/">
+          <Link
+            href="/"
+            onClick={() => {
+              setPosts([]);
+              router.push('/');
+            }}
+          >
             <Heading size="lg" color={mainTextColor}>
               kiro.bg
             </Heading>
