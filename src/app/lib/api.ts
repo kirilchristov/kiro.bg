@@ -3,37 +3,22 @@ import path from 'path';
 import matter from 'gray-matter';
 import {PostData} from './types';
 import markdownToHtml from '../utulities/markdownToHtml';
+import {performance} from 'perf_hooks';
 
 const postsDir = 'posts';
 const postsDirectory = path.join(process.cwd(), postsDir);
+const postsFilePath = path.join(process.cwd(), 'public', 'posts.json');
 
 export async function getPaginatedPostsData(
   page: number,
   postsPerPage: number,
   searchTerm: string = ''
 ) {
-  const fileNames = await fs.promises.readdir(postsDirectory);
+  const start = performance.now();
 
-  const allPosts = await Promise.all(
-    fileNames.map(async (fileName) => {
-      const id = fileName.replace(/\.md$/, '');
-      const fullPath = path.join(postsDirectory, fileName);
-      const fileContents = await fs.promises.readFile(fullPath, 'utf8');
-
-      const matterResult = matter(fileContents);
-
-      return {
-        id,
-        title: matterResult.data.title,
-        summary: matterResult.data.summary,
-        content: matterResult.content,
-        date: matterResult.data.date,
-        slug: matterResult.data.slug,
-        postImage: matterResult.data.postImage || '',
-        published: matterResult.data.published,
-      };
-    })
-  );
+  const allPosts = JSON.parse(
+    await fs.promises.readFile(postsFilePath, 'utf8')
+  ) as PostData[];
 
   const isLocal = process.env.NODE_ENV === 'development';
 
@@ -53,6 +38,9 @@ export async function getPaginatedPostsData(
     startIndex + postsPerPage
   );
 
+  const end = performance.now();
+  console.log(`- - - - > getPaginatedPostsData in ${end - start}ms`);
+
   return {
     posts: paginatedPosts,
     totalPages: Math.ceil(sortedPosts.length / postsPerPage),
@@ -60,6 +48,7 @@ export async function getPaginatedPostsData(
 }
 
 export const getPostData = async (slug: string): Promise<PostData> => {
+  const start = performance.now();
   const fileNames = fs.readdirSync(postsDirectory);
   const matchedFile = fileNames.find((fileName) => {
     const fullPath = path.join(postsDirectory, fileName);
@@ -90,6 +79,9 @@ export const getPostData = async (slug: string): Promise<PostData> => {
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const {data, content} = matter(fileContents);
   const htmlContent = await markdownToHtml(content || '');
+
+  const end = performance.now();
+  console.log(`getSinglePost in ${end - start}ms`);
 
   return {
     slug,
