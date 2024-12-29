@@ -25,5 +25,18 @@ export const generalMetadata = () => {
       description: 'Интернет архив от глупости и закачки.',
       images: [imageUrl],
     },
+    metadataBase: new URL('https://kiro.bg'),
+    other: {
+      link: [
+        {rel: 'preconnect', href: 'https://www.google-analytics.com'},
+        {
+          rel: 'preconnect',
+          href: 'https://www.googletagmanager.com',
+          crossOrigin: '',
+        },
+        {rel: 'dns-prefetch', href: 'https://www.google-analytics.com'},
+        {rel: 'dns-prefetch', href: 'https://www.googletagmanager.com'},
+      ],
+    },
   };
 };

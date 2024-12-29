@@ -6,6 +6,7 @@ import Script from 'next/script';
 import {useEffect} from 'react';
 import {usePathname, useSearchParams} from 'next/navigation';
 import {Suspense} from 'react';
+import Head from 'next/head';
 
 declare global {
   interface Window {
@@ -45,6 +46,16 @@ export default function GoogleAnalytics({
 }) {
   return (
     <>
+      <Head>
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link
+          rel="preconnect"
+          href="https://www.googletagmanager.com"
+          crossOrigin=""
+        />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+      </Head>
       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
