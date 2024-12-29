@@ -8,6 +8,7 @@ import ListPostItem from '../ListPostItem/ListPostItem';
 import {Box, Spinner, Stack} from '@chakra-ui/react';
 import {useSearch} from '../Search/SearchProvider/SearchProvider';
 import {fetchPosts} from '@/app/utulities/fetchPosts';
+import Footer from '../Footer/Footer';
 
 export default function Home() {
   const router = useRouter();
@@ -51,7 +52,6 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchPosts(Number(currentPage), initialSearchTerm);
-
       setPosts(data.posts);
       setTotalPages(String(data.totalPages));
     };
@@ -60,7 +60,7 @@ export default function Home() {
   }, [currentPage, initialSearchTerm, setPosts]);
 
   const PaginationComponent = () => {
-    return posts.length ? (
+    return posts?.length ? (
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
@@ -76,7 +76,7 @@ export default function Home() {
     <>
       <PaginationComponent />
       <Box mt={6}>
-        {!posts.length ? (
+        {!posts?.length ? (
           totalPages === '0' ? (
             'Нищо не намирам'
           ) : (
@@ -101,6 +101,7 @@ export default function Home() {
         )}
       </Box>
       <PaginationComponent />
+      {posts !== null && <Footer />}
     </>
   );
 }
