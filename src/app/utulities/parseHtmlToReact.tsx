@@ -9,7 +9,7 @@ import ImageContent from '../../components/ImageContent/ImageContent';
 import {Heading, List, Text} from '@chakra-ui/react';
 import {ElementType} from 'react';
 import {Link as ChakraLink} from '@chakra-ui/react';
-import {BLUE_500} from './colors';
+import {BLUE_MAIN} from './colors';
 
 type ConditionalValue =
   | 'sm'
@@ -51,7 +51,7 @@ export default function parseHtmlToReact(html: string) {
               target="_blank"
               rel="noopener noreferrer"
               _hover={{
-                color: BLUE_500,
+                color: BLUE_MAIN,
                 textDecoration: 'underline',
               }}
               variant="underline"

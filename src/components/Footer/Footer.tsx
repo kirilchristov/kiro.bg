@@ -1,4 +1,4 @@
-import {BLUE_500} from '@/app/utulities/colors';
+import {BLUE_MAIN} from '@/app/utulities/colors';
 import {Box, Text} from '@chakra-ui/react';
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
       as="footer"
       w="100%"
       p={4}
-      bg={BLUE_500}
+      bg={BLUE_MAIN}
       color="white"
       textAlign="center"
     >

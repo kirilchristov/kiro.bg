@@ -2,7 +2,7 @@
 
 import {useEffect, useState} from 'react';
 import {Box, Input, Stack, IconButton} from '@chakra-ui/react';
-import {BLUE_500} from '@/app/utulities/colors';
+import {BLUE_MAIN} from '@/app/utulities/colors';
 import {LuSearch} from 'react-icons/lu';
 import {useRouter, useSearchParams} from 'next/navigation';
 import {fetchPosts} from '@/app/utulities/fetchPosts';
@@ -52,11 +52,11 @@ const SearchPosts = ({onSearchResults}: SearchPostsProps) => {
           onKeyDown={handleKeyPress}
           size="md"
           variant="outline"
-          focusRingColor={BLUE_500}
+          focusRingColor={BLUE_MAIN}
         />
         <IconButton
           aria-label="Search database"
-          bg={BLUE_500}
+          bg={BLUE_MAIN}
           onClick={handleSearch}
         >
           <LuSearch />

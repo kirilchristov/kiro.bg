@@ -1,6 +1,6 @@
 'use client';
 
-import {BLUE_500} from '@/app/utulities/colors';
+import {BLUE_MAIN} from '@/app/utulities/colors';
 import {useColorMode} from '@/components/ui/color-mode';
 import {Box, Flex, Heading} from '@chakra-ui/react';
 import Link from 'next/link';
@@ -14,7 +14,7 @@ const Header = () => {
   const {setPosts} = useSearch();
 
   const bgColor = colorMode === 'dark' ? 'gray.800' : 'white';
-  const mainTextColor = BLUE_500;
+  const mainTextColor = BLUE_MAIN;
   const subTextColor = colorMode === 'dark' ? 'gray.300' : 'gray.600';
 
   return (
@@ -26,7 +26,7 @@ const Header = () => {
       bg={bgColor}
       zIndex="sticky"
       borderBottom="2px solid"
-      borderColor={BLUE_500}
+      borderColor={BLUE_MAIN}
     >
       <Flex align="center" justify="space-between">
         <Flex flexDirection="column">

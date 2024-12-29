@@ -1,1 +1,1 @@
-export const BLUE_500 = 'blue.500';
+export const BLUE_MAIN = 'blue.600';
