@@ -6,6 +6,7 @@ import {GoogleTagManager} from '@next/third-parties/google';
 import Footer from '../components/Footer/Footer';
 import {Metadata} from '../components/Metadata/Metadata';
 import {SearchProvider} from '@/components/Search/SearchProvider/SearchProvider';
+import {SpeedInsights} from '@vercel/speed-insights/next';
 
 export default function RootLayout({children}: {children: ReactNode}) {
   return (
@@ -24,6 +25,7 @@ export default function RootLayout({children}: {children: ReactNode}) {
             </Provider>
           </>
         </Provider>
+        <SpeedInsights />
       </body>
     </html>
   );
