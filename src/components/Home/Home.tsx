@@ -59,8 +59,8 @@ export default function Home() {
     fetchData();
   }, [currentPage, initialSearchTerm, setPosts]);
 
-  return (
-    <>
+  const PaginationComponent = () => {
+    return posts.length ? (
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
@@ -69,7 +69,12 @@ export default function Home() {
         onInputChange={setInputPage}
         onInputSubmit={handleInputSubmit}
       />
+    ) : null;
+  };
 
+  return (
+    <>
+      <PaginationComponent />
       <Box mt={6}>
         {!posts.length ? (
           totalPages === '0' ? (
@@ -95,15 +100,7 @@ export default function Home() {
           </Stack>
         )}
       </Box>
-
-      <Pagination
-        currentPage={currentPage}
-        totalPages={totalPages}
-        inputPage={inputPage}
-        onPageChange={handlePageChange}
-        onInputChange={setInputPage}
-        onInputSubmit={handleInputSubmit}
-      />
+      <PaginationComponent />
     </>
   );
 }
