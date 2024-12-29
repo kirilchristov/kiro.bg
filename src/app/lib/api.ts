@@ -3,8 +3,6 @@ import path from 'path';
 import matter from 'gray-matter';
 import {PostData} from './types';
 import markdownToHtml from '../utulities/markdownToHtml';
-import {performance} from 'perf_hooks';
-
 const postsDir = 'posts';
 const postsDirectory = path.join(process.cwd(), postsDir);
 const postsFilePath = path.join(process.cwd(), 'public', 'posts.json');
@@ -14,8 +12,6 @@ export async function getPaginatedPostsData(
   postsPerPage: number,
   searchTerm: string = ''
 ) {
-  const start = performance.now();
-
   const allPosts = JSON.parse(
     await fs.promises.readFile(postsFilePath, 'utf8')
   ) as PostData[];
@@ -38,9 +34,6 @@ export async function getPaginatedPostsData(
     startIndex + postsPerPage
   );
 
-  const end = performance.now();
-  console.log(`- - - - > getPaginatedPostsData in ${end - start}ms`);
-
   return {
     posts: paginatedPosts,
     totalPages: Math.ceil(sortedPosts.length / postsPerPage),
@@ -48,7 +41,6 @@ export async function getPaginatedPostsData(
 }
 
 export const getPostData = async (slug: string): Promise<PostData> => {
-  const start = performance.now();
   const fileNames = fs.readdirSync(postsDirectory);
   const matchedFile = fileNames.find((fileName) => {
     const fullPath = path.join(postsDirectory, fileName);
@@ -80,9 +72,6 @@ export const getPostData = async (slug: string): Promise<PostData> => {
   const {data, content} = matter(fileContents);
   const htmlContent = await markdownToHtml(content || '');
 
-  const end = performance.now();
-  console.log(`getSinglePost in ${end - start}ms`);
-
   return {
     slug,
     title: data.title,
@@ -95,4 +84,18 @@ export const getPostData = async (slug: string): Promise<PostData> => {
     id: data.id || '',
     ...data,
   };
+};
+
+export const getAllPostSlugs = async (): Promise<string[]> => {
+  const fileNames = fs.readdirSync(postsDirectory);
+
+  const slugs = fileNames.map((fileName) => {
+    const fullPath = path.join(postsDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const {data} = matter(fileContents);
+
+    return data.slug;
+  });
+
+  return slugs;
 };

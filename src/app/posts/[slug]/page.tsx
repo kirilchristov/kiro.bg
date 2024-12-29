@@ -1,5 +1,5 @@
 import parseHtmlToReact from '@/app/utulities/parseHtmlToReact';
-import {getPostData} from '../../lib/api';
+import {getAllPostSlugs, getPostData} from '../../lib/api';
 import SinglePost from '@/components/SinglePost/SinglePost';
 import {postMetadata} from '@/app/utulities/postMetadata';
 
@@ -9,9 +9,15 @@ type Props = {
   }>;
 };
 
+export async function generateStaticParams() {
+  const slugs = await getAllPostSlugs();
+  return slugs.map((slug) => ({slug}));
+}
+
 export default async function PostPage({params}: Props) {
   const {slug} = await params;
-  const postData = await getPostData(slug);
+  const decodedSlug = decodeURIComponent(slug);
+  const postData = await getPostData(decodedSlug);
 
   if (!postData) {
     return <div>Post not found</div>;
@@ -30,7 +36,8 @@ export default async function PostPage({params}: Props) {
 
 export async function generateMetadata({params}: Props) {
   const {slug} = await params;
-  const postData = await getPostData(slug);
+  const decodedSlug = decodeURIComponent(slug);
+  const postData = await getPostData(decodedSlug);
 
   if (!postData) {
     return {
