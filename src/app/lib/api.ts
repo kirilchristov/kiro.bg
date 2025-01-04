@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import {PostData} from './types';
 import markdownToHtml from '../utulities/markdownToHtml';
+
 const postsDir = 'posts';
 const postsDirectory = path.join(process.cwd(), postsDir);
 const postsFilePath = path.join(process.cwd(), 'public', 'posts.json');
