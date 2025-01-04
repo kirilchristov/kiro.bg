@@ -15,27 +15,44 @@ export function remarkAdjustElements() {
         ['image', 'html', 'break'].includes(child.type)
       );
 
-      const linkChildren = node.children.filter(
-        (child: any) => child.type === 'link'
-      );
-
-      // If paragraph has only non-text children (images, html, breaks)
+      // Handle paragraphs with only media content
       if (!hasText && nonTextChildren.length === node.children.length) {
         parent.children.splice(index, 1, ...nonTextChildren);
+        return;
       }
 
-      // If paragraph contains links
-      if (linkChildren.length > 0) {
-        const textAndOtherChildren = node.children.filter(
-          (child: any) => child.type !== 'link'
-        );
+      // Group text and links together
+      const childGroups: any[] = [];
+      let currentGroup: any[] = [];
 
-        parent.children.splice(
-          index,
-          1,
-          {...node, children: textAndOtherChildren},
-          ...linkChildren
-        );
+      node.children.forEach((child: any) => {
+        if (child.type === 'text' || child.type === 'link') {
+          currentGroup.push(child);
+        } else {
+          if (currentGroup.length > 0) {
+            childGroups.push({
+              type: 'paragraph',
+              children: currentGroup,
+            });
+            currentGroup = [];
+          }
+          childGroups.push(child);
+        }
+      });
+
+      // Add any remaining grouped children
+      if (currentGroup.length > 0) {
+        childGroups.push({
+          type: 'paragraph',
+          children: currentGroup,
+        });
+      }
+
+      // Replace the original node with the grouped content
+      if (childGroups.length === 1) {
+        Object.assign(node, childGroups[0]);
+      } else {
+        parent.children.splice(index, 1, ...childGroups);
       }
     });
   };

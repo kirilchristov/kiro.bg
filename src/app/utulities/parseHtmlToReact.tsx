@@ -55,6 +55,7 @@ export default function parseHtmlToReact(html: string) {
                 textDecoration: 'underline',
               }}
               variant="underline"
+              display="inline"
             >
               {domToReact(children as DOMNode[])}
             </ChakraLink>
@@ -83,8 +84,13 @@ export default function parseHtmlToReact(html: string) {
         }
 
         // Handle paragraphs
+
         if (name === 'p') {
-          return <Text mb={4}>{domToReact(children as DOMNode[])}</Text>;
+          return (
+            <Text display="inline-block" mb={4}>
+              {domToReact(children as DOMNode[], options)}
+            </Text>
+          );
         }
 
         // Handle unordered and ordered lists
