@@ -1,6 +1,6 @@
 'use client';
 
-import {useEffect, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 import {Box, Input, Stack, IconButton} from '@chakra-ui/react';
 import {BLUE_MAIN} from '@/app/utulities/colors';
 import {LuSearch} from 'react-icons/lu';
@@ -14,9 +14,28 @@ type SearchPostsProps = {
 };
 
 const SearchPosts = ({onSearchResults}: SearchPostsProps) => {
+  const [isSearchActive, setIsSearchActive] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const searchBoxRef = useRef<HTMLDivElement>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const router = useRouter();
   const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        searchBoxRef.current &&
+        !searchBoxRef.current.contains(event.target as Node)
+      ) {
+        setIsSearchActive(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   useEffect(() => {
     const searchTermFromQuery = searchParams?.get('searchTerm') || '';
@@ -42,26 +61,36 @@ const SearchPosts = ({onSearchResults}: SearchPostsProps) => {
     }
   };
 
+  const handleIconClick = () => {
+    setIsSearchActive(true);
+    inputRef.current?.focus();
+  };
+
   return (
-    <Box my={4}>
-      <Stack display="flex" flexDirection="row">
-        <Input
-          placeholder="Търси..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          onKeyDown={handleKeyPress}
-          size="md"
-          variant="outline"
-          focusRingColor={BLUE_MAIN}
-        />
+    <Box my={4} ref={searchBoxRef}>
+      {isSearchActive ? (
+        <Stack display="flex" flexDirection="row">
+          <Input
+            ref={inputRef}
+            placeholder="Търси..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            onKeyDown={handleKeyPress}
+            size="md"
+            variant="outline"
+            focusRingColor={BLUE_MAIN}
+          />
+        </Stack>
+      ) : (
         <IconButton
-          aria-label="Search database"
-          bg={BLUE_MAIN}
-          onClick={handleSearch}
+          aria-label="Open search bar"
+          color={BLUE_MAIN}
+          variant="ghost"
+          onClick={handleIconClick}
         >
           <LuSearch />
         </IconButton>
-      </Stack>
+      )}
     </Box>
   );
 };
