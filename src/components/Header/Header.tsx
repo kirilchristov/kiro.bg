@@ -1,7 +1,7 @@
 'use client';
 
 import {BLUE_MAIN} from '@/app/utulities/colors';
-import {useColorMode} from '@/components/ui/color-mode';
+import {ColorModeButton, useColorMode} from '@/components/ui/color-mode';
 import {Box, Flex, Heading} from '@chakra-ui/react';
 import Link from 'next/link';
 import {useSearch} from '../Search/SearchProvider/SearchProvider';
@@ -50,9 +50,12 @@ const Header = () => {
           </Heading>
         </Flex>
         <Box>
-          <Suspense>
-            <SearchPosts onSearchResults={setPosts} />
-          </Suspense>
+          <Flex alignItems="center">
+            <ColorModeButton mr={4} />
+            <Suspense>
+              <SearchPosts onSearchResults={setPosts} />
+            </Suspense>
+          </Flex>
         </Box>
       </Flex>
     </Box>

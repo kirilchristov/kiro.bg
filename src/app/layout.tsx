@@ -1,5 +1,5 @@
 import {ReactNode} from 'react';
-import {Provider} from '@/components/ui/provider';
+import {Provider as ChakraThemeProvider} from '@/components/ui/provider';
 import styles from './layout.module.scss';
 import Header from '../components/Header/Header';
 import {GoogleTagManager} from '@next/third-parties/google';
@@ -13,16 +13,12 @@ export default function RootLayout({children}: {children: ReactNode}) {
       <GoogleTagManager gtmId="G-G81R4R8ZKX" />
       <Metadata />
       <body className={styles.appContainer}>
-        <Provider>
-          <>
-            <Provider>
-              <SearchProvider>
-                <Header />
-                {children}
-              </SearchProvider>
-            </Provider>
-          </>
-        </Provider>
+        <ChakraThemeProvider>
+          <SearchProvider>
+            <Header />
+            {children}
+          </SearchProvider>
+        </ChakraThemeProvider>
         <SpeedInsights />
       </body>
     </html>
