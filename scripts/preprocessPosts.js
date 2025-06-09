@@ -21,7 +21,6 @@ async function preprocessPosts() {
         id,
         title: matterResult.data.title,
         summary: matterResult.data.summary,
-        content: matterResult.content,
         date: matterResult.data.date,
         slug: matterResult.data.slug,
         postImage: matterResult.data.postImage || '',
