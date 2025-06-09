@@ -23,7 +23,7 @@ export async function getPaginatedPostsData(
     .filter((post) => (isLocal ? true : post.published))
     .sort((a, b) => (a.date < b.date ? 1 : -1))
     .filter((post) =>
-      [post.title, post.summary, post.content]
+      [post.title, post.summary]
         .join(' ')
         .toLowerCase()
         .includes(searchTerm.toLowerCase())
