@@ -5,7 +5,7 @@ date: '2025-07-10T00:00:00.000Z'
 language: BG
 slug: ai_testdream
 title: Тестов сън и неговата Ai интерпретация
-published: true
+published: false
 summary: Тестова публикация за проверка на видимостта на постовете
 id: 25-07-10-ai-test-syn
 postImage: >-

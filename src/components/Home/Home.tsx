@@ -22,7 +22,6 @@ export default function Home() {
   const [inputPage, setInputPage] = useState<string>(initialPage);
   const [totalPages, setTotalPages] = useState<string>('1');
 
-  console.log('Posts lenght', posts?.length);
   const handlePageChange = (page: string) => {
     const pageNumber = Number(page);
 
