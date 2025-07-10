@@ -19,8 +19,16 @@ export async function getPaginatedPostsData(
 
   const isLocal = process.env.NODE_ENV === 'development';
 
-  const sortedPosts = allPosts
-    .filter((post) => (isLocal ? true : post.published))
+  const filteredPosts = allPosts.filter((post) =>
+    isLocal ? true : post.published
+  );
+  // Log all post slugs after filtering by published
+  console.log(
+    'Filtered posts (published):',
+    filteredPosts.map((p) => p.slug)
+  );
+
+  const sortedPosts = filteredPosts
     .sort((a, b) => (a.date < b.date ? 1 : -1))
     .filter((post) =>
       [post.title, post.summary]
@@ -28,6 +36,20 @@ export async function getPaginatedPostsData(
         .toLowerCase()
         .includes(searchTerm.toLowerCase())
     );
+
+  // Log all post slugs after sorting and search filtering
+  console.log(
+    'Sorted posts after search:',
+    sortedPosts.map((p) => p.slug)
+  );
+
+  // Log if test-post-2025 is present
+  const testPost = sortedPosts.find((p) => p.slug === 'test-post-2025');
+  if (testPost) {
+    console.log('✅ test-post-2025 is present in sortedPosts');
+  } else {
+    console.log('❌ test-post-2025 is NOT present in sortedPosts');
+  }
 
   const startIndex = (page - 1) * postsPerPage;
   const paginatedPosts = sortedPosts.slice(
