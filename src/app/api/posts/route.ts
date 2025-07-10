@@ -15,6 +15,8 @@ export async function GET(request: Request) {
       searchTerm
     );
 
+    console.log('Fetched posts:', posts.length, 'Total pages:', totalPages);
+
     return NextResponse.json({posts, totalPages});
   } catch (error) {
     console.error('Error fetching paginated posts:', error);
