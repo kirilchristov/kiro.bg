@@ -2,9 +2,10 @@
 
 export async function fetchPosts(page: number, searchTerm: string = '') {
   try {
-    const url = `${
-      process.env.NEXT_PUBLIC_SITE_URL || ''
-    }/api/posts?page=${page}&searchTerm=${encodeURIComponent(searchTerm)}`;
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL
+      ? process.env.NEXT_PUBLIC_SITE_URL
+      : '';
+    const url = `${baseUrl}/api/posts?page=${page}&searchTerm=${encodeURIComponent(searchTerm)}`;
 
     const response = await fetch(url, {
       next: {revalidate: 3600}, // Cache for 1 hour
