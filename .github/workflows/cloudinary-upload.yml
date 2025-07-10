@@ -1,8 +1,6 @@
 name: Upload Images to Cloudinary and Update Markdown
 
 on:
-permissions:
-  contents: write
   push:
     paths:
       - 'public/images/**'
@@ -11,7 +9,8 @@ permissions:
     paths:
       - 'public/images/**'
       - 'posts/**/*.md'
-
+permissions:
+  contents: write
 jobs:
   upload-and-update:
     runs-on: ubuntu-latest
