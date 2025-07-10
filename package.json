@@ -22,6 +22,7 @@
     "@emotion/react": "^11.13.5",
     "@next/third-parties": "^15.0.4",
     "@vercel/speed-insights": "^1.1.0",
+    "cloudinary": "^2.7.0",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
     "html-react-parser": "^5.1.19",
