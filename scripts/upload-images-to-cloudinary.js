@@ -5,6 +5,7 @@ import path from 'path';
 import {v2 as cloudinary} from 'cloudinary';
 import glob from 'glob';
 import {fileURLToPath} from 'url';
+import 'dotenv/config';
 
 // Get __dirname equivalent in ES modules
 const __filename = fileURLToPath(import.meta.url);
