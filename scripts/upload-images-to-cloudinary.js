@@ -43,6 +43,13 @@ async function main() {
     const url = await uploadImage(img);
     urlMap[imgName] = url;
     console.log(`Uploaded ${imgName} -> ${url}`);
+    // Delete the local image after successful upload
+    try {
+      fs.unlinkSync(img);
+      console.log(`Deleted local image: ${img}`);
+    } catch (err) {
+      console.error(`Failed to delete local image: ${img}`, err);
+    }
   }
 
   // Find all markdown files
