@@ -1,9 +1,10 @@
 // This script uploads images from public/images/ to Cloudinary and replaces local links in markdown files with Cloudinary URLs.
 // Usage: node scripts/upload-images-to-cloudinary.js
 import fs from 'fs';
+import matter from 'gray-matter';
 import path from 'path';
 import {v2 as cloudinary} from 'cloudinary';
-import { globSync } from 'glob';
+import {globSync} from 'glob';
 import {fileURLToPath} from 'url';
 import 'dotenv/config';
 
@@ -56,11 +57,14 @@ async function main() {
   const mdFiles = globSync(`${postsDir}/**/*.md`);
 
   for (const mdFile of mdFiles) {
-    let content = fs.readFileSync(mdFile, 'utf8');
+    let rawContent = fs.readFileSync(mdFile, 'utf8');
     let changed = false;
+    let parsed = matter(rawContent);
+    let content = parsed.content;
+    let data = parsed.data;
 
+    // Replace image links in markdown body
     for (const [imgName, url] of Object.entries(urlMap)) {
-      // Replace ![alt](public/images/...) or ![alt](../public/images/...) with Cloudinary URL
       const regex = new RegExp(
         `(!\\[[^\\]]*\\]\\()([^)]*${imgName})(\\))`,
         'g'
@@ -69,10 +73,21 @@ async function main() {
         content = content.replace(regex, `$1${url}$3`);
         changed = true;
       }
+      // Replace postImage in frontmatter if it matches
+      if (
+        data.postImage &&
+        typeof data.postImage === 'string' &&
+        data.postImage.includes(imgName)
+      ) {
+        data.postImage = url;
+        changed = true;
+        console.log(`Updated postImage in frontmatter for ${mdFile}`);
+      }
     }
 
     if (changed) {
-      fs.writeFileSync(mdFile, content, 'utf8');
+      const newRaw = matter.stringify(content, data);
+      fs.writeFileSync(mdFile, newRaw, 'utf8');
       console.log(`Updated image links in ${mdFile}`);
     }
   }
