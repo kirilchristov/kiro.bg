@@ -1,6 +1,8 @@
 name: Upload Images to Cloudinary and Update Markdown
 
 on:
+permissions:
+  contents: write
   push:
     paths:
       - 'public/images/**'
