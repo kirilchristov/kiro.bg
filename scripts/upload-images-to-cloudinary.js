@@ -3,7 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 import {v2 as cloudinary} from 'cloudinary';
-import glob from 'glob';
+import { globSync } from 'glob';
 import {fileURLToPath} from 'url';
 import 'dotenv/config';
 
@@ -32,7 +32,7 @@ async function uploadImage(filePath) {
 
 async function main() {
   // Find all images in public/images
-  const imageFiles = glob.sync(`${imagesDir}/**/*.{jpg,jpeg,png,gif,webp}`, {
+  const imageFiles = globSync(`${imagesDir}/**/*.{jpg,jpeg,png,gif,webp}`, {
     nocase: true,
   });
 
@@ -46,7 +46,7 @@ async function main() {
   }
 
   // Find all markdown files
-  const mdFiles = glob.sync(`${postsDir}/**/*.md`);
+  const mdFiles = globSync(`${postsDir}/**/*.md`);
 
   for (const mdFile of mdFiles) {
     let content = fs.readFileSync(mdFile, 'utf8');
