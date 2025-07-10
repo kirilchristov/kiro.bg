@@ -3749,7 +3749,16 @@
     "summary": "I have summed up a few a11y things that often get forgotten or neglected while working on a project",
     "date": "2024-12-04T00:00:00.000Z",
     "slug": "23-04-14-a11y",
-    "postImage": "/images/2023/04/mac.jpeg",
+    "postImage": "https://res.cloudinary.com/dcpdevfsz/image/upload/v1752136813/blog-images/mac.jpg",
+    "published": true
+  },
+  {
+    "id": "2025-07-10-ai-syn",
+    "title": "Сънища и тяхната Ai интерпретация",
+    "summary": "Една идея на четири модела",
+    "date": "2025-07-08T00:00:00.000Z",
+    "slug": "25-07-10-ai",
+    "postImage": "https://res.cloudinary.com/dcpdevfsz/image/upload/v1752141957/blog-images/ai_chat2.png",
     "published": true
   }
 ]
