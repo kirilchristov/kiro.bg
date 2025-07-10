@@ -1,0 +1,40 @@
+name: Upload Images to Cloudinary and Update Markdown
+
+on:
+  push:
+    paths:
+      - 'public/images/**'
+      - 'posts/**/*.md'
+  pull_request:
+    paths:
+      - 'public/images/**'
+      - 'posts/**/*.md'
+
+jobs:
+  upload-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install cloudinary glob
+
+      - name: Upload images to Cloudinary and update markdown
+        env:
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+        run: node scripts/upload-images-to-cloudinary.js
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update image links to Cloudinary URLs'
+          branch: ${{ github.head_ref || github.ref_name }}
