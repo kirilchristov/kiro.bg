@@ -6,6 +6,7 @@ import matter from 'gray-matter';
 const nextConfig: NextConfig = {
   images: {
     domains: [
+      'res.cloudinary.com',
       'raw.githubusercontent.com',
       'placebear.com',
       '1.bp.blogspot.com',
