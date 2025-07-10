@@ -8,7 +8,7 @@ export async function fetchPosts(page: number, searchTerm: string = '') {
     const url = `${baseUrl}/api/posts?page=${page}&searchTerm=${encodeURIComponent(searchTerm)}`;
 
     const response = await fetch(url, {
-      next: {revalidate: 3600}, // Cache for 1 hour
+      next: {revalidate: 60}, // Cache for 1 hour
     });
 
     if (!response.ok) {
