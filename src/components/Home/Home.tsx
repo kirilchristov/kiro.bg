@@ -1,6 +1,6 @@
 'use client';
 
-import {useEffect, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 import Pagination from '../Pagination/Pagination';
 import {PostData} from '../../app/lib/types';
 import {useRouter, useSearchParams} from 'next/navigation';
@@ -10,7 +10,13 @@ import {useSearch} from '../Search/SearchProvider/SearchProvider';
 import {fetchPosts} from '@/app/utulities/fetchPosts';
 import Footer from '../Footer/Footer';
 
-export default function Home() {
+export default function Home({
+  initialPosts,
+  initialTotalPages,
+}: {
+  initialPosts: PostData[];
+  initialTotalPages: number;
+}) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -20,7 +26,10 @@ export default function Home() {
   const {posts, setPosts} = useSearch();
   const [currentPage, setCurrentPage] = useState<string>(initialPage);
   const [inputPage, setInputPage] = useState<string>(initialPage);
-  const [totalPages, setTotalPages] = useState<string>('1');
+  const [totalPages, setTotalPages] = useState<string>(
+    String(initialTotalPages)
+  );
+  const isFirstRender = useRef(true);
 
   const handlePageChange = (page: string) => {
     const pageNumber = Number(page);
@@ -31,6 +40,7 @@ export default function Home() {
       router.push(
         `/?searchTerm=${encodeURIComponent(initialSearchTerm)}&page=${page}`
       );
+      fetchAndSetPosts(pageNumber, initialSearchTerm);
     }
   };
 
@@ -49,7 +59,20 @@ export default function Home() {
     }
   };
 
+  const fetchAndSetPosts = async (page: number, term: string) => {
+    const data = await fetchPosts(page, term);
+    setPosts(data.posts);
+    setTotalPages(String(data.totalPages));
+  };
+
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      setPosts(initialPosts);
+      setTotalPages(String(initialTotalPages));
+      return;
+    }
+
     const fetchData = async () => {
       const data = await fetchPosts(Number(currentPage), initialSearchTerm);
       setPosts(data.posts);
@@ -57,7 +80,7 @@ export default function Home() {
     };
 
     fetchData();
-  }, [currentPage, initialSearchTerm, setPosts]);
+  }, [currentPage, initialSearchTerm, initialPosts, initialTotalPages, setPosts]);
 
   const PaginationComponent = () => {
     return posts?.length ? (
