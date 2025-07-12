@@ -1,5 +1,3 @@
-
-
 export async function fetchPosts(page: number, searchTerm: string = '') {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL

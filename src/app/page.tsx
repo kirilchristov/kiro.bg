@@ -10,10 +10,12 @@ export const generateMetadata = async () => {
 export default async function Page({
   searchParams,
 }: {
-  searchParams?: {page?: string; searchTerm?: string};
+  searchParams?: Promise<{page?: string; searchTerm?: string}>;
 }) {
-  const page = parseInt(searchParams?.page || '1', 10);
-  const searchTerm = searchParams?.searchTerm || '';
+  const resolvedSearchParams = await searchParams;
+
+  const page = parseInt(resolvedSearchParams?.page || '1', 10);
+  const searchTerm = resolvedSearchParams?.searchTerm || '';
   const POSTS_PER_PAGE = 10;
 
   const {posts, totalPages} = await getPaginatedPostsData(
@@ -24,10 +26,7 @@ export default async function Page({
 
   return (
     <Suspense fallback={<div>Зареждам...</div>}>
-      <Home
-        initialPosts={posts}
-        initialTotalPages={totalPages}
-      />
+      <Home initialPosts={posts} initialTotalPages={totalPages} />
     </Suspense>
   );
 }

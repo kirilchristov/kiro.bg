@@ -80,7 +80,13 @@ export default function Home({
     };
 
     fetchData();
-  }, [currentPage, initialSearchTerm, initialPosts, initialTotalPages, setPosts]);
+  }, [
+    currentPage,
+    initialSearchTerm,
+    initialPosts,
+    initialTotalPages,
+    setPosts,
+  ]);
 
   const PaginationComponent = () => {
     return posts?.length ? (
